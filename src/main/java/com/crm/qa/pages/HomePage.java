@@ -1,5 +1,10 @@
-package com.crm.qa.pages;
+/*
 
+This class contains page  objects of Home Pages.
+
+ */
+
+package com.crm.qa.pages;
 import com.crm.qa.base.TestBase;
 import com.crm.qa.utils.TestUtils;
 import org.openqa.selenium.WebElement;

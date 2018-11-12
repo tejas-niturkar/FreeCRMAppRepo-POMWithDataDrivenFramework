@@ -1,5 +1,8 @@
-package com.crm.qa.pages;
+/*
 
+This page contains page objects of Contacts page
+*/
+package com.crm.qa.pages;
 import com.crm.qa.base.TestBase;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
