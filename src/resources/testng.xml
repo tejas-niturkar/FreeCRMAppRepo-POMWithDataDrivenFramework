@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Free CRM Application Test Automation Suit" verbose="1" >
+
+
+    <listeners>
+            <listener
+                class-name = "ExtentReportListener.ExtentReportListener" />
+    </listeners>
+
+
+
+
+    <test name="Regression suite - Free CEM App Test Suit" >
+        <classes>
+            <class name="com.crm.qa.testcases.ContactsPageTest"/>
+            <class name="com.crm.qa.testcases.HomePageTest"/>
+            <class name="com.crm.qa.testcases.LoginpageTest"/>
+        </classes>
+    </test>
+</suite>
+
+
