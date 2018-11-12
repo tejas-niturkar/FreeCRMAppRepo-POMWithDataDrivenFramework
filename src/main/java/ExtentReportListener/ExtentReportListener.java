@@ -1,5 +1,8 @@
-package ExtentReportListener;
+/*
+This  class contains code of generating extent report
+ */
 
+package ExtentReportListener;
 import java.io.File;
 import java.util.Calendar;
 import java.util.Date;
@@ -22,7 +25,7 @@ public class ExtentReportListener implements IReporter {
     private ExtentReports extent;
 
     public void generateReport(List<XmlSuite> xmlSuites, List<ISuite> suites, String outputDirectory) {
-        extent = new ExtentReports("C:\\Users\\Tagrem Admin\\IdeaProjects\\FreeCRMTest\\src\\main\\java\\Extent.html", true);
+        extent = new ExtentReports( outputDirectory + File.separator + "Extent.html", true);
 
         for (ISuite suite : suites) {
             Map<String, ISuiteResult> result = suite.getResults();
