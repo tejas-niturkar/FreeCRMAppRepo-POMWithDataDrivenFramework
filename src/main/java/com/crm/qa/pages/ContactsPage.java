@@ -24,6 +24,20 @@ public class ContactsPage extends TestBase {
     @FindBy (xpath = " //input[@name= 'client_lookup']")
     WebElement company ;
 
+    @FindBy (xpath = "//input[@name= 'nickname']")
+    WebElement nickname ;
+
+    @FindBy (xpath = "//input[@name= 'company_position']")
+    WebElement positioN ;
+
+    @FindBy (xpath = "//input[@name= 'department']")
+    WebElement department ;
+
+    @FindBy (xpath = "//input[@name= 'phone']")
+    WebElement phone ;
+
+
+
     @FindBy (xpath = " //input[@type= 'submit' and @value = 'Save']")
     WebElement saveBtn;
 
@@ -44,12 +58,25 @@ public class ContactsPage extends TestBase {
     }
 
 
-    public void createNewContact(String title, String fName, String lName , String comp) {
+    public void createNewContact(String title, String fName, String lName, String comp, String nName,
+                                 String position, String depart, String category, String status, String ph) {
+
         Select select = new Select(driver.findElement(By.name("title")));
         select.selectByVisibleText(title);
+
         firstName.sendKeys(fName);
         surName.sendKeys(lName);
+        nickname.sendKeys(nName);
         company.sendKeys(comp);
+        positioN.sendKeys(position);
+        department.sendKeys(depart);
+        Select selectCategory = new Select(driver.findElement(By.name("category")));
+        selectCategory.selectByVisibleText(category);
+
+        Select selectStatus = new Select(driver.findElement(By.name("status")));
+        selectStatus.selectByVisibleText(status);
+        phone.sendKeys(ph);
+
         saveBtn.click();
     }
 

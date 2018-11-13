@@ -66,9 +66,12 @@ public class HomePage extends TestBase {
     }
 
 
-    public void clickOnNewContactsLink () {
-        Actions actions = new Actions (driver);
-        actions.moveToElement(newContactsLink).build().perform();
+    public void clickOnNewContactsLink () throws InterruptedException {
+
+        Actions action  = new Actions(driver);
+        Thread.sleep(2000);
+        action.moveToElement(contactsLink).build().perform();
+        Thread.sleep(2000);
         newContactsLink.click();
     }
 

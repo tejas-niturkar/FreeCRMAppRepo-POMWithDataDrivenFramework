@@ -41,17 +41,14 @@ public class SignupPageTest extends TestBase {
     public void validateSignupPage (String edition, String fName, String lName, String mail, String cMail, String uName, String pWord, String cWord) throws InterruptedException {
         signupPage.signUpWithNewdetails(edition,fName,lName,mail,cMail,uName,pWord,cWord);
         Thread.sleep(2000);
-     //   Assert.assertEquals("Your company information and profile detail",signupPage.stepOneConfirmation);
 
         if (signupPage.stepOneConfirmation.equals("Your company information and profile detail")){
             System.out.println("Used passed in signUp step one -- Please continue with step two");
         }
-
     }
-
 
     @AfterMethod
     public void tearDown (){
-       // driver.quit();
+       driver.quit();
     }
 }
