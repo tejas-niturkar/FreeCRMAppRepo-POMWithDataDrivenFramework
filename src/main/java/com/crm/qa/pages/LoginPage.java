@@ -57,8 +57,9 @@ public class LoginPage extends TestBase {
         return crmLogo.isDisplayed();
     }
 
-    public void validateSignupLink(){
+    public SignupPage validateSignupLink(){
         signupLink.click();
+        return new SignupPage();
     }
 
     public void validateFeaturesLink(){

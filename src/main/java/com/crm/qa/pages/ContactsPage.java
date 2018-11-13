@@ -29,11 +29,6 @@ public class ContactsPage extends TestBase {
 
 
 
-
-
-
-
-
     public ContactsPage (){
         PageFactory.initElements(driver,this);
     }
@@ -56,7 +51,6 @@ public class ContactsPage extends TestBase {
         surName.sendKeys(lName);
         company.sendKeys(comp);
         saveBtn.click();
-
     }
 
 }
