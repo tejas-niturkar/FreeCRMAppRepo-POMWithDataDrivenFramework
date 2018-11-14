@@ -10,7 +10,6 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Wait;
-import org.testng.annotations.Test;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -82,6 +81,5 @@ public class TestBase {
 
 
     }*/
-
 
 }

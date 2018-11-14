@@ -65,7 +65,10 @@ public class ContactsPageTest extends TestBase {
 
 
     @Test (priority = 4, dataProvider = "getCRMTestData")
-    public void validateCreateNewContact(String title, String firstname, String lastname, String company, String nickName, String position, String department, String category, String status, String phone) throws InterruptedException {
+    public void validateCreateNewContact(String title, String firstname, String lastname, String company, String nickName,
+                                         String position, String department, String category, String status,
+                                         String phone) throws InterruptedException {
+
          homePage.clickOnNewContactsLink();
          Thread.sleep(2000);
          contactsPage.createNewContact(title,firstname,lastname,company,nickName,position,department,category,status,phone);
@@ -76,5 +79,4 @@ public class ContactsPageTest extends TestBase {
      public void tearDown (){
         driver.quit();
      }
-
 }

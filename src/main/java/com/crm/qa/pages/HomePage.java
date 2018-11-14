@@ -33,6 +33,9 @@ public class HomePage extends TestBase {
     @FindBy (xpath = "//a[contains(text(), 'New Contact')]")
     WebElement newContactsLink ;
 
+    @FindBy (xpath = "//a[contains(text(), 'New Deal')]")
+    WebElement newDealLink ;
+
 
 
 // Initializing the page objects
@@ -73,6 +76,15 @@ public class HomePage extends TestBase {
         action.moveToElement(contactsLink).build().perform();
         Thread.sleep(2000);
         newContactsLink.click();
+    }
+
+
+    public void clickOnNewDealsLink () throws InterruptedException {
+        Actions action = new Actions(driver);
+        Thread.sleep(2000);
+        action.moveToElement(dealsLink).build().perform();
+        Thread.sleep(2000);
+        newDealLink.click();
     }
 
 }
