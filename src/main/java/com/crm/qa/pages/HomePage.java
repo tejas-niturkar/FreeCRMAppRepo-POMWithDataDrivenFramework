@@ -81,9 +81,9 @@ public class HomePage extends TestBase {
 
     public void clickOnNewDealsLink () throws InterruptedException {
         Actions action = new Actions(driver);
-        Thread.sleep(2000);
+        Thread.sleep(3000);
         action.moveToElement(dealsLink).build().perform();
-        Thread.sleep(2000);
+        Thread.sleep(3000);
         newDealLink.click();
     }
 

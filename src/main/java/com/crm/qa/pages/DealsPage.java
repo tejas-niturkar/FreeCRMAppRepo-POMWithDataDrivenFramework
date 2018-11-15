@@ -58,10 +58,10 @@ public class DealsPage extends TestBase {
     @FindBy (xpath = "//input[@type='radio' and @value='Y']")
     WebElement status ;
 
-    @FindBy (xpath = " ")
+    @FindBy (xpath = "//input[@name='close_date']")
     WebElement predictedCloseDate ;
 
-    @FindBy (xpath = " ")
+    @FindBy (xpath = "//input[@name='actual_close_date']")
     WebElement actualCloseDate ;
 
     @FindBy (xpath = "//input[@type= 'submit']//preceding-sibling::input")
@@ -80,7 +80,8 @@ public class DealsPage extends TestBase {
 
     public void createNewDeals (String strTitle, String strCompany,String strPrimaryContact, String strAmount, String strProbability,
                                 String strCommission, String strIdentifier,String strTags,String strDesc,String strNextStep,
-                                String strProduct,String strQuantity,String strType, String strSource){
+                                String strProduct,String strQuantity,String strType, String strSource,
+                                String strPredictedCloseDate, String strActualCloseDate){
 
         title.sendKeys(strTitle);
         company.sendKeys(strCompany);
@@ -101,6 +102,8 @@ public class DealsPage extends TestBase {
         Select selectSource = new Select(driver.findElement(By.name("source")));
         selectSource.selectByVisibleText(strSource);
 
+        predictedCloseDate.sendKeys(strPredictedCloseDate);
+        actualCloseDate.sendKeys(strActualCloseDate);
         status.click();
         saveBtn.click();
     }
