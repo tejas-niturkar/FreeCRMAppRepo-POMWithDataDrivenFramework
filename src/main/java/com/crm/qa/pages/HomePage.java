@@ -7,6 +7,7 @@ This class contains page  objects of Home Pages.
 package com.crm.qa.pages;
 import com.crm.qa.base.TestBase;
 import com.crm.qa.utils.TestUtils;
+import org.apache.poi.ss.formula.functions.T;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
@@ -35,6 +36,10 @@ public class HomePage extends TestBase {
 
     @FindBy (xpath = "//a[contains(text(), 'New Deal')]")
     WebElement newDealLink ;
+
+    @FindBy (xpath = "//a[contains(text(), 'New Task')]")
+    WebElement newTaskLink ;
+
 
 
 
@@ -87,6 +92,15 @@ public class HomePage extends TestBase {
         newDealLink.click();
     }
 
+
+    public void clickONewTasksLink() throws InterruptedException {
+        Actions actions = new Actions(driver);
+        Thread.sleep(2000);
+        actions.moveToElement(tasksLink).build().perform();
+        Thread.sleep(2000);
+        newTaskLink.click();
+
+    }
 }
 
 

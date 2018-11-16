@@ -49,12 +49,6 @@ public class DealsPage extends TestBase {
     @FindBy (xpath = "//input[@name = 'quantity']")
     WebElement quantity ;
 
-    @FindBy (name = "type")
-    WebElement type ;
-
-    @FindBy (xpath = "//select[@name = 'source']")
-    WebElement source ;
-
     @FindBy (xpath = "//input[@type='radio' and @value='Y']")
     WebElement status ;
 
