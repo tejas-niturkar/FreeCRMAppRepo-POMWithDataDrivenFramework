@@ -2,20 +2,15 @@ package com.crm.qa.base;
 
 import com.crm.qa.utils.TestUtils;
 import com.crm.qa.utils.WebEventListener;
-import org.openqa.selenium.ElementNotVisibleException;
-import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
-import org.openqa.selenium.support.ui.FluentWait;
-import org.openqa.selenium.support.ui.Wait;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
-import java.util.concurrent.TimeUnit;
 
 import static java.util.concurrent.TimeUnit.SECONDS;
 
@@ -70,16 +65,4 @@ public class TestBase {
         driver.manage().timeouts().implicitlyWait(TestUtils.IMPLICIT_WAIT, SECONDS);
 
     }
-
-
-   /* public static void FluentWait(){
-
-        FluentWait<WebDriver> wait = new FluentWait<WebDriver>(driver)
-                .withTimeout(30, TimeUnit.SECONDS)
-                .pollingEvery(1, TimeUnit.SECONDS)
-                .ignoring(ElementNotVisibleException.class);
-
-
-    }*/
-
 }
