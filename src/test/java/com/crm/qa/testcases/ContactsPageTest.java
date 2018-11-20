@@ -11,6 +11,8 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import javax.swing.plaf.PanelUI;
+
 public class ContactsPageTest extends TestBase {
 
     LoginPage loginPage;
@@ -73,6 +75,7 @@ public class ContactsPageTest extends TestBase {
          Thread.sleep(2000);
          contactsPage.createNewContact(title,firstname,lastname,company,nickName,position,department,category,status,phone);
      }
+
 
 
     @AfterMethod

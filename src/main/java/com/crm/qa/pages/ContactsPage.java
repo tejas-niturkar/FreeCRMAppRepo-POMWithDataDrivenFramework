@@ -36,10 +36,19 @@ public class ContactsPage extends TestBase {
     @FindBy (xpath = "//input[@name= 'phone']")
     WebElement phone ;
 
-
-
     @FindBy (xpath = " //input[@type= 'submit' and @value = 'Save']")
     WebElement saveBtn;
+
+//------------------------- Search Contact Page Objects----------------------------------------
+
+    @FindBy (xpath = "//input[@name= 'cs_company_name']")
+    WebElement SearchOnCompanyname ;
+
+    @FindBy (xpath = "//input[@name= 'cs_name']")
+    WebElement SearchOnFirstName ;
+
+    @FindBy (xpath = "//input[@type= 'submit' and @name= 'cs_submit']")
+    WebElement SearchOnSaveBtn ;
 
 
 
@@ -78,6 +87,15 @@ public class ContactsPage extends TestBase {
         phone.sendKeys(ph);
 
         saveBtn.click();
+    }
+
+
+
+    public void searchContacts( String name, String company) throws InterruptedException {
+        Thread.sleep(2000);
+        SearchOnFirstName.sendKeys(name);
+        SearchOnCompanyname.sendKeys(company);
+        SearchOnSaveBtn.click();
     }
 
 }
