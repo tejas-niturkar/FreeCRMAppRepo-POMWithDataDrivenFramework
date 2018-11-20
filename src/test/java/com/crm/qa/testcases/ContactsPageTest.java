@@ -76,10 +76,17 @@ public class ContactsPageTest extends TestBase {
          contactsPage.createNewContact(title,firstname,lastname,company,nickName,position,department,category,status,phone);
      }
 
+    @Test (priority = 5)
+    public void validateSearchContacts () throws InterruptedException {
+        contactsPage.searchContacts("Mithali", "BCCI", "Active", "Friend");
+        Assert.assertTrue(contactsPage.validateContactDetailsPageLabel(), "Contacts details Page label is missing or invalid contact");
+
+    }
+
 
 
     @AfterMethod
      public void tearDown (){
-        driver.quit();
+         driver.quit();
      }
 }

@@ -42,15 +42,19 @@ public class ContactsPage extends TestBase {
 //------------------------- Search Contact Page Objects----------------------------------------
 
     @FindBy (xpath = "//input[@name= 'cs_company_name']")
-    WebElement SearchOnCompanyname ;
+    WebElement searchOnCompanyname ;
 
     @FindBy (xpath = "//input[@name= 'cs_name']")
-    WebElement SearchOnFirstName ;
+    WebElement searchOnFirstName ;
 
     @FindBy (xpath = "//input[@type= 'submit' and @name= 'cs_submit']")
-    WebElement SearchOnSaveBtn ;
+    WebElement searchOnSaveBtn ;
 
+    @FindBy (xpath = "//a[contains(text(), 'Mithali Raj')]")
+    WebElement clickOnSearchedContacts ;
 
+    @FindBy (xpath = "//td[contains(text(), 'Mithali Raj')]")
+    WebElement contactDetailsPagelabel ;
 
     public ContactsPage (){
         PageFactory.initElements(driver,this);
@@ -91,11 +95,25 @@ public class ContactsPage extends TestBase {
 
 
 
-    public void searchContacts( String name, String company) throws InterruptedException {
+    public void searchContacts( String name, String company,  String status, String category) throws InterruptedException {
         Thread.sleep(2000);
-        SearchOnFirstName.sendKeys(name);
-        SearchOnCompanyname.sendKeys(company);
-        SearchOnSaveBtn.click();
+
+        Select selectStatus = new Select(driver.findElement(By.name("cs_status")));
+        selectStatus.selectByVisibleText(status);
+        Select selectCategory = new Select(driver.findElement(By.name("cs_category")));
+        selectCategory.selectByVisibleText(category);
+
+        searchOnFirstName.sendKeys(name);
+        searchOnCompanyname.sendKeys(company);
+        searchOnSaveBtn.click();
+        Thread.sleep(1000);
+        clickOnSearchedContacts.click();
+    }
+
+    public boolean validateContactDetailsPageLabel() throws InterruptedException {
+        Thread.sleep(1000);
+        return contactDetailsPagelabel.isDisplayed();
+
     }
 
 }
