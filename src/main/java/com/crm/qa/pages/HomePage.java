@@ -40,6 +40,12 @@ public class HomePage extends TestBase {
     @FindBy (xpath = "//a[contains(text(), 'New Task')]")
     WebElement newTaskLink ;
 
+    @FindBy (xpath = "//a[contains(text(), 'Docs')]")
+    WebElement docsLink ;
+
+
+
+
 
 
 
@@ -73,6 +79,10 @@ public class HomePage extends TestBase {
         return new TaskPage();
     }
 
+    public DocsPage clickOnDocsLink(){
+        docsLink.click();
+        return new DocsPage() ;
+    }
 
     public void clickOnNewContactsLink () throws InterruptedException {
 
