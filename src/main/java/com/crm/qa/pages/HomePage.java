@@ -27,7 +27,6 @@ public class HomePage extends TestBase {
     @FindBy (xpath ="//a[contains(text(), 'Deals')]")
     WebElement dealsLink ;
 
-
     @FindBy (xpath ="//a[contains(text(), 'Tasks')]")
     WebElement tasksLink ;
 
@@ -42,6 +41,9 @@ public class HomePage extends TestBase {
 
     @FindBy (xpath = "//a[contains(text(), 'Docs')]")
     WebElement docsLink ;
+
+    @FindBy (xpath = "//a[contains(text(),'New Document')]")
+    WebElement newDocumentLink ;
 
 
 
@@ -109,8 +111,16 @@ public class HomePage extends TestBase {
         actions.moveToElement(tasksLink).build().perform();
         Thread.sleep(2000);
         newTaskLink.click();
-
     }
+
+    public void clickOnNewDocumentLink() throws InterruptedException {
+        Actions actions = new Actions(driver);
+        Thread.sleep(1000);
+        actions.moveToElement(docsLink).build().perform();
+        Thread.sleep(1000);
+        newDocumentLink.click();
+    }
+
 }
 
 
