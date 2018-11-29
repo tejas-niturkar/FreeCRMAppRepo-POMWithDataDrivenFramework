@@ -5,6 +5,7 @@ import com.crm.qa.utils.WebEventListener;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 
 import java.io.FileInputStream;
@@ -49,6 +50,11 @@ public class TestBase {
         else if (browserName.equalsIgnoreCase("firefox")){
             System.setProperty("webdriver.geckodriver.driver","C:\\Selenium\\Browsers\\geckodriver-v0.10.0-win64\\geckodriver-new.exe");
             driver = new FirefoxDriver();
+        }
+
+        else if (browserName.equalsIgnoreCase(("ie"))){
+            System.setProperty("webdriver.ie.driver","C:\\Selenium\\Browsers\\IE_Driver\\IEDriverServer.exe");
+            driver = new InternetExplorerDriver();
         }
 
         e_driver = new EventFiringWebDriver(driver);
