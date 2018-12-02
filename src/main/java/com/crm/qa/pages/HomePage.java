@@ -20,7 +20,6 @@ public class HomePage extends TestBase {
     @FindBy (xpath = "//td[contains (text(),'User: Tejas niturkar')]")
     WebElement userNameLabel ;
 
-
     @FindBy (xpath = "//a[contains(text(), 'Contacts')]")
     WebElement contactsLink ;
 
@@ -29,6 +28,9 @@ public class HomePage extends TestBase {
 
     @FindBy (xpath ="//a[contains(text(), 'Tasks')]")
     WebElement tasksLink ;
+
+    @FindBy (xpath = "//a[contains(text(),'Companies')]")
+    WebElement companiesLink ;
 
     @FindBy (xpath = "//a[contains(text(), 'New Contact')]")
     WebElement newContactsLink ;
@@ -44,6 +46,9 @@ public class HomePage extends TestBase {
 
     @FindBy (xpath = "//a[contains(text(),'New Document')]")
     WebElement newDocumentLink ;
+
+    @FindBy (xpath = "//a[contains(text(),'New Company')]")
+    WebElement newCompanyLink ;
 
 
 
@@ -86,6 +91,12 @@ public class HomePage extends TestBase {
         return new DocsPage() ;
     }
 
+    public  CompanyPage clickOnCompanyLink(){
+        companiesLink.click();
+        return new CompanyPage();
+    }
+
+
     public void clickOnNewContactsLink () throws InterruptedException {
 
         Actions action  = new Actions(driver);
@@ -121,6 +132,9 @@ public class HomePage extends TestBase {
         newDocumentLink.click();
     }
 
+    public void clickOnNewCompanyLink(){
+
+    }
 }
 
 

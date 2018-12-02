@@ -47,18 +47,12 @@ public class DocsPageTest extends TestBase {
         return data1 ;
     }
 
-
-
     @Test (priority = 2, dataProvider ="getCRMTestData" )
     public void validateAddNewDocument(String title, String description, String version) throws InterruptedException {
         homePage.clickOnNewDocumentLink();
         Thread.sleep(1000);
         docsPage.addNewDocument(title,description,version);
     }
-
-
-
-
 
     @AfterMethod
     public void tearDown(){
