@@ -8,6 +8,7 @@ import com.crm.qa.utils.TestUtils;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 public class CompanyPageTest extends TestBase {
@@ -16,6 +17,8 @@ public class CompanyPageTest extends TestBase {
     HomePage homePage;
     TestUtils testUtils;
     CompanyPage companyPage;
+
+    String sheetName = "company" ;
 
     CompanyPageTest(){
         super();
@@ -43,11 +46,36 @@ public class CompanyPageTest extends TestBase {
         Assert.assertTrue(companyPage.validateCreateNewCompanyLabel(),"Create new company label is missing on the page");
     }
 
+    @DataProvider
+    public Object[][] getCRMTestData(){
+        Object data [][] =  TestUtils.getTestData(sheetName);
+        return data ;
+    }
+
+
+    @Test (priority = 3, dataProvider = "getCRMTestData")
+    public void validateCreateNewCompany(String company, String industry, String annualRevenue, String employees, String status,
+                                         String category, String priority, String source, String identifier, String vatTaxNumber,
+                                         String addressTitle, String defaultAddress, String city, String state, String zip,
+                                         String country, String tags, String description, String phone, String fax,
+                                         String website, String email, String symbol, String parentCompany) throws InterruptedException {
+
+        homePage.clickOnNewCompanyLink();
+        Thread.sleep(1000);
+        companyPage.createNewCompany(company,industry,annualRevenue,employees,status,category,priority,source,identifier,
+                                     vatTaxNumber,addressTitle,defaultAddress,city,state,zip,country,tags,description,phone,
+                                     fax,website,email,symbol,parentCompany);
+
+    }
+
+
+
+
 
 
     @AfterMethod
     public void tearDown (){
-        //driver.quit();
+        driver.quit();
     }
 
 
