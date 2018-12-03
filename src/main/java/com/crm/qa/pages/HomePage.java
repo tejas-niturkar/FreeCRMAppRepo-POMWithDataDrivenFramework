@@ -132,8 +132,12 @@ public class HomePage extends TestBase {
         newDocumentLink.click();
     }
 
-    public void clickOnNewCompanyLink(){
-
+    public void clickOnNewCompanyLink() throws InterruptedException {
+        Actions actions = new Actions(driver);
+        Thread.sleep(1000);
+        actions.moveToElement(companiesLink).build().perform();
+        Thread.sleep(1000);
+        newCompanyLink.click();
     }
 }
 

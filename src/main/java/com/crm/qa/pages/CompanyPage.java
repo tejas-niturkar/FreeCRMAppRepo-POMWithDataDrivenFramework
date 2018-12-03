@@ -12,6 +12,10 @@ public class CompanyPage extends TestBase {
     @FindBy (xpath = "//td[contains(text(),'Companies')]")
     WebElement companiesLabel ;
 
+    @FindBy (xpath = "//legend[contains(text(),'Create New  Company')]")
+    WebElement createNewCompanyLabel ;
+
+
 
     public CompanyPage(){
         PageFactory.initElements(driver,this);
@@ -22,5 +26,12 @@ public class CompanyPage extends TestBase {
         Thread.sleep(1000);
         return companiesLabel.isDisplayed();
     }
+
+    public boolean validateCreateNewCompanyLabel() throws InterruptedException {
+        Thread.sleep(1000);
+        return createNewCompanyLabel.isDisplayed();
+    }
+
+
 
 }

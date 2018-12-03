@@ -32,10 +32,18 @@ public class CompanyPageTest extends TestBase {
         companyPage = homePage.clickOnCompanyLink();
     }
 
-    @Test (priority = 1)
+    @Test (priority = 1)                                                      // Check the label on  companies grid page
     public void validateCompanyPageLabel() throws InterruptedException {
         Assert.assertTrue(companyPage.validateCompanyLabel(),"Company Label is missing on the page.");
     }
+
+    @Test (priority = 2)                                                   // Check the label on create new company page
+    public void validateCreateNewCompanyLabel() throws InterruptedException {
+        homePage.clickOnNewCompanyLink();
+        Assert.assertTrue(companyPage.validateCreateNewCompanyLabel(),"Create new company label is missing on the page");
+    }
+
+
 
     @AfterMethod
     public void tearDown (){

@@ -1,0 +1,11 @@
+[1mdiff --git a/src/main/java/com/crm/qa/pages/CompanyPage.java b/src/main/java/com/crm/qa/pages/CompanyPage.java[m
+[1mindex 94a06fe..9a1a28b 100644[m
+[1m--- a/src/main/java/com/crm/qa/pages/CompanyPage.java[m
+[1m+++ b/src/main/java/com/crm/qa/pages/CompanyPage.java[m
+[36m@@ -23,4 +23,6 @@[m [mpublic class CompanyPage extends TestBase {[m
+         return companiesLabel.isDisplayed();[m
+     }[m
+ [m
+[32m+[m
+[32m+[m
+ }[m
