@@ -13,6 +13,10 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+
 import org.apache.commons.io.FileUtils;
 
 public class TestUtils extends TestBase {
@@ -69,4 +73,12 @@ public class TestUtils extends TestBase {
         File srcFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
         FileUtils.copyFile(srcFile, new File("C:\\Selenium\\Screenshots\\error.png"));
     }
+
+
+    public String currentDateTime(){
+        DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
+        Calendar cal = Calendar.getInstance();
+         return (dateFormat.format(cal.getTime()));
+    }
+
 }

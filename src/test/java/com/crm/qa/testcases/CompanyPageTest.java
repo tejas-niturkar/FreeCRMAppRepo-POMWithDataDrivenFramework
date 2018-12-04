@@ -5,6 +5,7 @@ import com.crm.qa.pages.CompanyPage;
 import com.crm.qa.pages.HomePage;
 import com.crm.qa.pages.LoginPage;
 import com.crm.qa.utils.TestUtils;
+import org.apache.poi.ss.formula.functions.T;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -69,7 +70,11 @@ public class CompanyPageTest extends TestBase {
     }
 
 
-
+    @Test (priority = 4)
+    public void validateUpdateCompany() throws InterruptedException {
+        Thread.sleep(1000);
+        companyPage.updateCompany("Updated " + testUtils.currentDateTime() );
+    }
 
 
 

@@ -84,6 +84,8 @@ public class CompanyPage extends TestBase {
 
 
 
+    @FindBy (xpath = "//i[@title='Edit']")
+    WebElement editIcon ;
 
     public CompanyPage(){
         PageFactory.initElements(driver,this);
@@ -137,8 +139,15 @@ public class CompanyPage extends TestBase {
         symbol.sendKeys(strSymbol);
         parentCompany.sendKeys(strParentCompany);
         saveButton.click();
+    }
 
+    public void updateCompany(String strCompanyName) throws InterruptedException {
 
+        editIcon.click();
+        Thread.sleep(2000);
+        // companyName.getText();
+        companyName.sendKeys( companyName.getText() +  strCompanyName);
+        saveButton.click();
     }
 
 
