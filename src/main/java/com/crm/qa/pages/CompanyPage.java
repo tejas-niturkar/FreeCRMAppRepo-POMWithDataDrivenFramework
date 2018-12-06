@@ -141,12 +141,13 @@ public class CompanyPage extends TestBase {
         saveButton.click();
     }
 
-    public void updateCompany(String strCompanyName) throws InterruptedException {
+    public void updateCompany(String strCompanyName, String strDescription) throws InterruptedException {
 
         editIcon.click();
         Thread.sleep(2000);
-        // companyName.getText();
-        companyName.sendKeys( companyName.getText() +  strCompanyName);
+        companyName.clear();
+        companyName.sendKeys( strCompanyName);
+        description.sendKeys(strDescription);
         saveButton.click();
     }
 
