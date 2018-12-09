@@ -5,7 +5,6 @@ import com.crm.qa.pages.CompanyPage;
 import com.crm.qa.pages.HomePage;
 import com.crm.qa.pages.LoginPage;
 import com.crm.qa.utils.TestUtils;
-import org.apache.poi.ss.formula.functions.T;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -54,7 +53,7 @@ public class CompanyPageTest extends TestBase {
     }
 
 
-    @Test (priority = 3, dataProvider = "getCRMTestData")
+    @Test (priority = 3, dataProvider = "getCRMTestData")  // Check new company is created with date from excel file
     public void validateCreateNewCompany(String company, String industry, String annualRevenue, String employees, String status,
                                          String category, String priority, String source, String identifier, String vatTaxNumber,
                                          String addressTitle, String defaultAddress, String city, String state, String zip,
@@ -70,7 +69,7 @@ public class CompanyPageTest extends TestBase {
     }
 
 
-    @Test (priority = 4)
+    @Test (priority = 4)                           // Check company update
     public void validateUpdateCompany() throws InterruptedException {
         Thread.sleep(1000);
         companyPage.updateCompany("Updated " + testUtils.currentDateTime(),  "Description - updated company by selenium");
