@@ -50,6 +50,16 @@ public class HomePage extends TestBase {
     @FindBy (xpath = "//a[contains(text(),'New Company')]")
     WebElement newCompanyLink ;
 
+    @FindBy (xpath = "//a[contains(text(),'Calendar')]")
+    WebElement calendarLink ;
+
+    @FindBy (xpath = "//a[contains(text(),'New Event')]")
+    WebElement calendarNewEventLink ;
+
+
+
+
+
 
 
 
@@ -96,6 +106,11 @@ public class HomePage extends TestBase {
         return new CompanyPage();
     }
 
+    public CalendarPage clickOnCalendarLink(){
+        calendarLink.click();
+        return new CalendarPage() ;
+    }
+
 
     public void clickOnNewContactsLink () throws InterruptedException {
 
@@ -138,6 +153,14 @@ public class HomePage extends TestBase {
         actions.moveToElement(companiesLink).build().perform();
         Thread.sleep(1000);
         newCompanyLink.click();
+    }
+
+    public void clickOnNewCalendarEventLink() throws InterruptedException {
+        Actions actions = new Actions(driver);
+        Thread.sleep(1000);
+        actions.moveToElement(calendarLink).build().perform();
+        Thread.sleep(1000);
+        calendarNewEventLink.click();
     }
 }
 
