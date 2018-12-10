@@ -29,7 +29,7 @@ public class TasksPageTest extends TestBase {
     public void setup (){
         initialization();
         testUtils = new TestUtils();
-        taskPage = new TaskPage();
+      //  taskPage = new TaskPage();
         loginPage = new LoginPage();
         homePage = loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
         testUtils.switchToFrame();

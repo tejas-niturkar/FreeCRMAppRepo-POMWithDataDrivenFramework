@@ -28,7 +28,6 @@ public class CompanyPageTest extends TestBase {
     public void setUp(){
         initialization();
         testUtils = new TestUtils();
-       // companyPage = new CompanyPage();
         loginPage = new LoginPage();
         homePage = loginPage.login(prop.getProperty("username"),prop.getProperty("password"));
         testUtils.switchToFrame();
