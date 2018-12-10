@@ -28,7 +28,7 @@ public class CompanyPageTest extends TestBase {
     public void setUp(){
         initialization();
         testUtils = new TestUtils();
-        companyPage = new CompanyPage();
+       // companyPage = new CompanyPage();
         loginPage = new LoginPage();
         homePage = loginPage.login(prop.getProperty("username"),prop.getProperty("password"));
         testUtils.switchToFrame();
@@ -59,9 +59,9 @@ public class CompanyPageTest extends TestBase {
                                          String addressTitle, String defaultAddress, String city, String state, String zip,
                                          String country, String tags, String description, String phone, String fax,
                                          String website, String email, String symbol, String parentCompany) throws InterruptedException {
-
+        Thread.sleep(2000);
         homePage.clickOnNewCompanyLink();
-        Thread.sleep(1000);
+        Thread.sleep(2000);
         companyPage.createNewCompany(company,industry,annualRevenue,employees,status,category,priority,source,identifier,
                                      vatTaxNumber,addressTitle,defaultAddress,city,state,zip,country,tags,description,phone,
                                      fax,website,email,symbol,parentCompany);
