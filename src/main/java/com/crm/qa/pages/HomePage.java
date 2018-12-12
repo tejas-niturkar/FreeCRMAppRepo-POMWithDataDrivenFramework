@@ -119,6 +119,7 @@ public class HomePage extends TestBase {
         action.moveToElement(contactsLink).build().perform();
         Thread.sleep(2000);
         newContactsLink.click();
+        Thread.sleep(1000);
     }
 
 

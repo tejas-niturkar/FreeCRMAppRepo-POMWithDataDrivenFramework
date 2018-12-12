@@ -50,15 +50,15 @@ public class DealsPageTest extends TestBase {
     }
 
     @Test (priority = 2, dataProvider = "getCRMTestData")
-    public void validateCreateNewDeals (String title, String company, String primarycontact, String amount, String probability,
-                                       String commission, String identifier, String tags, String description, String nextStep,
-                                       String product, String quantity, String type, String source,
-                                       String predictedCloseDate, String actualCloseDate) throws InterruptedException {
+    public void validateCreateNewDeals (String title, String company, String primaryContact, String amount, String probability,
+                                        String commission, String identifier, String tags, String description, String nextStep,
+                                        String quantity, String type, String source, String predictedCloseDate,
+                                        String actualCloseDate) throws InterruptedException {
 
         homePage.clickOnNewDealsLink();
         Thread.sleep(1000);
-        dealsPage.createNewDeals(title,company,primarycontact,amount,probability,commission,identifier,tags,description,nextStep,
-                product,quantity,type,source, predictedCloseDate, actualCloseDate);
+        dealsPage.createNewDeals(title,company,primaryContact,amount,probability,commission,identifier,tags,description,
+                                 nextStep,quantity,type,source, predictedCloseDate, actualCloseDate);
     }
 
 

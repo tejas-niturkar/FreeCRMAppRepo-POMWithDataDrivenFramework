@@ -39,7 +39,7 @@ public class ContactsPageTest extends TestBase {
 
 
      @Test (priority = 1)
-     public void validateContactsPageLabel(){
+     public void validateContactsPageLabel() throws InterruptedException {
          Assert.assertTrue(contactsPage.validateContactsLabel(), "Contacts label missing on the page");
      }
 

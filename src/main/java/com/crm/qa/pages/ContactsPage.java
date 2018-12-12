@@ -61,7 +61,8 @@ public class ContactsPage extends TestBase {
     }
 
 
-    public boolean validateContactsLabel(){
+    public boolean validateContactsLabel() throws InterruptedException {
+        Thread.sleep(1000);
        return contactsLabel.isDisplayed();
     }
 

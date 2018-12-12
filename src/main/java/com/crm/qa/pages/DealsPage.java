@@ -43,8 +43,8 @@ public class DealsPage extends TestBase {
     @FindBy (xpath = "//textarea[@name = 'next_step']")
     WebElement nextStp ;
 
-    @FindBy (xpath = "//select[@name = 'product_id']")
-    WebElement product ;
+//  @FindBy (xpath = "//select[@name = 'product_id']")
+//  WebElement product ;
 
     @FindBy (xpath = "//input[@name = 'quantity']")
     WebElement quantity ;
@@ -74,7 +74,7 @@ public class DealsPage extends TestBase {
 
     public void createNewDeals (String strTitle, String strCompany,String strPrimaryContact, String strAmount, String strProbability,
                                 String strCommission, String strIdentifier,String strTags,String strDesc,String strNextStep,
-                                String strProduct,String strQuantity,String strType, String strSource,
+                                String strQuantity,String strType, String strSource,
                                 String strPredictedCloseDate, String strActualCloseDate){
 
         title.sendKeys(strTitle);
@@ -87,7 +87,7 @@ public class DealsPage extends TestBase {
         tags.sendKeys(strTags);
         description.sendKeys(strDesc);
         nextStp.sendKeys(strNextStep);
-        product.sendKeys(strProduct);
+        // product.sendKeys(strProduct);
         quantity.sendKeys(strQuantity);
 
         Select selectType = new Select(driver.findElement(By.name("type")));
