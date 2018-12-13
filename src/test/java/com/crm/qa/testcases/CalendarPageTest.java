@@ -6,6 +6,9 @@ import com.crm.qa.pages.CompanyPage;
 import com.crm.qa.pages.HomePage;
 import com.crm.qa.pages.LoginPage;
 import com.crm.qa.utils.TestUtils;
+import org.apache.poi.ss.formula.functions.T;
+import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -47,11 +50,28 @@ public class CalendarPageTest extends TestBase {
 
 
 
-    @Test (priority = 1, dataProvider = "getCRMTestData")
-    public void validateCreateNewCalendarEvent(String title, String category) throws InterruptedException, AWTException {
+    @Test (priority = 1, dataProvider = "getCRMTestData")          // To check alert message comes if Assigned To  field not selected.
+    public void validateCreateNewCalendarEventWithoutAssignedToSelected(String title, String category) throws InterruptedException, AWTException {
+        homePage.clickOnNewCalendarEventLink();
+        Thread.sleep(1000);
+        calendarPage.createNewCalendarEventWithoutAssignedToSelected(title, category);
+    }
+
+
+    @Test (priority = 2, dataProvider = "getCRMTestData")          // To check event added successfully.
+    public void validateCreateNewCalendarEvent(String title, String category) throws InterruptedException {
         homePage.clickOnNewCalendarEventLink();
         Thread.sleep(1000);
         calendarPage.createNewCalendarEvent(title, category);
+        Thread.sleep(2000);
+        Assert.assertTrue(calendarPage.eventSuccessLabel.isDisplayed(), "Event not added successfully");
+    }
+
+
+
+    @AfterMethod
+    public void tearDown(){
+        driver.quit();
     }
 
 }

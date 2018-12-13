@@ -23,8 +23,14 @@ public class CalendarPage extends TestBase {
     @FindBy (xpath = "//td[contains(text(), '30') and @class= 'day weekend']")
     WebElement fromDateSelectFromCalendar ;
 
+    @FindBy (xpath = "//input[@value= '==ADD==>']")
+    WebElement addMemberButton ;
+
     @FindBy (xpath = " //input[@class= 'button' and @value= 'Save' and @class= 'button']")
     WebElement saveButton ;
+
+    @FindBy (xpath = "//td[contains(text(),'Email notifications were sent to all attendees.')]")
+    public WebElement eventSuccessLabel ;
 
 
 
@@ -36,7 +42,7 @@ public class CalendarPage extends TestBase {
 
 
 
-    public void createNewCalendarEvent(String strTitle, String strCategory) throws InterruptedException, AWTException {
+      public void createNewCalendarEventWithoutAssignedToSelected(String strTitle, String strCategory) throws InterruptedException, AWTException {
        title.sendKeys(strTitle);
        fromDate.click();
        fromDateSelectFromCalendar.click();
@@ -45,7 +51,17 @@ public class CalendarPage extends TestBase {
        saveButton.click();
        Thread.sleep(2000);
        TestUtils.robotClass();
+     }
 
+    public void createNewCalendarEvent(String strTitle, String strCategory) throws InterruptedException {
+        title.sendKeys(strTitle);
+        fromDate.click();
+        fromDateSelectFromCalendar.click();
+        Select selectCategory = new Select(driver.findElement(By.name("category")));
+        selectCategory.selectByVisibleText(strCategory);
+        addMemberButton.click();
+        Thread.sleep(1000);
+        saveButton.click();
     }
 
 
