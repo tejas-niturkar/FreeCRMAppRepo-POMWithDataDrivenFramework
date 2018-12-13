@@ -1,11 +1,15 @@
 package com.crm.qa.pages;
 
 import com.crm.qa.base.TestBase;
+import com.crm.qa.utils.TestUtils;
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Select;
+import java.awt.*;
 
-import java.util.WeakHashMap;
 
 public class CalendarPage extends TestBase {
 
@@ -16,6 +20,14 @@ public class CalendarPage extends TestBase {
     @FindBy (xpath = "//img[@title= 'Date selector']")
     WebElement fromDate ;
 
+    @FindBy (xpath = "//td[contains(text(), '30') and @class= 'day weekend']")
+    WebElement fromDateSelectFromCalendar ;
+
+    @FindBy (xpath = " //input[@class= 'button' and @value= 'Save' and @class= 'button']")
+    WebElement saveButton ;
+
+
+
 
 
    public CalendarPage (){
@@ -24,9 +36,16 @@ public class CalendarPage extends TestBase {
 
 
 
-    public void createNewCalendarEvent(String strTitle){
+    public void createNewCalendarEvent(String strTitle, String strCategory) throws InterruptedException, AWTException {
        title.sendKeys(strTitle);
        fromDate.click();
+       fromDateSelectFromCalendar.click();
+       Select selectCategory = new Select(driver.findElement(By.name("category")));
+       selectCategory.selectByVisibleText(strCategory);
+       saveButton.click();
+       Thread.sleep(2000);
+       TestUtils.robotClass();
+
     }
 
 

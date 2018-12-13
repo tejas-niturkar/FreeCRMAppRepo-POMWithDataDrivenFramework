@@ -7,7 +7,10 @@ import com.crm.qa.pages.HomePage;
 import com.crm.qa.pages.LoginPage;
 import com.crm.qa.utils.TestUtils;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+
+import java.awt.*;
 
 import static com.crm.qa.base.TestBase.initialization;
 
@@ -35,12 +38,20 @@ public class CalendarPageTest extends TestBase {
     }
 
 
-    @Test
-    public void validateCreateNewCalendarEvent() throws InterruptedException {
+
+    @DataProvider
+    public Object[][] getCRMTestData(){
+        Object data [][] =  TestUtils.getTestData(sheetName);
+        return data ;
+    }
+
+
+
+    @Test (priority = 1, dataProvider = "getCRMTestData")
+    public void validateCreateNewCalendarEvent(String title, String category) throws InterruptedException, AWTException {
         homePage.clickOnNewCalendarEventLink();
         Thread.sleep(1000);
-        calendarPage.createNewCalendarEvent("Test title");
-
+        calendarPage.createNewCalendarEvent(title, category);
     }
 
 }
