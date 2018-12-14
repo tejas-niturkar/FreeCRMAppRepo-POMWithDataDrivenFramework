@@ -12,12 +12,12 @@ import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
 
-public class LoginpageTest  extends TestBase {
+public class LoginPageTest  extends TestBase {
 
     LoginPage loginPage ;
     HomePage homePage ;
 
-    public LoginpageTest(){
+    public LoginPageTest(){
         super();
     }
 

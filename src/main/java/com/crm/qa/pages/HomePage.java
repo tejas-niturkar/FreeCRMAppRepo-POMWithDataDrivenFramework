@@ -56,8 +56,8 @@ public class HomePage extends TestBase {
     @FindBy (xpath = "//a[contains(text(),'New Event')]")
     WebElement calendarNewEventLink ;
 
-
-
+    @FindBy (xpath = "//a[contains(text(),'Reports')]")
+    WebElement reportsLink ;
 
 
 
@@ -109,6 +109,11 @@ public class HomePage extends TestBase {
     public CalendarPage clickOnCalendarLink(){
         calendarLink.click();
         return new CalendarPage() ;
+    }
+
+    public ReportsPage clickOnReportsLink(){
+        reportsLink.click();
+        return new ReportsPage();
     }
 
 
