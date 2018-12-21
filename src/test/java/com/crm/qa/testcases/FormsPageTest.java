@@ -6,6 +6,7 @@ import com.crm.qa.pages.LoginPage;
 import com.crm.qa.utils.TestUtils;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 public class FormsPageTest extends TestBase {
@@ -36,6 +37,30 @@ public class FormsPageTest extends TestBase {
     }
 
 
+    @DataProvider
+    public Object [][] getCRMTestData(){
+        Object data1 [][] = TestUtils.getTestData(sheetName);
+        return data1 ;
+    }
 
+
+
+    @Test (priority = 2, dataProvider ="getCRMTestData")
+    public void  validateCreateNewForms(String formTitle, String reportMail, String description, String welcomeMessage,
+                                        String confirmationMessage) throws InterruptedException {
+        homePage.clickOnFormsLink();
+        Thread.sleep(3000);
+        homePage.clickOnNewFormLink();
+        Thread.sleep(1000);
+        formsPage.createNewForm(formTitle, reportMail, description, welcomeMessage, confirmationMessage);
+        Thread.sleep(2000);
+        Assert.assertTrue(formsPage.successFormLabel.isDisplayed(),"Form not successfully added");
+    }
+
+
+
+    public void tearDown(){
+     driver.quit();
+    }
 
 }
