@@ -73,7 +73,7 @@ public class TestUtils extends TestBase {
 
     public static void takeScreenshotAtEndOfTest () throws IOException {
         File srcFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-        FileUtils.copyFile(srcFile, new File("C:\\Selenium\\Screenshots\\error.png"));
+        FileUtils.copyFile(srcFile, new File("C:\\Selenium\\Screenshots\\"+ "failed test case name"));
     }
 
 

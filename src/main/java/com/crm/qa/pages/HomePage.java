@@ -59,6 +59,15 @@ public class HomePage extends TestBase {
     @FindBy (xpath = "//a[contains(text(),'Reports')]")
     WebElement reportsLink ;
 
+    @FindBy (xpath = "//a[contains(text(),'Forms')]")
+    WebElement formsLink ;
+
+    @FindBy (xpath = "//a[contains(text(),'New Form')]")
+    WebElement newFormLink ;
+
+
+
+
 
 
 
@@ -116,23 +125,28 @@ public class HomePage extends TestBase {
         return new ReportsPage();
     }
 
+    public FormsPage clickOnFormsLink(){
+        formsLink.click();
+        return new FormsPage();
+    }
+
 
     public void clickOnNewContactsLink () throws InterruptedException {
 
-        Actions action  = new Actions(driver);
-        Thread.sleep(2000);
-        action.moveToElement(contactsLink).build().perform();
+        Actions actionNewContact  = new Actions(driver);
+        Thread.sleep(4000);
+        actionNewContact.moveToElement(contactsLink).build().perform();
         Thread.sleep(2000);
         newContactsLink.click();
-        Thread.sleep(1000);
+        Thread.sleep(2000);
     }
 
 
     public void clickOnNewDealsLink () throws InterruptedException {
-        Actions action = new Actions(driver);
-        Thread.sleep(3000);
-        action.moveToElement(dealsLink).build().perform();
-        Thread.sleep(3000);
+        Actions actionNewDeal = new Actions(driver);
+        Thread.sleep(1000);
+        actionNewDeal.moveToElement(dealsLink).build().perform();
+        Thread.sleep(1000);
         newDealLink.click();
     }
 
@@ -167,6 +181,14 @@ public class HomePage extends TestBase {
         actions.moveToElement(calendarLink).build().perform();
         Thread.sleep(1000);
         calendarNewEventLink.click();
+    }
+
+    public void clickOnNewFormLink() throws InterruptedException {
+        Actions actions = new Actions(driver);
+        Thread.sleep(1000);
+        actions.moveToElement(formsLink).build().perform();
+        Thread.sleep(1000);
+        newFormLink.click();
     }
 }
 
