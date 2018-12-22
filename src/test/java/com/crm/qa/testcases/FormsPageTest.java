@@ -9,6 +9,8 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import java.io.IOException;
+
 public class FormsPageTest extends TestBase {
 
     LoginPage loginPage;
@@ -47,14 +49,17 @@ public class FormsPageTest extends TestBase {
 
     @Test (priority = 2, dataProvider ="getCRMTestData")
     public void  validateCreateNewForms(String formTitle, String reportMail, String description, String welcomeMessage,
-                                        String confirmationMessage) throws InterruptedException {
+                                        String confirmationMessage) throws InterruptedException, IOException {
         homePage.clickOnFormsLink();
         Thread.sleep(3000);
         homePage.clickOnNewFormLink();
         Thread.sleep(1000);
         formsPage.createNewForm(formTitle, reportMail, description, welcomeMessage, confirmationMessage);
         Thread.sleep(2000);
-        Assert.assertTrue(formsPage.successFormLabel.isDisplayed(),"Form not successfully added");
+        boolean verifyLabel = formsPage.successFormLabel.isDisplayed();
+        if (verifyLabel!=true){
+        testUtils.takeScreenshotAtEndOfTest();
+        }
     }
 
 

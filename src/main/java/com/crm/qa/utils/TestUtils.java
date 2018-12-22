@@ -1,6 +1,7 @@
 package com.crm.qa.utils;
 
 import com.crm.qa.base.TestBase;
+import com.crm.qa.pages.HomePage;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
@@ -29,6 +30,8 @@ public class TestUtils extends TestBase {
 
     public static String TESTDATA_SHEET_PATH = "C:\\Users\\Tagrem Admin\\IdeaProjects\\" +
             "FreeCRMTest\\src\\main\\java\\com\\crm\\qa\\testdata\\FreeCRMTestData.xlsx" ;
+
+    public static String screenshotFilLocation = "C:\\Selenium\\Screenshots\\";
 
     static Workbook book ;
     static Sheet sheet ;
@@ -73,11 +76,11 @@ public class TestUtils extends TestBase {
 
     public static void takeScreenshotAtEndOfTest () throws IOException {
         File srcFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-        FileUtils.copyFile(srcFile, new File("C:\\Selenium\\Screenshots\\"+ "failed test case name"));
+        FileUtils.copyFile(srcFile, new File(screenshotFilLocation + currentDateTime() + ".png"));
     }
 
 
-    public String currentDateTime(){
+    public static String currentDateTime(){
         DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
         Calendar cal = Calendar.getInstance();
          return (dateFormat.format(cal.getTime()));
