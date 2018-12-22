@@ -8,7 +8,7 @@ import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-import org.testng.annotations.Test;
+
 
 import java.awt.*;
 import java.awt.event.KeyEvent;
@@ -18,6 +18,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
+import java.time.LocalDateTime;
 import java.util.Calendar;
 
 import org.apache.commons.io.FileUtils;
@@ -30,8 +31,6 @@ public class TestUtils extends TestBase {
 
     public static String TESTDATA_SHEET_PATH = "C:\\Users\\Tagrem Admin\\IdeaProjects\\" +
             "FreeCRMTest\\src\\main\\java\\com\\crm\\qa\\testdata\\FreeCRMTestData.xlsx" ;
-
-    public static String screenshotFilLocation = "C:\\Selenium\\Screenshots\\";
 
     static Workbook book ;
     static Sheet sheet ;
@@ -74,17 +73,19 @@ public class TestUtils extends TestBase {
     }
 
 
-    public static void takeScreenshotAtEndOfTest () throws IOException {
-        File srcFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-        FileUtils.copyFile(srcFile, new File(screenshotFilLocation + currentDateTime() + ".png"));
-    }
 
 
-    public static String currentDateTime(){
+    public String currentDateTime(){
         DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
         Calendar cal = Calendar.getInstance();
-         return (dateFormat.format(cal.getTime()));
+        return (dateFormat.format(cal.getTime()));
     }
+
+    public static void takeScreenshotAtEndOfTest () throws IOException {
+        File srcFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+        FileUtils.copyFile(srcFile, new File("C:\\Selenium\\Screenshots\\screenshot" + "_"  + ".png"));
+    }
+
 
 
     public static void robotClass() throws AWTException {

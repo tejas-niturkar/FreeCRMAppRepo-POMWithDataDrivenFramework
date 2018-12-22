@@ -11,6 +11,8 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import java.time.LocalDateTime;
+
 public class CompanyPageTest extends TestBase {
 
     LoginPage loginPage;
@@ -78,7 +80,7 @@ public class CompanyPageTest extends TestBase {
 
     @AfterMethod
     public void tearDown (){
-        driver.quit();
+         driver.quit();
     }
 
 

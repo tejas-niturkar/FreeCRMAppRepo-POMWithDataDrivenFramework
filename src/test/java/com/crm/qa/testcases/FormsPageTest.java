@@ -57,8 +57,9 @@ public class FormsPageTest extends TestBase {
         formsPage.createNewForm(formTitle, reportMail, description, welcomeMessage, confirmationMessage);
         Thread.sleep(2000);
         boolean verifyLabel = formsPage.successFormLabel.isDisplayed();
+
         if (verifyLabel!=true){
-        testUtils.takeScreenshotAtEndOfTest();
+        TestUtils.takeScreenshotAtEndOfTest();
         }
     }
 
@@ -69,3 +70,7 @@ public class FormsPageTest extends TestBase {
     }
 
 }
+
+
+
+

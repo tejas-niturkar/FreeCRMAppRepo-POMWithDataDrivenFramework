@@ -3,9 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="3ef3f686-ecd2-44eb-bc88-0953455da636" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/crm/qa/pages/FormsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crm/qa/pages/FormsPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/crm/qa/utils/TestUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crm/qa/utils/TestUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/CompanyPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/CompanyPageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/FormsPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/FormsPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/crm/qa/pages/FormsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/crm/qa/pages/FormsPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/crm/qa/utils/TestUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/crm/qa/utils/TestUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/crm/qa/testcases/CompanyPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/crm/qa/testcases/CompanyPageTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/crm/qa/testcases/FormsPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/crm/qa/testcases/FormsPageTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,41 +24,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CompanyPageTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CompanyPageTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/CompanyPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="73" column="57" selection-start-line="73" selection-start-column="57" selection-end-line="73" selection-end-column="57" />
+            <state relative-caret-position="391">
+              <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#3351#3352#0" expanded="true" />
+                <element signature="e#3381#3382#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DealsPageTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/DealsPageTest.java">
+      <file leaf-file-name="CompanyPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/crm/qa/pages/CompanyPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
+            <state relative-caret-position="374">
+              <caret line="150" column="7" selection-start-line="150" selection-start-column="7" selection-end-line="150" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DealsPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/crm/qa/pages/DealsPage.java">
+      <file leaf-file-name="FormsPage.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/crm/qa/pages/FormsPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1139">
-              <caret line="74" column="22" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContactsPageTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/ContactsPageTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
+            <state relative-caret-position="187">
+              <caret line="31" column="24" lean-forward="true" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -61,29 +62,8 @@
       <file leaf-file-name="HomePage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/crm/qa/pages/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2873">
-              <caret line="185" column="29" selection-start-line="185" selection-start-column="29" selection-end-line="185" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DocsPageTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/DocsPageTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="49" column="56" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FormsPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/crm/qa/pages/FormsPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="46" column="25" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="408">
+              <caret line="185" column="19" selection-start-line="185" selection-start-column="19" selection-end-line="185" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -91,8 +71,8 @@
       <file leaf-file-name="FormsPageTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/FormsPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="867">
-              <caret line="61" column="9" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
+            <state relative-caret-position="-425">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -103,17 +83,47 @@
       <file leaf-file-name="TestUtils.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/crm/qa/utils/TestUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="82" column="33" lean-forward="true" selection-start-line="82" selection-start-column="33" selection-end-line="82" selection-end-column="33" />
+            <state relative-caret-position="238">
+              <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CalendarPageTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/CalendarPageTest.java">
+      <file leaf-file-name="WebEventListener.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/crm/qa/utils/WebEventListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="71" column="4" selection-start-line="71" selection-start-column="4" selection-end-line="71" selection-end-column="4" />
+            <state relative-caret-position="255">
+              <caret line="71" selection-start-line="71" selection-end-line="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EventFiringWebDriver.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.13.0/selenium-support-3.13.0.jar!/org/openqa/selenium/support/events/EventFiringWebDriver.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="97">
+              <caret line="561" selection-start-line="561" selection-end-line="561" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LocatingElementHandler.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.13.0/selenium-support-3.13.0.jar!/org/openqa/selenium/support/pagefactory/internal/LocatingElementHandler.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Invoker.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0-beta1/testng-7.0.0-beta1.jar!/org/testng/internal/Invoker.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="97">
+              <caret line="744" column="158" selection-start-line="744" selection-start-column="158" selection-end-line="744" selection-end-column="158" />
             </state>
           </provider>
         </entry>
@@ -156,8 +166,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/crm/qa/config/config.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/crm/qa/base/TestBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/DocsPageTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/crm/qa/pages/CompanyPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/CompanyPageTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/TasksPageTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/crm/qa/pages/ContactsPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/ContactsPageTest.java" />
@@ -170,8 +178,10 @@
         <option value="$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/ReportsPageTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/crm/qa/pages/HomePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/crm/qa/pages/FormsPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/crm/qa/pages/CompanyPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/FormsPageTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/crm/qa/utils/TestUtils.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/CompanyPageTest.java" />
       </list>
     </option>
   </component>
@@ -269,6 +279,105 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="testcases" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="FreeCRMTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="FreeCRMTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.seleniumhq.selenium:selenium-remote-driver:3.13.0" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="FreeCRMTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.seleniumhq.selenium:selenium-remote-driver:3.13.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="selenium-remote-driver-3.13.0.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FreeCRMTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.seleniumhq.selenium:selenium-remote-driver:3.13.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="selenium-remote-driver-3.13.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="selenium" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FreeCRMTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.seleniumhq.selenium:selenium-remote-driver:3.13.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="selenium-remote-driver-3.13.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="interactions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FreeCRMTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.seleniumhq.selenium:selenium-support:3.13.0" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="FreeCRMTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.seleniumhq.selenium:selenium-support:3.13.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="selenium-support-3.13.0.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FreeCRMTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.seleniumhq.selenium:selenium-support:3.13.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="selenium-support-3.13.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FreeCRMTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.seleniumhq.selenium:selenium-support:3.13.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="selenium-support-3.13.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+              <item name="events" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FreeCRMTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.seleniumhq.selenium:selenium-support:3.13.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="selenium-support-3.13.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+              <item name="pagefactory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FreeCRMTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.seleniumhq.selenium:selenium-support:3.13.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="selenium-support-3.13.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+              <item name="pagefactory" type="462c0819:PsiDirectoryNode" />
+              <item name="internal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FreeCRMTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.testng:testng:7.0.0-beta1" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="FreeCRMTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.testng:testng:7.0.0-beta1" type="70bed36:NamedLibraryElementNode" />
+              <item name="testng-7.0.0-beta1.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FreeCRMTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.testng:testng:7.0.0-beta1" type="70bed36:NamedLibraryElementNode" />
+              <item name="testng-7.0.0-beta1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="testng" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FreeCRMTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.testng:testng:7.0.0-beta1" type="70bed36:NamedLibraryElementNode" />
+              <item name="testng-7.0.0-beta1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="testng" type="462c0819:PsiDirectoryNode" />
+              <item name="internal" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -299,7 +408,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.CompanyPageTest.validateUpdateCompany">
+  <component name="RunManager" selected="TestNG.FormsPageTest.validateCreateNewForms">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -513,8 +622,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.CompanyPageTest.validateUpdateCompany" />
         <item itemvalue="TestNG.FormsPageTest.validateCreateNewForms" />
+        <item itemvalue="TestNG.CompanyPageTest.validateUpdateCompany" />
         <item itemvalue="TestNG.FormsPageTest.validateFormsPageLabel" />
         <item itemvalue="TestNG.ContactsPageTest.validateCreateNewContact" />
         <item itemvalue="TestNG.DealsPageTest.validateCreateNewDeals" />
@@ -538,34 +647,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FormsPageTest_validateCreateNewForms - 2018.12.21 at 13h 52m 35s.xml">
+    <history-entry file="FormsPageTest_validateCreateNewForms - 2018.12.22 at 23h 54m 54s.xml">
       <configuration name="FormsPageTest.validateCreateNewForms" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FormsPageTest_validateCreateNewForms - 2018.12.21 at 13h 54m 32s.xml">
+    <history-entry file="FormsPageTest_validateCreateNewForms - 2018.12.22 at 23h 58m 41s.xml">
       <configuration name="FormsPageTest.validateCreateNewForms" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FormsPageTest_validateCreateNewForms - 2018.12.21 at 14h 17m 52s.xml">
+    <history-entry file="FormsPageTest_validateCreateNewForms - 2018.12.23 at 00h 12m 07s.xml">
       <configuration name="FormsPageTest.validateCreateNewForms" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FormsPageTest_validateCreateNewForms - 2018.12.21 at 14h 19m 44s.xml">
+    <history-entry file="FormsPageTest_validateCreateNewForms - 2018.12.23 at 00h 16m 06s.xml">
       <configuration name="FormsPageTest.validateCreateNewForms" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FormsPageTest_validateCreateNewForms - 2018.12.21 at 14h 23m 01s.xml">
+    <history-entry file="CompanyPageTest_validateUpdateCompany - 2018.12.23 at 00h 21m 44s.xml">
+      <configuration name="CompanyPageTest.validateUpdateCompany" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CompanyPageTest_validateUpdateCompany - 2018.12.23 at 00h 23m 40s.xml">
+      <configuration name="CompanyPageTest.validateUpdateCompany" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FormsPageTest_validateCreateNewForms - 2018.12.23 at 00h 27m 15s.xml">
       <configuration name="FormsPageTest.validateCreateNewForms" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FormsPageTest_validateCreateNewForms - 2018.12.21 at 14h 24m 32s.xml">
+    <history-entry file="FormsPageTest_validateCreateNewForms - 2018.12.23 at 00h 33m 24s.xml">
       <configuration name="FormsPageTest.validateCreateNewForms" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FormsPageTest_validateCreateNewForms - 2018.12.21 at 14h 27m 28s.xml">
+    <history-entry file="FormsPageTest_validateCreateNewForms - 2018.12.23 at 00h 37m 21s.xml">
       <configuration name="FormsPageTest.validateCreateNewForms" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FormsPageTest_validateCreateNewForms - 2018.12.21 at 14h 29m 02s.xml">
-      <configuration name="FormsPageTest.validateCreateNewForms" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="FormsPageTest_validateCreateNewForms - 2018.12.21 at 15h 05m 46s.xml">
-      <configuration name="FormsPageTest.validateCreateNewForms" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="FormsPageTest_validateCreateNewForms - 2018.12.21 at 15h 08m 06s.xml">
+    <history-entry file="FormsPageTest_validateCreateNewForms - 2018.12.23 at 00h 40m 32s.xml">
       <configuration name="FormsPageTest.validateCreateNewForms" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -580,17 +689,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32843137" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.30718955" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5060514" side_tool="true" weight="0.3120915" />
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.18003026" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3267974" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49394855" weight="0.24836601" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49394855" weight="0.50653595" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.6094771" />
       <window_info id="Capture Tool" order="3" />
       <window_info anchor="right" id="Jenkins" order="10" />
@@ -602,7 +711,6 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3970588" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.30718955" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info id="Nl-Palette" order="2" />
@@ -677,24 +785,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="94" />
+      <option name="time" value="100" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/target/classes/ExtentReportListener/ExtentReportListener.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="30" column="57" lean-forward="true" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0-beta1/testng-7.0.0-beta1.jar!/org/testng/Assert.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0-beta1/testng-7.0.0-beta1.jar!/org/testng/internal/ConfigurationMethod.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="481">
@@ -720,13 +814,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0-beta1/testng-7.0.0-beta1.jar!/org/testng/internal/Invoker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="483" selection-start-line="483" selection-end-line="483" />
         </state>
       </provider>
     </entry>
@@ -821,13 +908,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/crm/qa/utils/WebEventListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="21" column="74" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ExtentReportListener/ExtentReportListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -860,13 +940,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="98">
           <caret line="162" selection-start-line="162" selection-end-line="162" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.13.0/selenium-support-3.13.0.jar!/org/openqa/selenium/support/events/EventFiringWebDriver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9690">
-          <caret line="570" selection-start-line="570" selection-end-line="570" />
         </state>
       </provider>
     </entry>
@@ -933,13 +1006,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/crm/qa/pages/CompanyPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="99" column="34" selection-start-line="99" selection-start-column="34" selection-end-line="99" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/crm/qa/pages/CalendarPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -951,6 +1017,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -965,6 +1034,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -975,37 +1047,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/crm/qa/pages/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2873">
-          <caret line="185" column="29" selection-start-line="185" selection-start-column="29" selection-end-line="185" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/DocsPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="49" column="56" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/crm/qa/pages/FormsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="46" column="25" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/FormsPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="61" column="9" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1030,17 +1075,91 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/crm/qa/utils/TestUtils.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.13.0/selenium-remote-driver-3.13.0.jar!/org/openqa/selenium/interactions/Actions.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="82" column="33" lean-forward="true" selection-start-line="82" selection-start-column="33" selection-end-line="82" selection-end-column="33" />
+        <state relative-caret-position="198">
+          <caret line="428" selection-start-line="428" selection-end-line="428" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crm/qa/utils/WebEventListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.13.0/selenium-support-3.13.0.jar!/org/openqa/selenium/support/events/EventFiringWebDriver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="561" selection-start-line="561" selection-end-line="561" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.13.0/selenium-support-3.13.0.jar!/org/openqa/selenium/support/pagefactory/internal/LocatingElementHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0-beta1/testng-7.0.0-beta1.jar!/org/testng/internal/Invoker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="744" column="158" selection-start-line="744" selection-start-column="158" selection-end-line="744" selection-end-column="158" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crm/qa/pages/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="185" column="19" selection-start-line="185" selection-start-column="19" selection-end-line="185" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crm/qa/pages/CompanyPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="150" column="7" selection-start-line="150" selection-start-column="7" selection-end-line="150" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/FormsPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-425">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/CompanyPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="73" column="57" selection-start-line="73" selection-start-column="57" selection-end-line="73" selection-end-column="57" />
+        <state relative-caret-position="391">
+          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3351#3352#0" expanded="true" />
+            <element signature="e#3381#3382#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crm/qa/utils/TestUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crm/qa/pages/FormsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="31" column="24" lean-forward="true" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
