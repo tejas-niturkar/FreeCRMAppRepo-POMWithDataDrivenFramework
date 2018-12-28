@@ -4,11 +4,11 @@ import com.crm.qa.pages.FormsPage;
 import com.crm.qa.pages.HomePage;
 import com.crm.qa.pages.LoginPage;
 import com.crm.qa.utils.TestUtils;
+import com.sun.org.apache.xpath.internal.operations.Bool;
 import org.testng.Assert;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
+import java.awt.*;
 import java.io.IOException;
 
 public class FormsPageTest extends TestBase {
@@ -64,7 +64,19 @@ public class FormsPageTest extends TestBase {
     }
 
 
+    @Test (priority = 3)
+    public void ValidateAlertOnFormsPage() throws InterruptedException, AWTException {
+        homePage.clickOnFormsLink();
+        Thread.sleep(3000);
+        homePage.clickOnNewFormLink();
+        Thread.sleep(1000);
+        formsPage.saveButton.click();
+        Thread.sleep(1000);
+        TestUtils.robotClass();
 
+    }
+
+    @AfterTest
     public void tearDown(){
      driver.quit();
     }

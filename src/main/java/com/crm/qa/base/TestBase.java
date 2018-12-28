@@ -43,12 +43,13 @@ public class TestBase {
     public static void initialization (){
 
         String browserName = prop.getProperty("browser");
+
         if (browserName.equalsIgnoreCase("chrome")){
-            System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\Browsers\\chromedriver_win32\\chromedriver.exe");
+           System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\Browsers\\chromedriver_win32\\chromedriver.exe");
             driver = new ChromeDriver();
         }
-        else if (browserName.equalsIgnoreCase("firefox")){
-            System.setProperty("webdriver.geckodriver.driver","C:\\Selenium\\Browsers\\geckodriver-v0.10.0-win64\\geckodriver-new.exe");
+         else if (browserName.equalsIgnoreCase("firefox")){
+            System.setProperty("webdriver.gecko.driver","C:\\Selenium\\Browsers\\geckodriver-v0.10.0-win64\\geckodriver.exe");
             driver = new FirefoxDriver();
         }
 
@@ -58,6 +59,7 @@ public class TestBase {
         }
 
         e_driver = new EventFiringWebDriver(driver);
+
         // Now create object of EventListerHandler to register it with  EventFiringWebDriver
          eventListener = new WebEventListener() ;
          e_driver.register(eventListener);

@@ -26,7 +26,7 @@ public class FormsPage extends TestBase {
     WebElement confirmationMessage ;
 
     @FindBy (xpath = "//input[@type= 'submit' and @value= 'Save' and @class = 'button']")
-    WebElement saveButton ;
+    public WebElement saveButton ;
 
     @FindBy (xpath = "//td[contains(text(), 'Form:')]")
     public WebElement successFormLabel ;
