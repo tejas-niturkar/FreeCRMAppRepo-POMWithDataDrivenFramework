@@ -4,6 +4,7 @@ import com.crm.qa.pages.CasesPage;
 import com.crm.qa.pages.HomePage;
 import com.crm.qa.pages.LoginPage;
 import com.crm.qa.utils.TestUtils;
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -42,7 +43,7 @@ public class CasesPageTest extends TestBase {
         homePage.clickOnNewCasesLink();
         Thread.sleep(1000);
         casesPage.createNewCase(title,state,identifier,tags,description,type,priority);
-
+        Assert.assertTrue(casesPage.caseAddedLabel.isDisplayed(),"Case is  not added successfully");
     }
 
 }

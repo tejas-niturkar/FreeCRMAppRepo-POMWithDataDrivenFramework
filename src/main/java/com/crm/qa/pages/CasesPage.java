@@ -31,7 +31,7 @@ public class CasesPage extends TestBase {
     WebElement saveButton;
 
     @FindBy (xpath = "//td[contains(text(),'Case: 100')]")
-    WebElement CaseAddedLabel ;
+    public WebElement caseAddedLabel ;
 
 
     public CasesPage(){
@@ -56,7 +56,6 @@ public class CasesPage extends TestBase {
         //Thread.sleep(2000);
 
        saveButton.click();
-
 
 
     }
