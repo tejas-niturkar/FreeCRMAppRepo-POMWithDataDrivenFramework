@@ -65,12 +65,11 @@ public class HomePage extends TestBase {
     @FindBy (xpath = "//a[contains(text(),'New Form')]")
     WebElement newFormLink ;
 
+    @FindBy (xpath = "//a[contains(text(),'Cases')]")
+    WebElement casesLink ;
 
-
-
-
-
-
+    @FindBy (xpath = "//a[contains(text(),'New Case')]")
+    WebElement newCasesLink ;
 
 
 
@@ -128,6 +127,11 @@ public class HomePage extends TestBase {
     public FormsPage clickOnFormsLink(){
         formsLink.click();
         return new FormsPage();
+    }
+
+    public CasesPage clickOnCasesLink(){
+        casesLink.click();
+        return new CasesPage();
     }
 
 
@@ -189,6 +193,14 @@ public class HomePage extends TestBase {
         actions.moveToElement(formsLink).build().perform();
         Thread.sleep(1000);
         newFormLink.click();
+    }
+
+    public void clickOnNewCasesLink() throws InterruptedException {
+        Actions actions = new Actions(driver);
+        Thread.sleep(2000);
+        actions.moveToElement(casesLink).build().perform();
+        Thread.sleep(1000);
+        newCasesLink.click();
     }
 }
 
