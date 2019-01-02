@@ -50,6 +50,11 @@ public class CasesPage extends TestBase {
     @FindBy(xpath = "//legend[contains(text(),'Case Information')]")
     WebElement tempLabel ;
 
+    @FindBy (xpath = "//i[@title='Edit']")
+    WebElement editIcon ;
+
+    @FindBy (xpath = "//td[contains(text(),'Case:')]")
+    WebElement updatedCaseLabel ;
 
 
 
@@ -74,5 +79,19 @@ public class CasesPage extends TestBase {
         Select selectPriority = new Select(driver.findElement(By.xpath("//select[@name='priority']")));
         selectPriority.selectByVisibleText(strPriority);
         saveButton.click();
+    }
+
+    public void updateCase(String strTitle, String strDescription) throws InterruptedException {
+
+        editIcon.click();
+        Thread.sleep(2000);
+        title.clear();
+        title.sendKeys(strTitle);
+        description.sendKeys(strDescription);
+        saveButton.click();
+    }
+
+    public boolean validateUpdatedCaseLabel(){
+        return updatedCaseLabel.isDisplayed();
     }
 }

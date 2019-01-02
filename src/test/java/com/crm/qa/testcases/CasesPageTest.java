@@ -49,6 +49,16 @@ public class CasesPageTest extends TestBase {
     }
 
 
+    @Test (priority = 2)
+    public void validateUpdateCompany() throws InterruptedException {
+        Thread.sleep(1000);
+        casesPage.updateCase(" Updated " + testUtils.currentDateTime() , " - Description - updated case");
+        Thread.sleep(2000);
+        Assert.assertTrue(casesPage.validateUpdatedCaseLabel(),"Case is not updated" );
+    }
+
+
+
     @AfterTest
     public void tearDown(){
         driver.quit();

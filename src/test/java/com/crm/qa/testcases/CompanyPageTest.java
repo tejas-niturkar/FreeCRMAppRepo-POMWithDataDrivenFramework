@@ -73,7 +73,7 @@ public class CompanyPageTest extends TestBase {
     @Test (priority = 4)                           // Check company update
     public void validateUpdateCompany() throws InterruptedException {
         Thread.sleep(1000);
-        companyPage.updateCompany("Updated " + testUtils.currentDateTime(),  "Description - updated company by selenium");
+        companyPage.updateCompany("Updated " + testUtils.currentDateTime(),  "Description - updated company ");
     }
 
 

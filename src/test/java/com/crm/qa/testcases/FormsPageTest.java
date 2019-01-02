@@ -73,7 +73,6 @@ public class FormsPageTest extends TestBase {
         formsPage.saveButton.click();
         Thread.sleep(1000);
         TestUtils.robotClass();
-
     }
 
     @AfterTest
