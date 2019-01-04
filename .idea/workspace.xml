@@ -20,12 +20,10 @@
       <file leaf-file-name="CasesPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/crm/qa/pages/CasesPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="109" column="20" lean-forward="true" selection-start-line="109" selection-start-column="20" selection-end-line="109" selection-end-column="20" />
+            <state relative-caret-position="111">
+              <caret line="116" column="31" selection-start-line="116" selection-start-column="31" selection-end-line="116" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3422#3423#0" expanded="true" />
-                <element signature="e#3447#3448#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -34,8 +32,8 @@
       <file leaf-file-name="CasesPageTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/CasesPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+            <state relative-caret-position="111">
+              <caret line="67" column="18" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,8 +95,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/crm/qa/pages/TaskPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/CompanyPageTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/FormsPageTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/crm/qa/pages/CasesPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/CasesPageTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/crm/qa/pages/CasesPage.java" />
       </list>
     </option>
   </component>
@@ -488,18 +486,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CasesPageTest_validateUpdateCompany - 2019.01.02 at 17h 40m 34s.xml">
-      <configuration name="CasesPageTest.validateUpdateCompany" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CasesPageTest_validateUpdateCompany - 2019.01.02 at 17h 42m 25s.xml">
-      <configuration name="CasesPageTest.validateUpdateCompany" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CasesPageTest_validateUpdateCompany - 2019.01.02 at 17h 43m 24s.xml">
-      <configuration name="CasesPageTest.validateUpdateCompany" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CasesPageTest_validateUpdateCompany - 2019.01.02 at 17h 44m 21s.xml">
-      <configuration name="CasesPageTest.validateUpdateCompany" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="CasesPageTest_validateUpdateCompany - 2019.01.02 at 17h 47m 09s.xml">
       <configuration name="CasesPageTest.validateUpdateCompany" configurationId="TestNG" />
     </history-entry>
@@ -518,6 +504,18 @@
     <history-entry file="CasesPageTest_validateUpdateCompany - 2019.01.02 at 17h 57m 35s.xml">
       <configuration name="CasesPageTest.validateUpdateCompany" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="CasesPageTest_validateSearch - 2019.01.04 at 17h 47m 16s.xml">
+      <configuration name="CasesPageTest.validateSearch" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CasesPageTest_validateSearch - 2019.01.04 at 17h 48m 27s.xml">
+      <configuration name="CasesPageTest.validateSearch" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CasesPageTest_validateSearch - 2019.01.04 at 18h 05m 12s.xml">
+      <configuration name="CasesPageTest.validateSearch" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CasesPageTest_validateSearch - 2019.01.04 at 18h 07m 09s.xml">
+      <configuration name="CasesPageTest.validateSearch" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -529,30 +527,30 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32843137" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.30718955" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5060514" side_tool="true" weight="0.3120915" />
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.18003026" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3267974" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49394855" weight="0.50816995" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49394855" visible="true" weight="0.37254903" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.6094771" />
       <window_info id="Capture Tool" order="3" />
       <window_info anchor="right" id="Jenkins" order="10" />
       <window_info id="Designer" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21104388" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21104388" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24886535" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24961832" />
       <window_info id="UI Designer" order="5" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3970588" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.30718955" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info id="Nl-Palette" order="2" />
@@ -985,20 +983,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/crm/qa/pages/CasesPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="109" column="20" lean-forward="true" selection-start-line="109" selection-start-column="20" selection-end-line="109" selection-end-column="20" />
+        <state relative-caret-position="111">
+          <caret line="116" column="31" selection-start-line="116" selection-start-column="31" selection-end-line="116" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3422#3423#0" expanded="true" />
-            <element signature="e#3447#3448#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/CasesPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+        <state relative-caret-position="111">
+          <caret line="67" column="18" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

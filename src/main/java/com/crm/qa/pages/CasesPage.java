@@ -8,6 +8,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 
 import java.security.cert.X509Certificate;
+import java.util.List;
 import java.util.Set;
 
 public class CasesPage extends TestBase {
@@ -111,7 +112,17 @@ public class CasesPage extends TestBase {
         searchKeyword.sendKeys(strKeyword);
         searchButton.click();
     }
-    public boolean validateSearchCaseResult(){
-        return searchResult.isDisplayed();
+
+
+    public void validateSearchCaseResult(){
+        List<WebElement> elements = driver.findElements(By.xpath("//a[contains(text(),'Test Case')]"));
+        System.out.println("Number of search result: - " + elements.size());
+
+        for (int i =0 ; i < elements.size(); i++){
+            searchResult.isDisplayed();
+            System.out.println("Value of search result :- " + searchResult.getText());
+        }
     }
+
+
 }

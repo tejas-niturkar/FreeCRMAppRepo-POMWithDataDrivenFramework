@@ -65,7 +65,7 @@ public class CasesPageTest extends TestBase {
         Thread.sleep(1000);
         casesPage.searchCase("test");
         Thread.sleep(2000);
-        Assert.assertTrue(casesPage.validateSearchCaseResult(),"Search result is not matching");
+        casesPage.validateSearchCaseResult();
     }
 
 
