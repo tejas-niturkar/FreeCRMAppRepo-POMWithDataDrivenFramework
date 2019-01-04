@@ -68,11 +68,11 @@ public class CasesPageTest extends TestBase {
         Assert.assertTrue(casesPage.validateSearchCaseResult(),"Search result is not matching");
     }
 
-/*
+
     @AfterTest
     public void tearDown(){
         driver.quit();
     }
-*/
+
 
 }
