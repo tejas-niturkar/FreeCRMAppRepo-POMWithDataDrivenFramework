@@ -10,6 +10,8 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import javax.swing.plaf.TableHeaderUI;
+
 public class CasesPageTest extends TestBase {
 
     LoginPage loginPage;
@@ -50,7 +52,7 @@ public class CasesPageTest extends TestBase {
 
 
     @Test (priority = 2)
-    public void validateUpdateCompany() throws InterruptedException {
+    public void validateUpdateCase() throws InterruptedException {
         Thread.sleep(1000);
         casesPage.updateCase(" Updated " + testUtils.currentDateTime() , " - Description - updated case");
         Thread.sleep(2000);
@@ -58,10 +60,19 @@ public class CasesPageTest extends TestBase {
     }
 
 
+    @Test (priority = 3)
+    public void validateSearch() throws InterruptedException {
+        Thread.sleep(1000);
+        casesPage.searchCase("test");
+        Thread.sleep(2000);
+        Assert.assertTrue(casesPage.validateSearchCaseResult(),"Search result is not matching");
+    }
 
+/*
     @AfterTest
     public void tearDown(){
         driver.quit();
     }
+*/
 
 }

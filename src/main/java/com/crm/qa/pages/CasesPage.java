@@ -57,6 +57,17 @@ public class CasesPage extends TestBase {
     WebElement updatedCaseLabel ;
 
 
+    @FindBy (xpath = "//input[@name='cs_keyword']")
+    WebElement searchKeyword ;
+
+    @FindBy (xpath = "//input[@name='cs_submit' and @value= 'Search']")
+    WebElement searchButton ;
+
+    @FindBy (xpath = "//a[contains(text(),'Test Case')]")
+    WebElement searchResult ;
+
+
+
 
     public CasesPage(){
         PageFactory.initElements(driver,this);
@@ -93,5 +104,14 @@ public class CasesPage extends TestBase {
 
     public boolean validateUpdatedCaseLabel(){
         return updatedCaseLabel.isDisplayed();
+    }
+
+
+    public void searchCase(String strKeyword){
+        searchKeyword.sendKeys(strKeyword);
+        searchButton.click();
+    }
+    public boolean validateSearchCaseResult(){
+        return searchResult.isDisplayed();
     }
 }
