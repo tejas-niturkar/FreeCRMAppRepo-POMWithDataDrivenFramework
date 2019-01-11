@@ -15,12 +15,12 @@ public class CalendarPage extends TestBase {
 
 
     @FindBy (xpath = "//input[@name= 'title']")
-    WebElement title ;
+    public WebElement titleField ;
 
     @FindBy (xpath = "//img[@title= 'Date selector']")
     WebElement fromDate ;
 
-    @FindBy (xpath = "//td[contains(text(), '30') and @class= 'day weekend']")
+    @FindBy (xpath = "//td[contains(text(), '30') and @class= 'day']")
     WebElement fromDateSelectFromCalendar ;
 
     @FindBy (xpath = "//input[@value= '==ADD==>']")
@@ -43,7 +43,7 @@ public class CalendarPage extends TestBase {
 
 
       public void createNewCalendarEventWithoutAssignedToSelected(String strTitle, String strCategory) throws InterruptedException, AWTException {
-       title.sendKeys(strTitle);
+       titleField.sendKeys(strTitle);
        fromDate.click();
        fromDateSelectFromCalendar.click();
        Select selectCategory = new Select(driver.findElement(By.name("category")));
@@ -54,7 +54,7 @@ public class CalendarPage extends TestBase {
      }
 
     public void createNewCalendarEvent(String strTitle, String strCategory) throws InterruptedException {
-        title.sendKeys(strTitle);
+        titleField.sendKeys(strTitle);
         fromDate.click();
         fromDateSelectFromCalendar.click();
         Select selectCategory = new Select(driver.findElement(By.name("category")));

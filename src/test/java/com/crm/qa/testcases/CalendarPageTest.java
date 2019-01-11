@@ -53,8 +53,10 @@ public class CalendarPageTest extends TestBase {
     @Test (priority = 1, dataProvider = "getCRMTestData")          // To check alert message comes if Assigned To  field not selected.
     public void validateCreateNewCalendarEventWithoutAssignedToSelected(String title, String category) throws InterruptedException, AWTException {
         homePage.clickOnNewCalendarEventLink();
-        Thread.sleep(1000);
+        Thread.sleep(2000);
         calendarPage.createNewCalendarEventWithoutAssignedToSelected(title, category);
+        Thread.sleep(2000);
+        Assert.assertTrue(calendarPage.titleField.isDisplayed(),"Test case not passed");
     }
 
 
@@ -69,9 +71,9 @@ public class CalendarPageTest extends TestBase {
 
 
 
-    @AfterMethod
-    public void tearDown(){
+     @AfterMethod
+      public void tearDown(){
         driver.quit();
-    }
+     }
 
 }

@@ -173,17 +173,17 @@ public class HomePage extends TestBase {
 
     public void clickOnNewCompanyLink() throws InterruptedException {
         Actions actions = new Actions(driver);
-        Thread.sleep(1000);
+        Thread.sleep(2000);
         actions.moveToElement(companiesLink).build().perform();
-        Thread.sleep(1000);
+        Thread.sleep(2000);
         newCompanyLink.click();
     }
 
     public void clickOnNewCalendarEventLink() throws InterruptedException {
         Actions actions = new Actions(driver);
-        Thread.sleep(1000);
+        Thread.sleep(2000);
         actions.moveToElement(calendarLink).build().perform();
-        Thread.sleep(1000);
+        Thread.sleep(2000);
         calendarNewEventLink.click();
     }
 
