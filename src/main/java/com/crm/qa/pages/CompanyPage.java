@@ -82,6 +82,9 @@ public class CompanyPage extends TestBase {
     @FindBy (xpath = " //input[@class= 'button' and @value= 'Save' and @class= 'button']")
     WebElement saveButton ;
 
+    @FindBy (xpath = "//td[contains(text(),'Company')]")
+    public WebElement companySuccessLabel ;
+
 
 
     @FindBy (xpath = "//i[@title='Edit']")

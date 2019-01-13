@@ -66,7 +66,8 @@ public class CompanyPageTest extends TestBase {
         companyPage.createNewCompany(company,industry,annualRevenue,employees,status,category,priority,source,identifier,
                                      vatTaxNumber,addressTitle,defaultAddress,city,state,zip,country,tags,description,phone,
                                      fax,website,email,symbol,parentCompany);
-
+        Thread.sleep(2000);
+        Assert.assertTrue(companyPage.companySuccessLabel.isDisplayed(),"Company not added successfully");
     }
 
 
@@ -74,16 +75,16 @@ public class CompanyPageTest extends TestBase {
     public void validateUpdateCompany() throws InterruptedException {
         Thread.sleep(1000);
         companyPage.updateCompany("Updated " + testUtils.currentDateTime(),  "Description - updated company ");
+        Thread.sleep(2000);
+        Assert.assertTrue(companyPage.companySuccessLabel.isDisplayed(),"Company is  not updated successfully");
     }
 
 
 
     @AfterMethod
     public void tearDown (){
-         driver.quit();
+        driver.quit();
     }
-
-
 
 }
 

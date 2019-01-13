@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3ef3f686-ecd2-44eb-bc88-0953455da636" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/crm/qa/pages/CasesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crm/qa/pages/CasesPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/CasesPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/CasesPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/crm/qa/testcases/CalendarPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/crm/qa/testcases/CalendarPageTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/crm/qa/testcases/CasesPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/crm/qa/testcases/CasesPageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/crm/qa/pages/CompanyPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crm/qa/pages/CompanyPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/CompanyPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/CompanyPageTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,15 +17,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DealsPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/crm/qa/pages/DealsPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1139">
-              <caret line="74" column="22" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TestUtils.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/crm/qa/utils/TestUtils.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -54,19 +43,21 @@
       <file leaf-file-name="CalendarPageTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/CalendarPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="904">
+            <state relative-caret-position="394">
               <caret line="75" column="22" selection-start-line="75" selection-start-column="22" selection-end-line="75" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CasesPageTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CasesPageTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/CasesPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="68" column="85" selection-start-line="68" selection-start-column="85" selection-end-line="68" selection-end-column="85" />
+            <state relative-caret-position="595">
+              <caret line="77" column="1" lean-forward="true" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2412#2413#0" expanded="true" />
+                <element signature="e#2441#2442#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -75,11 +66,20 @@
       <file leaf-file-name="CasesPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/crm/qa/pages/CasesPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="116" column="32" selection-start-line="116" selection-start-column="32" selection-end-line="116" selection-end-column="32" />
+            <state relative-caret-position="255">
+              <caret line="116" column="31" selection-start-line="116" selection-start-column="31" selection-end-line="116" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CompanyPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/crm/qa/pages/CompanyPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="85" column="31" lean-forward="true" selection-start-line="85" selection-start-column="31" selection-end-line="85" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -93,11 +93,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CompanyPageTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CompanyPageTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/CompanyPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+            <state relative-caret-position="75">
+              <caret line="69" column="38" selection-start-line="69" selection-start-column="38" selection-end-line="69" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -152,14 +152,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/crm/qa/pages/DealsPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/crm/qa/pages/ReportsPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/ReportsPageTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/crm/qa/pages/CompanyPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/crm/qa/base/TestBase.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/crm/qa/config/config.properties" />
         <option value="$PROJECT_DIR$/src/resources/testng.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/crm/qa/pages/DocsPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/crm/qa/pages/FormsPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/crm/qa/pages/TaskPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/CompanyPageTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/FormsPageTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/crm/qa/utils/TestUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/crm/qa/pages/HomePage.java" />
@@ -167,6 +165,8 @@
         <option value="$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/CalendarPageTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/crm/qa/pages/CasesPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/CasesPageTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/crm/qa/pages/CompanyPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/CompanyPageTest.java" />
       </list>
     </option>
   </component>
@@ -309,7 +309,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.CasesPageTest.validateSearch">
+  <component name="RunManager" selected="TestNG.CompanyPageTest.validateUpdateCompany">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -346,35 +346,6 @@
       <option name="PACKAGE_NAME" value="com.crm.qa.testcases" />
       <option name="MAIN_CLASS_NAME" value="com.crm.qa.testcases.CalendarPageTest" />
       <option name="METHOD_NAME" value="validateCreateNewCalendarEventWithoutAssignedToSelected" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="CasesPageTest.validateCreateNewCase" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="FreeCRMTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.crm.qa.testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.crm.qa.testcases" />
-      <option name="MAIN_CLASS_NAME" value="com.crm.qa.testcases.CasesPageTest" />
-      <option name="METHOD_NAME" value="validateCreateNewCase" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -448,7 +419,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="FormsPageTest.ValidateAlertOnFormsPage" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CompanyPageTest.validateCreateNewCompany" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="FreeCRMTest" />
       <extension name="coverage">
         <pattern>
@@ -460,8 +431,37 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="com.crm.qa.testcases" />
-      <option name="MAIN_CLASS_NAME" value="com.crm.qa.testcases.FormsPageTest" />
-      <option name="METHOD_NAME" value="ValidateAlertOnFormsPage" />
+      <option name="MAIN_CLASS_NAME" value="com.crm.qa.testcases.CompanyPageTest" />
+      <option name="METHOD_NAME" value="validateCreateNewCompany" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="CompanyPageTest.validateUpdateCompany" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FreeCRMTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.crm.qa.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.crm.qa.testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.crm.qa.testcases.CompanyPageTest" />
+      <option name="METHOD_NAME" value="validateUpdateCompany" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -515,19 +515,19 @@
       <method />
     </configuration>
     <list>
-      <item itemvalue="TestNG.FormsPageTest.ValidateAlertOnFormsPage" />
-      <item itemvalue="TestNG.CasesPageTest.validateCreateNewCase" />
       <item itemvalue="TestNG.CasesPageTest.validateUpdateCompany" />
       <item itemvalue="TestNG.CasesPageTest.validateSearch" />
       <item itemvalue="TestNG.CalendarPageTest.validateCreateNewCalendarEventWithoutAssignedToSelected" />
+      <item itemvalue="TestNG.CompanyPageTest.validateCreateNewCompany" />
+      <item itemvalue="TestNG.CompanyPageTest.validateUpdateCompany" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CompanyPageTest.validateUpdateCompany" />
+        <item itemvalue="TestNG.CompanyPageTest.validateCreateNewCompany" />
         <item itemvalue="TestNG.CasesPageTest.validateSearch" />
         <item itemvalue="TestNG.CalendarPageTest.validateCreateNewCalendarEventWithoutAssignedToSelected" />
         <item itemvalue="TestNG.CasesPageTest.validateUpdateCompany" />
-        <item itemvalue="TestNG.CasesPageTest.validateCreateNewCase" />
-        <item itemvalue="TestNG.FormsPageTest.ValidateAlertOnFormsPage" />
       </list>
     </recent_temporary>
   </component>
@@ -548,21 +548,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CalendarPageTest_validateCreateNewCalendarEventWithoutAssignedToSelected - 2019.01.11 at 14h 21m 27s.xml">
-      <configuration name="CalendarPageTest.validateCreateNewCalendarEventWithoutAssignedToSelected" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CalendarPageTest_validateCreateNewCalendarEventWithoutAssignedToSelected - 2019.01.11 at 14h 22m 04s.xml">
-      <configuration name="CalendarPageTest.validateCreateNewCalendarEventWithoutAssignedToSelected" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CalendarPageTest_validateCreateNewCalendarEventWithoutAssignedToSelected - 2019.01.11 at 14h 23m 25s.xml">
-      <configuration name="CalendarPageTest.validateCreateNewCalendarEventWithoutAssignedToSelected" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CalendarPageTest_validateCreateNewCalendarEventWithoutAssignedToSelected - 2019.01.11 at 14h 24m 21s.xml">
-      <configuration name="CalendarPageTest.validateCreateNewCalendarEventWithoutAssignedToSelected" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CalendarPageTest_validateCreateNewCalendarEventWithoutAssignedToSelected - 2019.01.11 at 14h 26m 30s.xml">
-      <configuration name="CalendarPageTest.validateCreateNewCalendarEventWithoutAssignedToSelected" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="CalendarPageTest_validateCreateNewCalendarEventWithoutAssignedToSelected - 2019.01.11 at 14h 42m 16s.xml">
       <configuration name="CalendarPageTest.validateCreateNewCalendarEventWithoutAssignedToSelected" configurationId="TestNG" />
     </history-entry>
@@ -577,6 +562,21 @@
     </history-entry>
     <history-entry file="CasesPageTest_validateSearch - 2019.01.13 at 21h 54m 54s.xml">
       <configuration name="CasesPageTest.validateSearch" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CasesPageTest_validateSearch - 2019.01.13 at 21h 57m 30s.xml">
+      <configuration name="CasesPageTest.validateSearch" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CompanyPageTest_validateCreateNewCompany - 2019.01.13 at 22h 03m 43s.xml">
+      <configuration name="CompanyPageTest.validateCreateNewCompany" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CompanyPageTest_validateCreateNewCompany - 2019.01.13 at 22h 08m 16s.xml">
+      <configuration name="CompanyPageTest.validateCreateNewCompany" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CompanyPageTest_validateCreateNewCompany - 2019.01.13 at 22h 10m 30s.xml">
+      <configuration name="CompanyPageTest.validateCreateNewCompany" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CompanyPageTest_validateUpdateCompany - 2019.01.13 at 22h 11m 28s.xml">
+      <configuration name="CompanyPageTest.validateUpdateCompany" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView" selected-index="1">
@@ -601,8 +601,8 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5060514" side_tool="true" weight="0.3120915" />
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.18003026" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3267974" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49394855" weight="0.3382353" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.4101307" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49394855" visible="true" weight="0.28104576" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.4101307" />
       <window_info id="Capture Tool" order="3" />
       <window_info anchor="right" id="Jenkins" order="10" />
       <window_info id="Designer" order="4" />
@@ -687,7 +687,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="129" />
+      <option name="time" value="130" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -957,13 +957,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/crm/qa/pages/CompanyPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="143" column="16" selection-start-line="143" selection-start-column="16" selection-end-line="143" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/crm/qa/utils/WebEventListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1581">
@@ -982,13 +975,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1139">
           <caret line="74" column="22" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/CompanyPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1023,30 +1009,46 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/CalendarPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="904">
-          <caret line="75" column="22" selection-start-line="75" selection-start-column="22" selection-end-line="75" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/crm/qa/pages/CasesPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="116" column="32" selection-start-line="116" selection-start-column="32" selection-end-line="116" selection-end-column="32" />
+        <state relative-caret-position="255">
+          <caret line="116" column="31" selection-start-line="116" selection-start-column="31" selection-end-line="116" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/CalendarPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="75" column="22" selection-start-line="75" selection-start-column="22" selection-end-line="75" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/CasesPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="68" column="85" selection-start-line="68" selection-start-column="85" selection-end-line="68" selection-end-column="85" />
+        <state relative-caret-position="595">
+          <caret line="77" column="1" lean-forward="true" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2412#2413#0" expanded="true" />
+            <element signature="e#2441#2442#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crm/qa/pages/CompanyPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="85" column="31" lean-forward="true" selection-start-line="85" selection-start-column="31" selection-end-line="85" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/CompanyPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="69" column="38" selection-start-line="69" selection-start-column="38" selection-end-line="69" selection-end-column="38" />
         </state>
       </provider>
     </entry>
