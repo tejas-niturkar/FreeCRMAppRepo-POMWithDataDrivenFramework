@@ -66,6 +66,7 @@ public class CasesPageTest extends TestBase {
         casesPage.searchCase("test");
         Thread.sleep(2000);
         casesPage.validateSearchCaseResult();
+        Assert.assertTrue(casesPage.searchResult.isDisplayed(),"Search is not working");
     }
 
 
@@ -73,6 +74,5 @@ public class CasesPageTest extends TestBase {
     public void tearDown(){
         driver.quit();
     }
-
 
 }

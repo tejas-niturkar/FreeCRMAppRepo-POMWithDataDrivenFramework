@@ -65,7 +65,7 @@ public class CasesPage extends TestBase {
     WebElement searchButton ;
 
     @FindBy (xpath = "//a[contains(text(),'Test Case')]")
-    WebElement searchResult ;
+    public WebElement searchResult ;
 
 
 
