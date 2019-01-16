@@ -47,14 +47,16 @@ public class ContactsPageTest extends TestBase {
      public void selectContactsTest() throws InterruptedException {
          Thread.sleep(2000);
          contactsPage.selectContactsByName("Tejas Niturkar");
+         Assert.assertTrue(contactsPage.validateSelectedContact());
      }
 
 
     @Test (priority = 3)
-    public void selectMltipleContactsTest() throws InterruptedException {
+    public void selectMultipleContactsTest() throws InterruptedException {
          Thread.sleep(3000);
         contactsPage.selectContactsByName("Tejas Niturkar");
         contactsPage.selectContactsByName("Rahul Dravid");
+        Assert.assertTrue(contactsPage.validateSelectedContact());
     }
 
 
@@ -84,8 +86,8 @@ public class ContactsPageTest extends TestBase {
 
 
 
-    @AfterMethod
+   @AfterMethod
      public void tearDown (){
-         driver.quit();
-     }
+        driver.quit();
+    }
 }

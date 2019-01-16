@@ -12,6 +12,8 @@ import org.openqa.selenium.support.ui.Select;
 
 public class ContactsPage extends TestBase {
 
+    public  WebElement selectContact ;
+
     @FindBy (xpath = "//td[contains(text(),'Contacts') ]")
     WebElement contactsLabel ;
 
@@ -54,7 +56,10 @@ public class ContactsPage extends TestBase {
     WebElement clickOnSearchedContacts ;
 
     @FindBy (xpath = "//td[contains(text(), 'Mithali Raj')]")
-    WebElement contactDetailsPagelabel ;
+    WebElement contactDetailsPageLabel ;
+
+
+
 
     public ContactsPage (){
         PageFactory.initElements(driver,this);
@@ -66,11 +71,16 @@ public class ContactsPage extends TestBase {
        return contactsLabel.isDisplayed();
     }
 
-    public void selectContactsByName(String name) {
-        driver.findElement(By.xpath("//a[text()='"+ name +"']//parent::td[@class='datalistrow']" +
-                "//preceding-sibling::td[@class='datalistrow']//input[@name='contact_id']")).click();
+    public WebElement selectContactsByName(String name) {
+       selectContact = driver.findElement(By.xpath("//a[text()='"+ name +"']//parent::td[@class='datalistrow']" +
+                "//preceding-sibling::td[@class='datalistrow']//input[@name='contact_id']")) ;
+      return selectContact ;
     }
 
+    public boolean validateSelectedContact()  {
+        selectContact.click();
+       return selectContact.isSelected();
+    }
 
     public void createNewContact(String title, String fName, String lName, String comp, String nName,
                                  String position, String depart, String category, String status, String ph) {
@@ -113,7 +123,7 @@ public class ContactsPage extends TestBase {
 
     public boolean validateContactDetailsPageLabel() throws InterruptedException {
         Thread.sleep(1000);
-        return contactDetailsPagelabel.isDisplayed();
+        return contactDetailsPageLabel.isDisplayed();
 
     }
 
