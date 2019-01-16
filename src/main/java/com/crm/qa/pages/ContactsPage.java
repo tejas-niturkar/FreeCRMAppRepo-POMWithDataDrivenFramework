@@ -41,6 +41,9 @@ public class ContactsPage extends TestBase {
     @FindBy (xpath = " //input[@type= 'submit' and @value = 'Save']")
     WebElement saveBtn;
 
+    @FindBy (xpath = "//strong[contains(text(), 'Title')]")
+    public WebElement contactSuccessTitleLabel ;
+
 //------------------------- Search Contact Page Objects----------------------------------------
 
     @FindBy (xpath = "//input[@name= 'cs_company_name']")

@@ -75,6 +75,7 @@ public class ContactsPageTest extends TestBase {
          homePage.clickOnNewContactsLink();
          Thread.sleep(2000);
          contactsPage.createNewContact(title,firstname,lastname,company,nickName,position,department,category,status,phone);
+         Assert.assertTrue(contactsPage.contactSuccessTitleLabel.isDisplayed());
      }
 
     @Test (priority = 5)
