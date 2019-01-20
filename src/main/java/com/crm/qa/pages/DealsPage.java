@@ -61,6 +61,10 @@ public class DealsPage extends TestBase {
     @FindBy (xpath = "//input[@type= 'submit']//preceding-sibling::input")
     WebElement saveBtn ;
 
+    @FindBy (xpath = "//td[contains(text(),'Deal: 10')]")
+    public WebElement saveDealSuccessLabel ;
+
+
 
     DealsPage (){
         PageFactory.initElements(driver,this);
@@ -87,7 +91,6 @@ public class DealsPage extends TestBase {
         tags.sendKeys(strTags);
         description.sendKeys(strDesc);
         nextStp.sendKeys(strNextStep);
-        // product.sendKeys(strProduct);
         quantity.sendKeys(strQuantity);
 
         Select selectType = new Select(driver.findElement(By.name("type")));

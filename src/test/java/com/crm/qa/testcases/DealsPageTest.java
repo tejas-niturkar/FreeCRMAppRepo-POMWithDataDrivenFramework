@@ -59,11 +59,13 @@ public class DealsPageTest extends TestBase {
         Thread.sleep(1000);
         dealsPage.createNewDeals(title,company,primaryContact,amount,probability,commission,identifier,tags,description,
                                  nextStep,quantity,type,source, predictedCloseDate, actualCloseDate);
+        Thread.sleep(2000);
+        Assert.assertTrue(dealsPage.saveDealSuccessLabel.isDisplayed(),"Deal is not added successfully");
     }
 
 
     @AfterMethod
     public void tearDown(){
-        driver.quit();
+       driver.quit();
     }
 }
