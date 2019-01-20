@@ -52,6 +52,8 @@ public class DocsPageTest extends TestBase {
         homePage.clickOnNewDocumentLink();
         Thread.sleep(1000);
         docsPage.addNewDocument(title,description,version);
+        Thread.sleep(2000);
+        Assert.assertTrue(docsPage.dealsSuccessLabel.isDisplayed(),"Document is  not added successfully");
     }
 
     @AfterMethod

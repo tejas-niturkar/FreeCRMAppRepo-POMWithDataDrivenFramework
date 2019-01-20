@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ef3f686-ecd2-44eb-bc88-0953455da636" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/crm/qa/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crm/qa/base/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/crm/qa/pages/DealsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crm/qa/pages/DealsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/DealsPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/DealsPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/crm/qa/base/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/crm/qa/base/TestBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/crm/qa/pages/CalendarPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/crm/qa/pages/CalendarPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/crm/qa/testcases/CalendarPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/crm/qa/testcases/CalendarPageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/crm/qa/pages/DocsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crm/qa/pages/DocsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/DocsPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/DocsPageTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,11 +38,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DealsPageTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DealsPageTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/DealsPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="61" column="25" selection-start-line="61" selection-start-column="25" selection-end-line="61" selection-end-column="25" />
+            <state relative-caret-position="155">
+              <caret line="68" column="6" lean-forward="true" selection-start-line="68" selection-start-column="6" selection-end-line="68" selection-end-column="6" />
+              <folding>
+                <element signature="e#2360#2361#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DocsPageTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/DocsPageTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="137">
+              <caret line="55" column="103" selection-start-line="55" selection-start-column="103" selection-end-line="55" selection-end-column="103" />
             </state>
           </provider>
         </entry>
@@ -95,17 +102,8 @@
       <file leaf-file-name="DocsPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/crm/qa/pages/DocsPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="47" selection-start-line="47" selection-end-line="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/crm/qa/utils/TestUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="66" column="17" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
+            <state relative-caret-position="386">
+              <caret line="42" column="26" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -151,14 +149,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/crm/qa/pages/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/crm/qa/pages/SignupPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/SignupPageTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/DocsPageTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/TasksPageTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/LoginpageTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/crm/qa/pages/ReportsPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/ReportsPageTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/crm/qa/config/config.properties" />
         <option value="$PROJECT_DIR$/src/resources/testng.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/crm/qa/pages/DocsPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/crm/qa/pages/FormsPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/crm/qa/pages/TaskPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/FormsPageTest.java" />
@@ -175,6 +171,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/crm/qa/base/TestBase.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/crm/qa/pages/DealsPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/DealsPageTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/crm/qa/pages/DocsPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/DocsPageTest.java" />
       </list>
     </option>
   </component>
@@ -316,7 +314,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.DealsPageTest.validateCreateNewDeals">
+  <component name="RunManager" selected="TestNG.DocsPageTest.validateAddNewDocument">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -353,35 +351,6 @@
       <option name="PACKAGE_NAME" value="com.crm.qa.testcases" />
       <option name="MAIN_CLASS_NAME" value="com.crm.qa.testcases.CalendarPageTest" />
       <option name="METHOD_NAME" value="validateCreateNewCalendarEventWithoutAssignedToSelected" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="ContactsPageTest.selectContactsTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="FreeCRMTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.crm.qa.testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.crm.qa.testcases" />
-      <option name="MAIN_CLASS_NAME" value="com.crm.qa.testcases.ContactsPageTest" />
-      <option name="METHOD_NAME" value="selectContactsTest" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -484,6 +453,35 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration name="DocsPageTest.validateAddNewDocument" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FreeCRMTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.crm.qa.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.crm.qa.testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.crm.qa.testcases.DocsPageTest" />
+      <option name="METHOD_NAME" value="validateAddNewDocument" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -522,19 +520,19 @@
       <method />
     </configuration>
     <list>
-      <item itemvalue="TestNG.ContactsPageTest.selectContactsTest" />
       <item itemvalue="TestNG.ContactsPageTest.selectMultipleContactsTest" />
       <item itemvalue="TestNG.ContactsPageTest.validateCreateNewContact" />
       <item itemvalue="TestNG.CalendarPageTest.validateCreateNewCalendarEventWithoutAssignedToSelected" />
       <item itemvalue="TestNG.DealsPageTest.validateCreateNewDeals" />
+      <item itemvalue="TestNG.DocsPageTest.validateAddNewDocument" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DocsPageTest.validateAddNewDocument" />
         <item itemvalue="TestNG.DealsPageTest.validateCreateNewDeals" />
         <item itemvalue="TestNG.CalendarPageTest.validateCreateNewCalendarEventWithoutAssignedToSelected" />
         <item itemvalue="TestNG.ContactsPageTest.validateCreateNewContact" />
         <item itemvalue="TestNG.ContactsPageTest.selectMultipleContactsTest" />
-        <item itemvalue="TestNG.ContactsPageTest.selectContactsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -555,24 +553,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ContactsPageTest_selectMultipleContactsTest - 2019.01.16 at 15h 42m 15s.xml">
-      <configuration name="ContactsPageTest.selectMultipleContactsTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ContactsPageTest_validateCreateNewContact - 2019.01.16 at 16h 45m 36s.xml">
-      <configuration name="ContactsPageTest.validateCreateNewContact" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CalendarPageTest_validateCreateNewCalendarEventWithoutAssignedToSelected - 2019.01.20 at 11h 39m 30s.xml">
-      <configuration name="CalendarPageTest.validateCreateNewCalendarEventWithoutAssignedToSelected" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CalendarPageTest_validateCreateNewCalendarEventWithoutAssignedToSelected - 2019.01.20 at 11h 41m 24s.xml">
-      <configuration name="CalendarPageTest.validateCreateNewCalendarEventWithoutAssignedToSelected" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="DealsPageTest_validateCreateNewDeals - 2019.01.20 at 12h 00m 59s.xml">
-      <configuration name="DealsPageTest.validateCreateNewDeals" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="DealsPageTest_validateCreateNewDeals - 2019.01.20 at 12h 03m 55s.xml">
-      <configuration name="DealsPageTest.validateCreateNewDeals" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="DealsPageTest_validateCreateNewDeals - 2019.01.20 at 12h 11m 31s.xml">
       <configuration name="DealsPageTest.validateCreateNewDeals" configurationId="TestNG" />
     </history-entry>
@@ -584,6 +564,24 @@
     </history-entry>
     <history-entry file="DealsPageTest_validateCreateNewDeals - 2019.01.20 at 12h 16m 29s.xml">
       <configuration name="DealsPageTest.validateCreateNewDeals" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DealsPageTest_validateCreateNewDeals - 2019.01.20 at 12h 19m 11s.xml">
+      <configuration name="DealsPageTest.validateCreateNewDeals" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DocsPageTest_validateAddNewDocument - 2019.01.20 at 12h 22m 55s.xml">
+      <configuration name="DocsPageTest.validateAddNewDocument" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DocsPageTest_validateAddNewDocument - 2019.01.20 at 12h 24m 18s.xml">
+      <configuration name="DocsPageTest.validateAddNewDocument" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DocsPageTest_validateAddNewDocument - 2019.01.20 at 12h 29m 18s.xml">
+      <configuration name="DocsPageTest.validateAddNewDocument" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DocsPageTest_validateAddNewDocument - 2019.01.20 at 12h 30m 53s.xml">
+      <configuration name="DocsPageTest.validateAddNewDocument" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DocsPageTest_validateAddNewDocument - 2019.01.20 at 12h 32m 55s.xml">
+      <configuration name="DocsPageTest.validateAddNewDocument" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView" selected-index="1">
@@ -608,8 +606,8 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5060514" side_tool="true" weight="0.3120915" />
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.18003026" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3267974" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49394855" weight="0.48764417" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.4101307" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49394855" visible="true" weight="0.48764417" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.4085667" />
       <window_info id="Capture Tool" order="3" />
       <window_info anchor="right" id="Jenkins" order="10" />
       <window_info id="Designer" order="4" />
@@ -824,13 +822,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/DocsPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="49" column="56" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.13.0/selenium-remote-driver-3.13.0.jar!/org/openqa/selenium/interactions/Actions.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -997,13 +988,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/crm/qa/pages/DocsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/CalendarPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
@@ -1063,8 +1047,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/DealsPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="61" column="25" selection-start-line="61" selection-start-column="25" selection-end-line="61" selection-end-column="25" />
+        <state relative-caret-position="155">
+          <caret line="68" column="6" lean-forward="true" selection-start-line="68" selection-start-column="6" selection-end-line="68" selection-end-column="6" />
+          <folding>
+            <element signature="e#2360#2361#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crm/qa/pages/DocsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="42" column="26" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/DocsPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="55" column="103" selection-start-line="55" selection-start-column="103" selection-end-line="55" selection-end-column="103" />
         </state>
       </provider>
     </entry>

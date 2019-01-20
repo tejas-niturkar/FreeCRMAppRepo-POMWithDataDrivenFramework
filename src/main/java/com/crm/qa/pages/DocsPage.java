@@ -26,6 +26,9 @@ public class DocsPage extends TestBase {
     @FindBy (xpath = "//input[@type='submit' and @value= 'Save']")
     WebElement saveBtn ;
 
+    @FindBy (xpath = "//strong[contains(text(),'Title')]")
+    public WebElement dealsSuccessLabel ;
+
     DocsPage(){
         PageFactory.initElements(driver,this);
     }
