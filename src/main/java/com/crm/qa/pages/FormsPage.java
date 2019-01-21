@@ -11,7 +11,7 @@ public class FormsPage extends TestBase {
     WebElement feedbackFormsLabel ;
 
     @FindBy (xpath = "//input[@name= 'title']")
-    WebElement formTitle ;
+    public WebElement formTitle ;
 
     @FindBy (xpath = "//input[@name= 'report_email']")
     WebElement reportMail ;

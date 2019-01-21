@@ -57,6 +57,7 @@ public class FormsPageTest extends TestBase {
         formsPage.createNewForm(formTitle, reportMail, description, welcomeMessage, confirmationMessage);
         Thread.sleep(2000);
         boolean verifyLabel = formsPage.successFormLabel.isDisplayed();
+        Assert.assertTrue(formsPage.successFormLabel.isDisplayed(),"FOrm is not added successfully");
 
         if (verifyLabel!=true){
         TestUtils.takeScreenshotAtEndOfTest();
@@ -73,11 +74,14 @@ public class FormsPageTest extends TestBase {
         formsPage.saveButton.click();
         Thread.sleep(1000);
         TestUtils.robotClass();
+        Thread.sleep(2000);
+        Assert.assertTrue(formsPage.formTitle.isDisplayed(),"Alert not handled successfully");
     }
 
     @AfterTest
     public void tearDown(){
-     driver.quit();
+
+        // driver.quit();
     }
 
 }

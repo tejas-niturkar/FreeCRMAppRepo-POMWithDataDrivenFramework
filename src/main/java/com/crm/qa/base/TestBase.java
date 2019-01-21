@@ -77,4 +77,5 @@ public class TestBase {
         driver.manage().timeouts().implicitlyWait(TestUtils.IMPLICIT_WAIT, SECONDS);
     }
 
+
 }
