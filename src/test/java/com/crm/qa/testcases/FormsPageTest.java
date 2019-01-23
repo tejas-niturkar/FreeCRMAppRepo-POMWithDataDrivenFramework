@@ -80,8 +80,7 @@ public class FormsPageTest extends TestBase {
 
     @AfterTest
     public void tearDown(){
-
-        // driver.quit();
+        driver.quit();
     }
 
 }

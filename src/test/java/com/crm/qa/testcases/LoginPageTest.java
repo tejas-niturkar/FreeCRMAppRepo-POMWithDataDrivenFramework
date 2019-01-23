@@ -49,8 +49,8 @@ public class LoginPageTest  extends TestBase {
     @Test
     public void signupClickTest(){
         loginPage.validateSignupLink();
-       String url = driver.getCurrentUrl();
-       Assert.assertEquals(url,"https://www.freecrm.com/register/");
+        String url = driver.getCurrentUrl();
+        Assert.assertEquals(url,"https://www.freecrm.com/register/");
         System.out.println(url);
     }
 

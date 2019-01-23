@@ -48,6 +48,9 @@ public class TaskPage extends TestBase {
     WebElement saveBtn ;
 
 
+    @FindBy (xpath = "//td[contains(text(),'Task: 100')]")
+    public WebElement taskSuccessLabel ;
+
     public TaskPage (){
         PageFactory.initElements(driver,this);
     }
@@ -67,7 +70,6 @@ public class TaskPage extends TestBase {
 
         Select selectAutoExtend = new Select(driver.findElement(By.name("auto_extend")));
         selectAutoExtend.selectByVisibleText(strAutoExtend);
-
         Select selectStatus = new Select(driver.findElement(By.name("status")));
         selectStatus.selectByVisibleText(strStatus);
         completion.sendKeys(strCompletion);
@@ -85,7 +87,6 @@ public class TaskPage extends TestBase {
         keyContact.sendKeys(strKeyContact);
         keyCompany.sendKeys(strKeyCompany);
         identifier.sendKeys(strIdentifier);
-
         saveBtn.click();
     }
 

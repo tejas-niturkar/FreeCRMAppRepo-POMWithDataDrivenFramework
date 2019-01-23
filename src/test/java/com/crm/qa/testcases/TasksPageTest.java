@@ -58,6 +58,8 @@ public class TasksPageTest extends TestBase {
         Thread.sleep(2000);
         taskPage.createNewTasks(title,autoExtend,status,completion,type,priority,deal,cas,tags,description,ownerAssignedTo,
                 keyContact,keyCompany,identifier);
+        Thread.sleep(2000);
+        Assert.assertTrue(taskPage.taskSuccessLabel.isDisplayed(),"Task is not added successfully");
     }
 
 
