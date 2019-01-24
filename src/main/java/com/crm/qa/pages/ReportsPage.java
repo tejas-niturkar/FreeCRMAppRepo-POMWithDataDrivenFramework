@@ -10,6 +10,12 @@ public class ReportsPage extends TestBase {
     @FindBy (xpath = "//td[contains(text(),'Call Reports')]")
     WebElement labelCallReports ;
 
+    @FindBy (linkText = "Call Statistics")
+    WebElement callStatisticsReportLink ;
+
+    @FindBy (xpath = "//td[contains(text(),'Report: Call Statistics')]")
+    public WebElement callStatisticsReportLabel ;
+
 
 
      ReportsPage() {
@@ -24,6 +30,14 @@ public class ReportsPage extends TestBase {
     }
 
 
+    public void callStatisticsReport() throws InterruptedException {
+         Thread.sleep(2000);
+        callStatisticsReportLink.click();
+    }
+
+    public void tejass (){
+
+    }
 
 
 

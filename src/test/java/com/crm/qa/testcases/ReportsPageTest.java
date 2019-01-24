@@ -37,13 +37,21 @@ public class ReportsPageTest extends TestBase {
 
     @Test (priority = 1)
     public void validateReportsPageLabel() throws InterruptedException {
-      Assert.assertTrue(reportsPage.validateReportsPageLabel(), "Label is missing on reports page");
+        Assert.assertTrue(reportsPage.validateReportsPageLabel(), "Label is missing on reports page");
     }
+
+    @Test (priority = 2)
+    public void validateCallStatisticsReport() throws InterruptedException {
+        reportsPage.callStatisticsReport();
+        Thread.sleep(2000);
+        Assert.assertTrue(reportsPage.callStatisticsReportLabel.isDisplayed(),"Report is not displayed");
+    }
+
 
 
     @AfterMethod
     public void tearDown(){
-        driver.quit();
+       driver.quit();
     }
 
 }

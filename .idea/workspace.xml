@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3ef3f686-ecd2-44eb-bc88-0953455da636" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/crm/qa/pages/TaskPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crm/qa/pages/TaskPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/FormsPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/FormsPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/HomePageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/LoginPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/TasksPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/TasksPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/crm/qa/pages/ReportsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crm/qa/pages/ReportsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/ReportsPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/ReportsPageTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,19 +17,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FormsPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/crm/qa/pages/FormsPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="FormsPageTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/FormsPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-850">
+            <state relative-caret-position="-85">
               <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
               <folding>
                 <element signature="e#2592#2593#0" expanded="true" />
@@ -42,11 +30,47 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="DocsPageTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/DocsPageTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="60" column="8" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
+              <folding>
+                <element signature="e#1783#1784#0" expanded="true" />
+                <element signature="e#1812#1813#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CalendarPageTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/CalendarPageTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="55" column="8" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CasesPageTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/CasesPageTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-510">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2412#2413#0" expanded="true" />
+                <element signature="e#2441#2442#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="HomePageTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/HomePageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+            <state relative-caret-position="816">
+              <caret line="60" selection-start-line="60" selection-end-line="60" />
               <folding>
                 <element signature="e#1515#1516#0" expanded="true" />
                 <element signature="e#1543#1544#0" expanded="true" />
@@ -55,28 +79,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomePage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/crm/qa/pages/HomePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1224">
-              <caret line="91" column="24" selection-start-line="91" selection-start-column="24" selection-end-line="91" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/crm/qa/pages/LoginPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="72" column="25" selection-start-line="72" selection-start-column="24" selection-end-line="72" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="LoginPageTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/LoginPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
+            <state relative-caret-position="646">
               <caret line="52" column="7" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
               <folding>
                 <element signature="e#1120#1121#0" expanded="true" />
@@ -89,26 +95,30 @@
       <file leaf-file-name="SignupPageTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/SignupPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
+            <state relative-caret-position="646">
               <caret line="48" selection-start-line="48" selection-end-line="48" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TasksPageTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/TasksPageTest.java">
+      <file leaf-file-name="ReportsPageTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/ReportsPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="60" column="25" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="25" />
+            <state relative-caret-position="374">
+              <caret line="46" column="102" selection-start-line="46" selection-start-column="102" selection-end-line="46" selection-end-column="102" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TaskPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/crm/qa/pages/TaskPage.java">
+      <file leaf-file-name="TasksPageTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/TasksPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="64" column="24" lean-forward="true" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
+            <state relative-caret-position="935">
+              <caret line="68" column="8" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="8" />
+              <folding>
+                <element signature="e#2191#2192#0" expanded="true" />
+                <element signature="e#2220#2221#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -117,7 +127,11 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/crm/qa/pages/ReportsPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+              <caret line="26" column="38" lean-forward="true" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+              <folding>
+                <element signature="e#921#922#0" expanded="true" />
+                <element signature="e#970#971#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -154,8 +168,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/crm/qa/pages/SignupPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/SignupPageTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/LoginpageTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/crm/qa/pages/ReportsPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/ReportsPageTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/crm/qa/config/config.properties" />
         <option value="$PROJECT_DIR$/src/resources/testng.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/crm/qa/utils/TestUtils.java" />
@@ -179,6 +191,8 @@
         <option value="$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/HomePageTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/crm/qa/pages/TaskPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/TasksPageTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/crm/qa/pages/ReportsPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/ReportsPageTest.java" />
       </list>
     </option>
   </component>
@@ -202,9 +216,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -314,6 +325,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -339,7 +353,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TasksPageTest.validateCreateNewTasks">
+  <component name="RunManager" selected="TestNG.ReportsPageTest.validateCallStatisticsReport">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -361,64 +375,6 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
-    </configuration>
-    <configuration name="DealsPageTest.validateCreateNewDeals" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="FreeCRMTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.crm.qa.testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.crm.qa.testcases" />
-      <option name="MAIN_CLASS_NAME" value="com.crm.qa.testcases.DealsPageTest" />
-      <option name="METHOD_NAME" value="validateCreateNewDeals" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="DocsPageTest.validateAddNewDocument" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="FreeCRMTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.crm.qa.testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.crm.qa.testcases" />
-      <option name="MAIN_CLASS_NAME" value="com.crm.qa.testcases.DocsPageTest" />
-      <option name="METHOD_NAME" value="validateAddNewDocument" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
     </configuration>
     <configuration name="FormsPageTest.ValidateAlertOnFormsPage" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="FreeCRMTest" />
@@ -463,6 +419,64 @@
       <option name="PACKAGE_NAME" value="com.crm.qa.testcases" />
       <option name="MAIN_CLASS_NAME" value="com.crm.qa.testcases.HomePageTest" />
       <option name="METHOD_NAME" value="validateContactsLinkTest" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="ReportsPageTest.validateCallStatisticsReport" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FreeCRMTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.crm.qa.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.crm.qa.testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.crm.qa.testcases.ReportsPageTest" />
+      <option name="METHOD_NAME" value="validateCallStatisticsReport" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="ReportsPageTest.validateReportsPageLabel" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FreeCRMTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.crm.qa.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.crm.qa.testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.crm.qa.testcases.ReportsPageTest" />
+      <option name="METHOD_NAME" value="validateReportsPageLabel" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -545,19 +559,19 @@
       <method />
     </configuration>
     <list>
-      <item itemvalue="TestNG.DealsPageTest.validateCreateNewDeals" />
-      <item itemvalue="TestNG.DocsPageTest.validateAddNewDocument" />
       <item itemvalue="TestNG.FormsPageTest.ValidateAlertOnFormsPage" />
       <item itemvalue="TestNG.HomePageTest.validateContactsLinkTest" />
       <item itemvalue="TestNG.TasksPageTest.validateCreateNewTasks" />
+      <item itemvalue="TestNG.ReportsPageTest.validateReportsPageLabel" />
+      <item itemvalue="TestNG.ReportsPageTest.validateCallStatisticsReport" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ReportsPageTest.validateCallStatisticsReport" />
+        <item itemvalue="TestNG.ReportsPageTest.validateReportsPageLabel" />
         <item itemvalue="TestNG.TasksPageTest.validateCreateNewTasks" />
         <item itemvalue="TestNG.HomePageTest.validateContactsLinkTest" />
         <item itemvalue="TestNG.FormsPageTest.ValidateAlertOnFormsPage" />
-        <item itemvalue="TestNG.DocsPageTest.validateAddNewDocument" />
-        <item itemvalue="TestNG.DealsPageTest.validateCreateNewDeals" />
       </list>
     </recent_temporary>
   </component>
@@ -578,15 +592,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FormsPageTest_ValidateAlertOnFormsPage - 2019.01.21 at 22h 23m 25s.xml">
-      <configuration name="FormsPageTest.ValidateAlertOnFormsPage" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="FormsPageTest_ValidateAlertOnFormsPage - 2019.01.21 at 22h 24m 08s.xml">
-      <configuration name="FormsPageTest.ValidateAlertOnFormsPage" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="FormsPageTest_ValidateAlertOnFormsPage - 2019.01.21 at 22h 25m 13s.xml">
-      <configuration name="FormsPageTest.ValidateAlertOnFormsPage" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="FormsPageTest_ValidateAlertOnFormsPage - 2019.01.21 at 22h 28m 41s.xml">
       <configuration name="FormsPageTest.ValidateAlertOnFormsPage" configurationId="TestNG" />
     </history-entry>
@@ -607,6 +612,15 @@
     </history-entry>
     <history-entry file="TasksPageTest_validateCreateNewTasks - 2019.01.23 at 22h 35m 28s.xml">
       <configuration name="TasksPageTest.validateCreateNewTasks" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TasksPageTest_validateCreateNewTasks - 2019.01.23 at 22h 39m 49s.xml">
+      <configuration name="TasksPageTest.validateCreateNewTasks" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TasksPageTest_validateCreateNewTasks - 2019.01.23 at 22h 41m 19s.xml">
+      <configuration name="TasksPageTest.validateCreateNewTasks" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ReportsPageTest_validateReportsPageLabel - 2019.01.24 at 22h 16m 10s.xml">
+      <configuration name="ReportsPageTest.validateReportsPageLabel" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView" selected-index="1">
@@ -632,11 +646,11 @@
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.18003026" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3267974" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49394855" weight="0.4852941" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.40771812" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.40686274" />
       <window_info id="Capture Tool" order="3" />
       <window_info anchor="right" id="Jenkins" order="10" />
       <window_info id="Designer" order="4" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18532526" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18532526" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24886535" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24961832" />
       <window_info id="UI Designer" order="5" />
@@ -647,11 +661,11 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info id="Nl-Palette" order="2" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32977098" />
-      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" id="Properties" order="5" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32977098" />
     </layout>
     <layout-to-restore>
       <window_info id="Designer" order="4" />
@@ -868,25 +882,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/ReportsPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/CasesPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2412#2413#0" expanded="true" />
-            <element signature="e#2441#2442#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/ContactsPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
@@ -928,17 +923,6 @@
           <caret line="68" column="6" selection-start-line="68" selection-start-column="6" selection-end-line="68" selection-end-column="6" />
           <folding>
             <element signature="e#2359#2360#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/DocsPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="60" column="8" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
-          <folding>
-            <element signature="e#1783#1784#0" expanded="true" />
-            <element signature="e#1812#1813#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -986,17 +970,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="51" column="32" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#TestBase#0;class#TestBase#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/CalendarPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="55" column="8" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -1035,28 +1008,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/crm/qa/pages/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
+        <state relative-caret-position="1275">
           <caret line="91" column="24" selection-start-line="91" selection-start-column="24" selection-end-line="91" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/crm/qa/pages/ReportsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/crm/qa/pages/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="986">
           <caret line="72" column="25" selection-start-line="72" selection-start-column="24" selection-end-line="72" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crm/qa/pages/TaskPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="64" column="24" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/TasksPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="68" column="8" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="8" />
+          <folding>
+            <element signature="e#2191#2192#0" expanded="true" />
+            <element signature="e#2220#2221#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/SignupPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/LoginPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
+        <state relative-caret-position="646">
           <caret line="52" column="7" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
           <folding>
             <element signature="e#1120#1121#0" expanded="true" />
@@ -1065,16 +1056,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/SignupPageTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/HomePageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        <state relative-caret-position="816">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+          <folding>
+            <element signature="e#1515#1516#0" expanded="true" />
+            <element signature="e#1543#1544#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crm/qa/pages/ReportsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="26" column="38" lean-forward="true" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+          <folding>
+            <element signature="e#921#922#0" expanded="true" />
+            <element signature="e#970#971#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/FormsPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-850">
+        <state relative-caret-position="-85">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding>
             <element signature="e#2592#2593#0" expanded="true" />
@@ -1083,28 +1089,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/HomePageTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/DocsPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+        <state relative-caret-position="578">
+          <caret line="60" column="8" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
           <folding>
-            <element signature="e#1515#1516#0" expanded="true" />
-            <element signature="e#1543#1544#0" expanded="true" />
+            <element signature="e#1783#1784#0" expanded="true" />
+            <element signature="e#1812#1813#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/crm/qa/pages/TaskPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/CalendarPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="64" column="24" lean-forward="true" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
+        <state relative-caret-position="442">
+          <caret line="55" column="8" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/TasksPageTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/CasesPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="60" column="25" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="25" />
+        <state relative-caret-position="-510">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2412#2413#0" expanded="true" />
+            <element signature="e#2441#2442#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/ReportsPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="46" column="102" selection-start-line="46" selection-start-column="102" selection-end-line="46" selection-end-column="102" />
         </state>
       </provider>
     </entry>
