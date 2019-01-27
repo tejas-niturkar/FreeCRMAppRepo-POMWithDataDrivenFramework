@@ -16,6 +16,11 @@ public class ReportsPage extends TestBase {
     @FindBy (xpath = "//td[contains(text(),'Report: Call Statistics')]")
     public WebElement callStatisticsReportLabel ;
 
+    @FindBy (xpath = "//a[contains(text(),'Most called contacts')]")
+    WebElement mostCalledContactsReport ;
+
+    @FindBy (xpath = "//strong[contains(text(),'Most called contacts')]")
+    public WebElement mostCalledContactsReportLabel ;
 
 
      ReportsPage() {
@@ -29,15 +34,17 @@ public class ReportsPage extends TestBase {
          return labelCallReports.isDisplayed();
     }
 
-
     public void callStatisticsReport() throws InterruptedException {
          Thread.sleep(2000);
         callStatisticsReportLink.click();
     }
 
-    public void tejass (){
-
+    public  void mostCalledContactReport() throws InterruptedException {
+         Thread.sleep(2000);
+         mostCalledContactsReport.click();
     }
+
+
 
 
 

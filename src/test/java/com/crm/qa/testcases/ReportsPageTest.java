@@ -44,14 +44,20 @@ public class ReportsPageTest extends TestBase {
     public void validateCallStatisticsReport() throws InterruptedException {
         reportsPage.callStatisticsReport();
         Thread.sleep(2000);
-        Assert.assertTrue(reportsPage.callStatisticsReportLabel.isDisplayed(),"Report is not displayed");
+        Assert.assertTrue(reportsPage.callStatisticsReportLabel.isDisplayed(),"Call statistics report is not displayed");
     }
 
+    @Test (priority = 3)
+    public void validateMostCalledContactsReport() throws InterruptedException {
+        reportsPage.mostCalledContactReport();
+        Thread.sleep(2000);
+        Assert.assertTrue(reportsPage.mostCalledContactsReportLabel.isDisplayed(),"Most called contacts report not displayed");
+    }
 
 
     @AfterMethod
     public void tearDown(){
-       driver.quit();
+        driver.quit();
     }
 
 }
