@@ -104,8 +104,8 @@
       <file leaf-file-name="ReportsPageTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/ReportsPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="60" column="10" selection-start-line="60" selection-start-column="10" selection-end-line="60" selection-end-column="10" />
+            <state relative-caret-position="292">
+              <caret line="61" column="5" lean-forward="true" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -113,7 +113,7 @@
       <file leaf-file-name="LoginPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/crm/qa/pages/LoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
+            <state relative-caret-position="952">
               <caret line="70" column="22" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
             </state>
           </provider>
@@ -122,12 +122,8 @@
       <file leaf-file-name="ReportsPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/crm/qa/pages/ReportsPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="36" column="32" lean-forward="true" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
-              <folding>
-                <element signature="e#576#577#0" expanded="true" />
-                <element signature="e#629#630#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="340">
+              <caret line="49" column="29" lean-forward="true" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -212,7 +208,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -259,30 +254,6 @@
               <item name="FreeCRMTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="FreeCRMTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="qa" type="462c0819:PsiDirectoryNode" />
-              <item name="testdata" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FreeCRMTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FreeCRMTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="qa" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FreeCRMTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FreeCRMTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FreeCRMTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FreeCRMTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -306,6 +277,7 @@
       </pane>
       <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -331,7 +303,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ReportsPageTest.validateMostCalledContactsReport">
+  <component name="RunManager" selected="TestNG.ReportsPageTest.validateCallByMonthReport">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -354,7 +326,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="HomePageTest.validateContactsLinkTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ReportsPageTest.validateCallByMonthReport" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="FreeCRMTest" />
       <extension name="coverage">
         <pattern>
@@ -366,8 +338,8 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="com.crm.qa.testcases" />
-      <option name="MAIN_CLASS_NAME" value="com.crm.qa.testcases.HomePageTest" />
-      <option name="METHOD_NAME" value="validateContactsLinkTest" />
+      <option name="MAIN_CLASS_NAME" value="com.crm.qa.testcases.ReportsPageTest" />
+      <option name="METHOD_NAME" value="validateCallByMonthReport" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -537,19 +509,19 @@
       <method />
     </configuration>
     <list>
-      <item itemvalue="TestNG.HomePageTest.validateContactsLinkTest" />
       <item itemvalue="TestNG.TasksPageTest.validateCreateNewTasks" />
       <item itemvalue="TestNG.ReportsPageTest.validateReportsPageLabel" />
       <item itemvalue="TestNG.ReportsPageTest.validateCallStatisticsReport" />
       <item itemvalue="TestNG.ReportsPageTest.validateMostCalledContactsReport" />
+      <item itemvalue="TestNG.ReportsPageTest.validateCallByMonthReport" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ReportsPageTest.validateCallByMonthReport" />
         <item itemvalue="TestNG.ReportsPageTest.validateMostCalledContactsReport" />
         <item itemvalue="TestNG.ReportsPageTest.validateCallStatisticsReport" />
         <item itemvalue="TestNG.ReportsPageTest.validateReportsPageLabel" />
         <item itemvalue="TestNG.TasksPageTest.validateCreateNewTasks" />
-        <item itemvalue="TestNG.HomePageTest.validateContactsLinkTest" />
       </list>
     </recent_temporary>
   </component>
@@ -570,18 +542,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TasksPageTest_validateCreateNewTasks - 2019.01.23 at 22h 41m 19s.xml">
-      <configuration name="TasksPageTest.validateCreateNewTasks" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ReportsPageTest_validateReportsPageLabel - 2019.01.24 at 22h 16m 10s.xml">
-      <configuration name="ReportsPageTest.validateReportsPageLabel" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ReportsPageTest_validateCallStatisticsReport - 2019.01.24 at 22h 30m 36s.xml">
-      <configuration name="ReportsPageTest.validateCallStatisticsReport" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ReportsPageTest_validateCallStatisticsReport - 2019.01.24 at 22h 31m 48s.xml">
-      <configuration name="ReportsPageTest.validateCallStatisticsReport" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="ReportsPageTest_validateMostCalledContactsReport - 2019.01.27 at 20h 35m 37s.xml">
       <configuration name="ReportsPageTest.validateMostCalledContactsReport" configurationId="TestNG" />
     </history-entry>
@@ -600,6 +560,18 @@
     <history-entry file="ReportsPageTest_validateMostCalledContactsReport - 2019.01.27 at 20h 43m 52s.xml">
       <configuration name="ReportsPageTest.validateMostCalledContactsReport" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="ReportsPageTest_validateMostCalledContactsReport - 2019.01.27 at 20h 45m 10s.xml">
+      <configuration name="ReportsPageTest.validateMostCalledContactsReport" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ReportsPageTest_validateMostCalledContactsReport - 2019.01.27 at 20h 46m 16s.xml">
+      <configuration name="ReportsPageTest.validateMostCalledContactsReport" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ReportsPageTest_validateMostCalledContactsReport - 2019.01.28 at 22h 23m 50s.xml">
+      <configuration name="ReportsPageTest.validateMostCalledContactsReport" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ReportsPageTest_validateMostCalledContactsReport - 2019.01.28 at 22h 24m 58s.xml">
+      <configuration name="ReportsPageTest.validateMostCalledContactsReport" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -616,7 +588,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32843137" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.30642503" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.30555555" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
@@ -628,7 +600,7 @@
       <window_info id="Capture Tool" order="3" />
       <window_info anchor="right" id="Jenkins" order="10" />
       <window_info id="Designer" order="4" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24886535" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24961832" />
       <window_info id="UI Designer" order="5" />
@@ -639,20 +611,19 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info id="Nl-Palette" order="2" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32977098" />
-      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" id="Properties" order="5" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32977098" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24961832" />
       <window_info id="Designer" order="4" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49394855" weight="0.4738562" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32977098" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24961832" />
       <window_info id="UI Designer" order="5" />
       <window_info anchor="right" id="Properties" order="5" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.4003268" />
@@ -661,20 +632,21 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5060514" side_tool="true" weight="0.3120915" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23373677" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3267974" />
       <window_info id="Nl-Palette" order="2" />
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.18003026" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23373677" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.31120333" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32843137" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Jenkins" order="10" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24886535" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32977098" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3970588" />
     </layout-to-restore>
   </component>
@@ -709,7 +681,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="131" />
+      <option name="time" value="132" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -1070,26 +1042,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/crm/qa/pages/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
+        <state relative-caret-position="952">
           <caret line="70" column="22" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/crm/qa/pages/ReportsPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="36" column="32" lean-forward="true" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
-          <folding>
-            <element signature="e#576#577#0" expanded="true" />
-            <element signature="e#629#630#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="340">
+          <caret line="49" column="29" lean-forward="true" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/ReportsPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="60" column="10" selection-start-line="60" selection-start-column="10" selection-end-line="60" selection-end-column="10" />
+        <state relative-caret-position="292">
+          <caret line="61" column="5" lean-forward="true" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
         </state>
       </provider>
     </entry>

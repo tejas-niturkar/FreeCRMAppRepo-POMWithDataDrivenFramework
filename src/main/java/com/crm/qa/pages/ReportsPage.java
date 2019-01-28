@@ -22,6 +22,14 @@ public class ReportsPage extends TestBase {
     @FindBy (xpath = "//strong[contains(text(),'Most called contacts')]")
     public WebElement mostCalledContactsReportLabel ;
 
+    @FindBy (xpath = "//a[contains(text(),'Call by Month')]")
+    WebElement callByMonthReportLink ;
+
+    @FindBy (xpath = "//td[contains(text(),'Calls by Month')]")
+    public WebElement callByMonthReportLabel ;
+
+
+
 
      ReportsPage() {
         PageFactory.initElements(driver,this);
@@ -44,6 +52,10 @@ public class ReportsPage extends TestBase {
          mostCalledContactsReport.click();
     }
 
+    public void callByMonthReport() throws InterruptedException {
+         Thread.sleep(2000);
+         callByMonthReportLink.click();
+    }
 
 
 

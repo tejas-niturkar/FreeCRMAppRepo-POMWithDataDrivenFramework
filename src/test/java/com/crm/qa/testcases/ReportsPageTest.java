@@ -54,10 +54,17 @@ public class ReportsPageTest extends TestBase {
         Assert.assertTrue(reportsPage.mostCalledContactsReportLabel.isDisplayed(),"Most called contacts report not displayed");
     }
 
+    @Test (priority = 4)
+    public void validateCallByMonthReport() throws InterruptedException {
+        reportsPage.callByMonthReport();
+        Thread.sleep(2000);
+        Assert.assertTrue(reportsPage.callByMonthReportLabel.isDisplayed(),"Call by month report not displayed");
+    }
+
 
     @AfterMethod
     public void tearDown(){
-        driver.quit();
+       driver.quit();
     }
 
 }
