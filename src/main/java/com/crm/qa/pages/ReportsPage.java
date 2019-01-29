@@ -17,7 +17,7 @@ public class ReportsPage extends TestBase {
     public WebElement callStatisticsReportLabel ;
 
     @FindBy (xpath = "//a[contains(text(),'Most called contacts')]")
-    WebElement mostCalledContactsReport ;
+    WebElement mostCalledContactsReportLink ;
 
     @FindBy (xpath = "//strong[contains(text(),'Most called contacts')]")
     public WebElement mostCalledContactsReportLabel ;
@@ -27,6 +27,14 @@ public class ReportsPage extends TestBase {
 
     @FindBy (xpath = "//td[contains(text(),'Calls by Month')]")
     public WebElement callByMonthReportLabel ;
+
+    @FindBy (xpath = "//a[contains(text(),'Call by Week')]")
+    WebElement callByWeekReportLink ;
+
+    @FindBy (xpath = "//td[contains(text(),'Report: Calls by day of the week')]")
+    public WebElement callByWeekReportLabel ;
+
+
 
 
 
@@ -49,13 +57,22 @@ public class ReportsPage extends TestBase {
 
     public  void mostCalledContactReport() throws InterruptedException {
          Thread.sleep(2000);
-         mostCalledContactsReport.click();
+         mostCalledContactsReportLink.click();
     }
 
     public void callByMonthReport() throws InterruptedException {
          Thread.sleep(2000);
          callByMonthReportLink.click();
     }
+
+    public void callByWeekReport() throws InterruptedException {
+         Thread.sleep(2000);
+         callByWeekReportLink.click();
+    }
+
+
+
+
 
 
 

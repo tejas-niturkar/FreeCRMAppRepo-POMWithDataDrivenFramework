@@ -61,6 +61,15 @@ public class ReportsPageTest extends TestBase {
         Assert.assertTrue(reportsPage.callByMonthReportLabel.isDisplayed(),"Call by month report not displayed");
     }
 
+    @Test (priority = 5)
+    public void validateCallByWeekReport() throws InterruptedException {
+        reportsPage.callByWeekReport();
+        Thread.sleep(2000);
+        Assert.assertTrue(reportsPage.callByWeekReportLabel.isDisplayed(),"Call by week report not displayed");
+    }
+
+
+
 
     @AfterMethod
     public void tearDown(){
