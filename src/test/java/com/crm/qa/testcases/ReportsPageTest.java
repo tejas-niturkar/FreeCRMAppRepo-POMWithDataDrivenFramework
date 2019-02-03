@@ -68,12 +68,19 @@ public class ReportsPageTest extends TestBase {
         Assert.assertTrue(reportsPage.callByWeekReportLabel.isDisplayed(),"Call by week report not displayed");
     }
 
+    @Test (priority = 6)
+    public void validateCallsByTeamReport() throws InterruptedException {
+        reportsPage.callsByTeamReport();
+        Thread.sleep(2000);
+        Assert.assertTrue(reportsPage.callsByTeamReportVerifyLink.isDisplayed(),"Calls by team report does not displayed");
+    }
+
 
 
 
     @AfterMethod
     public void tearDown(){
-       driver.quit();
+      driver.quit();
     }
 
 }
