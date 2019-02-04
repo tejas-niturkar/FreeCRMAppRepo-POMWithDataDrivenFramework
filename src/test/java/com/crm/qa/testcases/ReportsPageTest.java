@@ -75,6 +75,13 @@ public class ReportsPageTest extends TestBase {
         Assert.assertTrue(reportsPage.callsByTeamReportVerifyLink.isDisplayed(),"Calls by team report does not displayed");
     }
 
+    @Test (priority = 7)
+    public void validateDealCallsReport() throws InterruptedException {
+        reportsPage.dealCallsReport();
+        Thread.sleep(2000);
+        Assert.assertTrue(reportsPage.dealCallsReportVerifyLink.isDisplayed(),"Deal calls report does not displayed");
+
+    }
 
 
 
