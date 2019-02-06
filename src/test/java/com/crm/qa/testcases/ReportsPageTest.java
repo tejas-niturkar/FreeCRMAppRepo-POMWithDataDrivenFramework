@@ -86,8 +86,15 @@ public class ReportsPageTest extends TestBase {
     public void validateTaskCallsReport() throws InterruptedException {
         reportsPage.taskCallsReport();
         Thread.sleep(2000);
-        Assert.assertTrue(reportsPage.taskCallsReportVerifyLink.isDisplayed(),"Task Calls Report does not displayed");
+        Assert.assertTrue(reportsPage.taskCallsReportVerifyLink.isDisplayed(),"Task Calls report does not displayed");
 
+    }
+
+    @Test (priority = 9)
+    public void validateCaseCallsReport() throws InterruptedException {
+        reportsPage.caseCallsReport();
+        Thread.sleep(2000);
+        Assert.assertTrue(reportsPage.caseCallsReportVerifyLink.isDisplayed(),"Case Calls report does not displayed");
     }
 
 
