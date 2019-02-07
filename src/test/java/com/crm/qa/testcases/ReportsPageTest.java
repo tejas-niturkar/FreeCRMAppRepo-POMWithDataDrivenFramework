@@ -97,11 +97,18 @@ public class ReportsPageTest extends TestBase {
         Assert.assertTrue(reportsPage.caseCallsReportVerifyLink.isDisplayed(),"Case Calls report does not displayed");
     }
 
+    @Test (priority = 10)
+    public void validateCallFlagsReport() throws InterruptedException {
+        reportsPage.callFlagsReport();
+        Thread.sleep(2000);
+        Assert.assertTrue(reportsPage.callFlagsReportVerifyLink.isDisplayed(),"Call Flag report does not displayed");
+    }
+
 
 
     @AfterMethod
     public void tearDown(){
-      driver.quit();
+     // driver.quit();
     }
 
 }
