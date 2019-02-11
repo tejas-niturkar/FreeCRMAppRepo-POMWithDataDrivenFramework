@@ -64,7 +64,11 @@ public class ReportsPage extends TestBase {
     @FindBy (xpath = "//td[contains(text(),'Report: Call Flags')]")
     public WebElement callFlagsReportVerifyLink ;
 
+    @FindBy (xpath = "//a[contains(text(),'Call Flags by User')]")
+    WebElement callFlagsByUserReportLink ;
 
+    @FindBy (xpath = "//td[contains(text(),'Report: Call Flags By User')]")
+    public WebElement callFlagsByUserReportVerifyLink ;
 
 
 
@@ -125,6 +129,11 @@ public class ReportsPage extends TestBase {
     public void callFlagsReport() throws InterruptedException {
          Thread.sleep(2000);
          callFlagsReportLink.click();
+    }
+
+    public void callFlagsByUserReport() throws InterruptedException {
+         Thread.sleep(2000);
+         callFlagsByUserReportLink.click();
     }
 
 

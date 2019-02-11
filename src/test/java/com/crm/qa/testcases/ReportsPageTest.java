@@ -104,6 +104,13 @@ public class ReportsPageTest extends TestBase {
         Assert.assertTrue(reportsPage.callFlagsReportVerifyLink.isDisplayed(),"Call Flag report does not displayed");
     }
 
+    @Test (priority = 11)
+    public void validateCallFlagsByUserReport() throws InterruptedException {
+        reportsPage.callFlagsByUserReport();
+        Thread.sleep(2000);
+        Assert.assertTrue(reportsPage.callFlagsReportVerifyLink.isDisplayed(),"Call Flags By User report does not displayed");
+    }
+
 
 
     @AfterMethod
