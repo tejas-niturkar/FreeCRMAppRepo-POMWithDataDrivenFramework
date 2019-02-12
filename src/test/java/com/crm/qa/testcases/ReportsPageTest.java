@@ -118,6 +118,13 @@ public class ReportsPageTest extends TestBase {
         Assert.assertTrue(reportsPage.callsByTimeReportVerifyLink.isDisplayed(),"Calls By Time report does not displayed");
     }
 
+    @Test (priority = 13)
+    public void validateCallByDayReport() throws InterruptedException {
+        reportsPage.callByDayReport();
+        Thread.sleep(2000);
+        Assert.assertTrue(reportsPage.callByDayReportVerifyLink.isDisplayed(),"Call by day report link dose not displayed");
+    }
+
 
 
     @AfterMethod

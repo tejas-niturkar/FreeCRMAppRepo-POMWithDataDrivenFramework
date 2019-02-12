@@ -26,20 +26,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReportsPageTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ReportsPageTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/ReportsPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="110" column="55" lean-forward="true" selection-start-line="110" selection-start-column="55" selection-end-line="110" selection-end-column="55" />
+            <state relative-caret-position="411">
+              <caret line="126" lean-forward="true" selection-start-line="126" selection-end-line="126" />
+              <folding>
+                <element signature="e#4419#4420#0" expanded="true" />
+                <element signature="e#4446#4447#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReportsPage.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ReportsPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/crm/qa/pages/ReportsPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="145" column="23" selection-start-line="145" selection-start-column="23" selection-end-line="145" selection-end-column="23" />
+            <state relative-caret-position="255">
+              <caret line="151" column="25" lean-forward="true" selection-start-line="151" selection-start-column="25" selection-end-line="151" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -99,8 +103,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/crm/qa/utils/TestUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/crm/qa/pages/CalendarPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/crm/qa/config/config.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/ReportsPageTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/crm/qa/pages/ReportsPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/ReportsPageTest.java" />
       </list>
     </option>
   </component>
@@ -137,7 +141,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -287,7 +291,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ReportsPageTest.validateCallsByTImeReportLink">
+  <component name="RunManager" selected="TestNG.ReportsPageTest.validateCallByDayReport">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -309,6 +313,35 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
+    </configuration>
+    <configuration name="ReportsPageTest.validateCallByDayReport" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FreeCRMTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.crm.qa.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.crm.qa.testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.crm.qa.testcases.ReportsPageTest" />
+      <option name="METHOD_NAME" value="validateCallByDayReport" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
     </configuration>
     <configuration name="ReportsPageTest.validateCallFlagsByUserReport" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="FreeCRMTest" />
@@ -426,35 +459,6 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="ReportsPageTest.validateTaskCallsReport" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="FreeCRMTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.crm.qa.testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.crm.qa.testcases" />
-      <option name="MAIN_CLASS_NAME" value="com.crm.qa.testcases.ReportsPageTest" />
-      <option name="METHOD_NAME" value="validateTaskCallsReport" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -493,19 +497,19 @@
       <method />
     </configuration>
     <list>
-      <item itemvalue="TestNG.ReportsPageTest.validateTaskCallsReport" />
       <item itemvalue="TestNG.ReportsPageTest.validateCaseCallsReport" />
       <item itemvalue="TestNG.ReportsPageTest.validateCallFlagsReport" />
       <item itemvalue="TestNG.ReportsPageTest.validateCallFlagsByUserReport" />
       <item itemvalue="TestNG.ReportsPageTest.validateCallsByTImeReportLink" />
+      <item itemvalue="TestNG.ReportsPageTest.validateCallByDayReport" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ReportsPageTest.validateCallByDayReport" />
         <item itemvalue="TestNG.ReportsPageTest.validateCallsByTImeReportLink" />
         <item itemvalue="TestNG.ReportsPageTest.validateCallFlagsByUserReport" />
         <item itemvalue="TestNG.ReportsPageTest.validateCallFlagsReport" />
         <item itemvalue="TestNG.ReportsPageTest.validateCaseCallsReport" />
-        <item itemvalue="TestNG.ReportsPageTest.validateTaskCallsReport" />
       </list>
     </recent_temporary>
   </component>
@@ -526,12 +530,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ReportsPageTest_validateTaskCallsReport - 2019.02.05 at 17h 34m 16s.xml">
-      <configuration name="ReportsPageTest.validateTaskCallsReport" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ReportsPageTest_validateCaseCallsReport - 2019.02.06 at 21h 24m 19s.xml">
-      <configuration name="ReportsPageTest.validateCaseCallsReport" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="ReportsPageTest_validateCaseCallsReport - 2019.02.06 at 21h 25m 21s.xml">
       <configuration name="ReportsPageTest.validateCaseCallsReport" configurationId="TestNG" />
     </history-entry>
@@ -555,6 +553,12 @@
     </history-entry>
     <history-entry file="ReportsPageTest_validateCallFlagsByUserReport - 2019.02.12 at 16h 45m 26s.xml">
       <configuration name="ReportsPageTest.validateCallFlagsByUserReport" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ReportsPageTest_validateCallsByTImeReportLink - 2019.02.12 at 16h 51m 55s.xml">
+      <configuration name="ReportsPageTest.validateCallsByTImeReportLink" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ReportsPageTest_validateCallsByTImeReportLink - 2019.02.12 at 16h 52m 47s.xml">
+      <configuration name="ReportsPageTest.validateCallsByTImeReportLink" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView" selected-index="1">
@@ -1018,17 +1022,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/ReportsPageTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crm/qa/pages/ReportsPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="110" column="55" lean-forward="true" selection-start-line="110" selection-start-column="55" selection-end-line="110" selection-end-column="55" />
+        <state relative-caret-position="255">
+          <caret line="151" column="25" lean-forward="true" selection-start-line="151" selection-start-column="25" selection-end-line="151" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/crm/qa/pages/ReportsPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/ReportsPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="145" column="23" selection-start-line="145" selection-start-column="23" selection-end-line="145" selection-end-column="23" />
+        <state relative-caret-position="411">
+          <caret line="126" lean-forward="true" selection-start-line="126" selection-end-line="126" />
+          <folding>
+            <element signature="e#4419#4420#0" expanded="true" />
+            <element signature="e#4446#4447#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
