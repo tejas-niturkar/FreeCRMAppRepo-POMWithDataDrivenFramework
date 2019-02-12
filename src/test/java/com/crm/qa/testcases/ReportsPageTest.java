@@ -108,14 +108,21 @@ public class ReportsPageTest extends TestBase {
     public void validateCallFlagsByUserReport() throws InterruptedException {
         reportsPage.callFlagsByUserReport();
         Thread.sleep(2000);
-        Assert.assertTrue(reportsPage.callFlagsReportVerifyLink.isDisplayed(),"Call Flags By User report does not displayed");
+        Assert.assertTrue(reportsPage.callFlagsByUserReportVerifyLink.isDisplayed(),"Call Flags By User report does not displayed");
+    }
+
+    @Test (priority = 12)
+    public void validateCallsByTImeReportLink() throws InterruptedException {
+        reportsPage.callsByTimeReport();
+        Thread.sleep(2000);
+        Assert.assertTrue(reportsPage.callsByTimeReportVerifyLink.isDisplayed(),"Calls By Time report does not displayed");
     }
 
 
 
     @AfterMethod
     public void tearDown(){
-     // driver.quit();
+      driver.quit();
     }
 
 }
