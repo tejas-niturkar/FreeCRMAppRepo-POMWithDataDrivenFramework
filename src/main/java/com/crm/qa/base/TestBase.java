@@ -39,10 +39,9 @@ public class TestBase {
             catch (FileNotFoundException e) {
                 e.printStackTrace();
             }
-            catch (IOException ie ){
-             ie.printStackTrace();
+            catch (IOException ie ) {
+                ie.printStackTrace();
             }
-
     }
     public static void initialization (){
 

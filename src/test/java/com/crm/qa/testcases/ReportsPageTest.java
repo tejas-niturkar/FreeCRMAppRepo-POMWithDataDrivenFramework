@@ -122,14 +122,21 @@ public class ReportsPageTest extends TestBase {
     public void validateCallByDayReport() throws InterruptedException {
         reportsPage.callByDayReport();
         Thread.sleep(2000);
-        Assert.assertTrue(reportsPage.callByDayReportVerifyLink.isDisplayed(),"Call by day report link dose not displayed");
+        Assert.assertTrue(reportsPage.callByDayReportVerifyLink.isDisplayed(),"Call by day report dose not displayed");
+    }
+
+    @Test (priority = 14)
+    public void validateCaseStatisticsReport() throws InterruptedException {
+        reportsPage.caseStatisticsReport();
+        Thread.sleep(2000);
+        Assert.assertTrue(reportsPage.caseStatisticsReportVerifyLink.isDisplayed(),"Case statistics report does not displayed");
     }
 
 
 
     @AfterMethod
     public void tearDown(){
-      driver.quit();
+        driver.quit();
     }
 
 }
