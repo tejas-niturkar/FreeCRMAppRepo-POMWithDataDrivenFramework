@@ -139,6 +139,13 @@ public class ReportsPageTest extends TestBase {
         Assert.assertTrue(reportsPage.allOpenCasesReportVerifyLink.isDisplayed(),"All open Cases report does not displayed");
     }
 
+    @Test (priority = 16)
+    public void validateClosedCasesReport() throws InterruptedException {
+        reportsPage.closedCasesReport();
+        Thread.sleep(2000);
+        Assert.assertTrue(reportsPage.closedCasesReportVerifyLink.isDisplayed(),"Cloased cases report does not displayed");
+    }
+
 
     @AfterMethod
     public void tearDown(){

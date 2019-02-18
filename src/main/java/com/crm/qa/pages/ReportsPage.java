@@ -94,6 +94,12 @@ public class ReportsPage extends TestBase {
     @FindBy (xpath = "//td[contains(text(),'Report: 20 longest open cases')]")
     public WebElement allOpenCasesReportVerifyLink ;
 
+    @FindBy (linkText = "Closed Cases")
+    WebElement closedCasesReportLink ;
+
+    @FindBy (xpath = "//td[contains(text(),'Closed cases: days open')]")
+    public WebElement closedCasesReportVerifyLink ;
+
 
      ReportsPage() {
         PageFactory.initElements(driver,this);
@@ -174,6 +180,11 @@ public class ReportsPage extends TestBase {
     public void allOpenCasesReport() throws InterruptedException {
          Thread.sleep(2000);
          allOpenCasesReportLink.click();
+    }
+
+    public void closedCasesReport() throws InterruptedException {
+         Thread.sleep(2000);
+         closedCasesReportLink.click();
     }
 
 
