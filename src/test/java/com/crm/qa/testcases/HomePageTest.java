@@ -40,7 +40,7 @@ public class HomePageTest extends TestBase {
     @Test (priority = 2)
     public void validateUsernameTest ()
     {
-        testUtils.switchToFrame();
+
         Assert.assertTrue( homePage.validateUsername() );
     }
 
@@ -48,6 +48,14 @@ public class HomePageTest extends TestBase {
     public void validateContactsLinkTest (){
         testUtils.switchToFrame();
         contactsPage =  homePage.clickOnContactsLink();
+    }
+
+    @Test (priority = 4)
+    public void validateGlobalSearchFunctionality() throws InterruptedException {
+        testUtils.switchToFrame();
+        homePage.globalSearch("test");
+        Thread.sleep(2000);
+        Assert.assertTrue(homePage.globalSearchResultVerifyField.isDisplayed(), "Global search is not working on homepage");
     }
 
 

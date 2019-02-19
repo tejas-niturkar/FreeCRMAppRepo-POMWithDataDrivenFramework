@@ -71,6 +71,19 @@ public class HomePage extends TestBase {
     @FindBy (xpath = "//a[contains(text(),'New Case')]")
     WebElement newCasesLink ;
 
+    @FindBy (xpath = "//input[@name='search' and @value='Quick Search']")
+    WebElement globalSearchInputField ;
+
+    @FindBy (xpath = "//input[@type='image' and @src='https://classic.crmpro.com/skins/flatter/images/search.gif']")
+    WebElement globalSearchButton ;
+
+    @FindBy (xpath = "//a[@_name='Test' and @context='company']")
+    public WebElement globalSearchResultVerifyField ;
+
+
+
+
+
 
 
 
@@ -201,6 +214,11 @@ public class HomePage extends TestBase {
         actions.moveToElement(casesLink).build().perform();
         Thread.sleep(1000);
         newCasesLink.click();
+    }
+
+    public void globalSearch (String searchData) throws InterruptedException {
+        globalSearchInputField.sendKeys(searchData);
+        globalSearchButton.click();
     }
 }
 
