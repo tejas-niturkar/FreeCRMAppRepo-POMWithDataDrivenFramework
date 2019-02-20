@@ -85,10 +85,17 @@ public class CompanyPage extends TestBase {
     @FindBy (xpath = "//td[contains(text(),'Company')]")
     public WebElement companySuccessLabel ;
 
-
-
     @FindBy (xpath = "//i[@title='Edit']")
     WebElement editIcon ;
+
+
+    // Full text search form page object
+
+    @FindBy (xpath = "//input[@name='cs_name']")
+    WebElement fullSearchForm_companyField ;
+
+    @FindBy (xpath = "//input[@type='submit' and @value='Search Companies' and @class='button']")
+    WebElement fullSearchForm_searchButton ;
 
     public CompanyPage(){
         PageFactory.initElements(driver,this);
@@ -145,7 +152,6 @@ public class CompanyPage extends TestBase {
     }
 
     public void updateCompany(String strCompanyName, String strDescription) throws InterruptedException {
-
         editIcon.click();
         Thread.sleep(2000);
         companyName.clear();
@@ -154,5 +160,9 @@ public class CompanyPage extends TestBase {
         saveButton.click();
     }
 
+    public void fullSearchForm_searchCompany(String company){
+        fullSearchForm_companyField.sendKeys(company);
+        fullSearchForm_searchButton.click();
+    }
 
 }

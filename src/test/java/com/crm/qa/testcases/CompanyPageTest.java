@@ -80,10 +80,17 @@ public class CompanyPageTest extends TestBase {
     }
 
 
+    @Test (priority = 5)
+    public void validateFullSearchFormCompanyFunctionality () throws InterruptedException {
+        homePage.clickOnFullSearchFormLink();
+        Thread.sleep(2000);
+        companyPage.fullSearchForm_searchCompany("test");
+    }
+
 
     @AfterMethod
     public void tearDown (){
-        driver.quit();
+        //driver.quit();
     }
 
 }

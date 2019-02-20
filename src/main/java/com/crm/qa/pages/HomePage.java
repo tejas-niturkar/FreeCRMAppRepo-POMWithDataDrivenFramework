@@ -13,6 +13,8 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import javax.swing.plaf.TableHeaderUI;
+
 public class HomePage extends TestBase {
 
 
@@ -50,6 +52,9 @@ public class HomePage extends TestBase {
     @FindBy (xpath = "//a[contains(text(),'New Company')]")
     WebElement newCompanyLink ;
 
+    @FindBy (linkText = "Full Search Form")
+    WebElement fullSearchFormLink ;
+
     @FindBy (xpath = "//a[contains(text(),'Calendar')]")
     WebElement calendarLink ;
 
@@ -79,6 +84,7 @@ public class HomePage extends TestBase {
 
     @FindBy (xpath = "//a[@_name='Test' and @context='company']")
     public WebElement globalSearchResultVerifyField ;
+
 
 
 
@@ -122,7 +128,7 @@ public class HomePage extends TestBase {
         return new DocsPage() ;
     }
 
-    public  CompanyPage clickOnCompanyLink(){
+    public CompanyPage clickOnCompanyLink(){
         companiesLink.click();
         return new CompanyPage();
     }
@@ -192,6 +198,14 @@ public class HomePage extends TestBase {
         newCompanyLink.click();
     }
 
+    public void clickOnFullSearchFormLink() throws InterruptedException {
+        Actions actions = new Actions(driver);
+        Thread.sleep(2000);
+        actions.moveToElement(companiesLink).build().perform();
+        Thread.sleep(2000);
+        fullSearchFormLink.click();
+    }
+
     public void clickOnNewCalendarEventLink() throws InterruptedException {
         Actions actions = new Actions(driver);
         Thread.sleep(2000);
@@ -216,7 +230,7 @@ public class HomePage extends TestBase {
         newCasesLink.click();
     }
 
-    public void globalSearch (String searchData) throws InterruptedException {
+    public void globalSearch (String searchData) {
         globalSearchInputField.sendKeys(searchData);
         globalSearchButton.click();
     }
