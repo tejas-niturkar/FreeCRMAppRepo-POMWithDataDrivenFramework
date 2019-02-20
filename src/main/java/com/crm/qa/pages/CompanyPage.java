@@ -3,11 +3,15 @@ package com.crm.qa.pages;
 import com.crm.qa.base.TestBase;
 import org.omg.PortableServer.THREAD_POLICY_ID;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.annotations.Test;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.logging.XMLFormatter;
 
 public class CompanyPage extends TestBase {
@@ -97,6 +101,9 @@ public class CompanyPage extends TestBase {
     @FindBy (xpath = "//input[@type='submit' and @value='Search Companies' and @class='button']")
     WebElement fullSearchForm_searchButton ;
 
+    @FindBy (xpath = "//a[contains(text(),'Test')]")
+    public WebElement fullSearchForm_searchResult ;
+
     public CompanyPage(){
         PageFactory.initElements(driver,this);
     }
@@ -160,9 +167,17 @@ public class CompanyPage extends TestBase {
         saveButton.click();
     }
 
-    public void fullSearchForm_searchCompany(String company){
+    public void fullSearchForm_searchCompany(String company) throws InterruptedException {
         fullSearchForm_companyField.sendKeys(company);
         fullSearchForm_searchButton.click();
+        Thread.sleep(2000);
+        List<WebElement> searchResult = driver.findElements(By.xpath("//a[contains(text(),'Test')]"));
+        System.out.println("Number of result = " + searchResult.size());
+
+        for (int i = 0; i < searchResult.size(); i++){
+            System.out.println("Search result text is:" + searchResult.get(i).isDisplayed());
+        }
+
     }
 
 }

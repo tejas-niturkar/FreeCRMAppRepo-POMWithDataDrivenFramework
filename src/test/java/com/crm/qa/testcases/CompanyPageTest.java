@@ -85,6 +85,8 @@ public class CompanyPageTest extends TestBase {
         homePage.clickOnFullSearchFormLink();
         Thread.sleep(2000);
         companyPage.fullSearchForm_searchCompany("test");
+        Thread.sleep(1000);
+        Assert.assertTrue(companyPage.fullSearchForm_searchResult.isDisplayed(),"company search is  not working");
     }
 
 
