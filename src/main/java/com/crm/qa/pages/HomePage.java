@@ -85,6 +85,11 @@ public class HomePage extends TestBase {
     @FindBy (xpath = "//a[@_name='Test' and @context='company']")
     public WebElement globalSearchResultVerifyField ;
 
+    @FindBy (xpath = "//a[@title='Sales Targets']")
+    WebElement salesTargetLink ;
+
+
+
 
 
 
@@ -151,6 +156,12 @@ public class HomePage extends TestBase {
     public CasesPage clickOnCasesLink(){
         casesLink.click();
         return new CasesPage();
+    }
+
+    public TargetsPage clickOnSalesTargetsLink() throws InterruptedException {
+        salesTargetLink.click();
+        Thread.sleep(2000);
+        return new TargetsPage();
     }
 
 
