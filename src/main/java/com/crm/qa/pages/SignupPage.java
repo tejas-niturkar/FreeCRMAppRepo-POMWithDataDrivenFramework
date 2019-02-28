@@ -2,6 +2,7 @@ package com.crm.qa.pages;
 
 import com.crm.qa.base.TestBase;
 import com.crm.qa.utils.WebEventListener;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -61,6 +62,7 @@ public class SignupPage extends TestBase {
         confirmPassword.sendKeys(cpassword);
         agreeTerms.click();
         submitBtn.click();
+
     }
 
 

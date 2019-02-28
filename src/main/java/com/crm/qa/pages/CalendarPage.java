@@ -53,7 +53,7 @@ public class CalendarPage extends TestBase {
        TestUtils.robotClass();
      }
 
-    public void createNewCalendarEvent(String strTitle, String strCategory) throws InterruptedException {
+        public void createNewCalendarEvent(String strTitle, String strCategory) throws InterruptedException {
         titleField.sendKeys(strTitle);
         fromDate.click();
         fromDateSelectFromCalendar.click();
@@ -62,7 +62,7 @@ public class CalendarPage extends TestBase {
         addMemberButton.click();
         Thread.sleep(1000);
         saveButton.click();
-    }
+       }
 
 
 
