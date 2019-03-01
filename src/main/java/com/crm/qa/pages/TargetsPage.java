@@ -25,8 +25,11 @@ public class TargetsPage extends TestBase {
     @FindBy (xpath = "//textarea[@name='notes']")
     WebElement notes ;
 
-    @FindBy ()
+    @FindBy (xpath = "(//input[@type='submit' and @value='Save'])[2]")
     WebElement saveButton ;
+
+    @FindBy (xpath = "//a[contains(text(),'Test Desc')]")
+    public WebElement titleOnTargetsDetailsPage ;
 
 
 

@@ -6,6 +6,7 @@ import com.crm.qa.pages.LoginPage;
 import com.crm.qa.pages.TargetsPage;
 import com.crm.qa.pages.TaskPage;
 import com.crm.qa.utils.TestUtils;
+import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -38,6 +39,11 @@ public class TargetsPageTest extends TestBase {
     @Test
     public void validateCreateNewTargets () throws InterruptedException {
         targetPage.createNewTargets("Test Description","30","Test Notes");
+    }
+
+    @Test
+    public void validateTargetsDataOnGridPage(){
+        Assert.assertTrue(targetPage.titleOnTargetsDetailsPage.isDisplayed(),"Targets page does not have data.");
     }
 
     @AfterTest
