@@ -10,6 +10,8 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import java.awt.font.TextHitInfo;
+
 public class ReportsPageTest extends TestBase {
 
 
@@ -158,6 +160,13 @@ public class ReportsPageTest extends TestBase {
         reportsPage.openAndClosedCasesReport();
         Thread.sleep(2000);
         Assert.assertTrue(reportsPage.openAndClosedCasesReportVerifyLink.isDisplayed(),"Open and Closed cases report does not displayed");
+    }
+
+    @Test (priority = 19)
+    public void validateCasesClosedByUsersReportLink () throws InterruptedException {
+        reportsPage.openAndClosedCasesReport();
+        Thread.sleep(2000);
+        Assert.assertTrue(reportsPage.openAndClosedCasesReportVerifyLink.isDisplayed(),"Cases Closed by users reports does not displayed");
     }
 
     @AfterMethod

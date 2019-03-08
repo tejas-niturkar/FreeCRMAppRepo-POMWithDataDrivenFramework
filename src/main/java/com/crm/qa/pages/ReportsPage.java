@@ -5,6 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import javax.swing.plaf.TableHeaderUI;
+
 public class ReportsPage extends TestBase {
 
     @FindBy (xpath = "//td[contains(text(),'Call Reports')]")
@@ -112,6 +114,12 @@ public class ReportsPage extends TestBase {
     @FindBy (xpath = "//td[contains(text(),'Report:  Cases Open and Closed')]")
     public WebElement openAndClosedCasesReportVerifyLink ;
 
+    @FindBy (xpath = "//a[contains(text(),'Cases Closed by Users')]")
+    WebElement casesClosedByUsersReportLink ;
+
+    @FindBy (xpath = "//td[contains(text(),'Report: Cases Closed by Users')]")
+    public WebElement getCasesClosedByUsersReportVerifyLink ;
+
 
 
 
@@ -212,6 +220,11 @@ public class ReportsPage extends TestBase {
     public void openAndClosedCasesReport() throws InterruptedException {
          Thread.sleep(2000);
          openAndClosedCasesReportLink.click();
+    }
+
+    public void casesClosedByUsersReport() throws InterruptedException {
+        Thread.sleep(2000);
+        casesClosedByUsersReportLink.click();
     }
 
 
