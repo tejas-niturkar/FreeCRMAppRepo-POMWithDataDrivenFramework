@@ -1,6 +1,7 @@
 package com.crm.qa.pages;
 
 import com.crm.qa.base.TestBase;
+import com.sun.webkit.ThemeClient;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -118,8 +119,13 @@ public class ReportsPage extends TestBase {
     WebElement casesClosedByUsersReportLink ;
 
     @FindBy (xpath = "//td[contains(text(),'Report: Cases Closed by Users')]")
-    public WebElement getCasesClosedByUsersReportVerifyLink ;
+    public WebElement casesClosedByUsersReportVerifyLink ;
 
+    @FindBy (xpath = "//a[contains(text(),'Cases by Users')]")
+    WebElement casesByUsers ;
+
+    @FindBy (xpath = "//td[contains(text(),'Open cases: by user')]")
+    public WebElement casesByUsersReportVerifyLink ;
 
 
 
@@ -227,6 +233,10 @@ public class ReportsPage extends TestBase {
         casesClosedByUsersReportLink.click();
     }
 
+    public void casesByUsersReport() throws InterruptedException {
+        Thread.sleep(2000);
+        casesByUsers.click();
+    }
 
 
 }
