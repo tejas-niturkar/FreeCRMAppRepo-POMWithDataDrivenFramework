@@ -122,13 +122,16 @@ public class ReportsPage extends TestBase {
     public WebElement casesClosedByUsersReportVerifyLink ;
 
     @FindBy (xpath = "//a[contains(text(),'Cases by Users')]")
-    WebElement casesByUsers ;
+    WebElement casesByUsersReportLink ;
 
     @FindBy (xpath = "//td[contains(text(),'Open cases: by user')]")
     public WebElement casesByUsersReportVerifyLink ;
 
+    @FindBy (xpath = "//a[contains(text(),'Cases Open by Users')]")
+    WebElement casesOpenByUsersReportLink ;
 
-
+    @FindBy (xpath = "//td[contains(text(),'Open cases: by user')]")
+    public WebElement casesOpenByUsersReportVerifyLink ;
 
 
 
@@ -235,7 +238,13 @@ public class ReportsPage extends TestBase {
 
     public void casesByUsersReport() throws InterruptedException {
         Thread.sleep(2000);
-        casesByUsers.click();
+        casesByUsersReportLink.click();
+    }
+
+    public void casesOpenByUsersReport() throws InterruptedException {
+         Thread.sleep(2000);
+         casesOpenByUsersReportLink.click();
+
     }
 
 

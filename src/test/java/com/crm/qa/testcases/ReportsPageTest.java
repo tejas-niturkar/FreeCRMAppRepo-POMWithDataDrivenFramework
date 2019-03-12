@@ -173,7 +173,14 @@ public class ReportsPageTest extends TestBase {
     public void validateCasesByUsersReport() throws InterruptedException {
         reportsPage.casesByUsersReport();
         Thread.sleep(2000);
-        Assert.assertTrue(reportsPage.casesByUsersReportVerifyLink.isDisplayed(),"Cases byuserse report does not displayed");
+        Assert.assertTrue(reportsPage.casesByUsersReportVerifyLink.isDisplayed(),"Cases by users report does not displayed");
+    }
+
+    @Test (priority = 21)
+    public void validateCasesOpenByUsersReport() throws InterruptedException {
+        reportsPage.casesOpenByUsersReport();
+        Thread.sleep(2000);
+        Assert.assertTrue(reportsPage.casesOpenByUsersReportVerifyLink.isDisplayed(),"Cases open by users report does not displayed");
     }
 
 
