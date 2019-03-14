@@ -183,10 +183,18 @@ public class ReportsPageTest extends TestBase {
         Assert.assertTrue(reportsPage.casesOpenByUsersReportVerifyLink.isDisplayed(),"Cases open by users report does not displayed");
     }
 
+    @Test (priority = 22)
+    public void validateCasesAndCompaniesReport() throws InterruptedException {
+        reportsPage.casesAndCompaniesReport();
+        Thread.sleep(2000);
+        Assert.assertTrue(reportsPage.casesAndCompaniesReportVerifyLink.isDisplayed(),"Cases and companies report does not displayed");
+    }
+
+
 
     @AfterMethod
     public void tearDown(){
-        driver.quit();
+        //driver.quit();
     }
 
 }
