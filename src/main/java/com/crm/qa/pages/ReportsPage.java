@@ -5,6 +5,7 @@ import com.sun.webkit.ThemeClient;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import sun.awt.windows.WEmbeddedFrame;
 
 import javax.swing.plaf.TableHeaderUI;
 
@@ -151,6 +152,12 @@ public class ReportsPage extends TestBase {
     @FindBy (xpath = "//td[contains(text(),'Report: Client Countries')]")
     public WebElement companyCountriesReportVerifyLink ;
 
+    @FindBy (xpath = "//a[contains(text(),'Company Deals')]")
+    WebElement companyDealsReportLink ;
+
+    @FindBy (xpath = "//td[contains(text(),'Report: Company Deals')]")
+    public WebElement companyDealsReportVerifyLink ;
+
 
 
      ReportsPage() {
@@ -277,6 +284,11 @@ public class ReportsPage extends TestBase {
     public void companyCountriesReport() throws InterruptedException {
          Thread.sleep(2000);
          companyCountriesReportLink.click();
+    }
+
+    public void companyDealsReport() throws InterruptedException {
+         Thread.sleep(2000);
+         companyDealsReportLink.click();
     }
 
 }

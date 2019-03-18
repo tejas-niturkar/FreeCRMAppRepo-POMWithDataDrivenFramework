@@ -5,6 +5,7 @@ import com.crm.qa.pages.HomePage;
 import com.crm.qa.pages.LoginPage;
 import com.crm.qa.pages.ReportsPage;
 import com.crm.qa.utils.TestUtils;
+import org.omg.PortableServer.THREAD_POLICY_ID;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -204,10 +205,17 @@ public class ReportsPageTest extends TestBase {
         Assert.assertTrue(reportsPage.companyCountriesReportVerifyLink.isDisplayed(),"Company countries report does not displayed");
     }
 
+    @Test (priority = 25)
+    public void validateCompanyDealsReport() throws InterruptedException {
+        reportsPage.companyDealsReport();
+        Thread.sleep(2000);
+        Assert.assertTrue(reportsPage.companyDealsReportVerifyLink.isDisplayed(),"Company deals report does not displayed");
+    }
+
 
 
     @AfterMethod
-    public void tearDown(){
+    public void tearDown() {
         driver.quit();
     }
 
