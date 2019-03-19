@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ef3f686-ecd2-44eb-bc88-0953455da636" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/crm/qa/pages/ReportsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crm/qa/pages/ReportsPage.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,11 +18,11 @@
       <file leaf-file-name="ReportsPage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/crm/qa/pages/ReportsPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="292" lean-forward="true" selection-start-line="292" selection-end-line="292" />
+            <state relative-caret-position="394">
+              <caret line="297" column="75" selection-start-line="297" selection-start-column="75" selection-end-line="297" selection-end-column="75" />
               <folding>
-                <element signature="e#6012#6013#0" expanded="true" />
-                <element signature="e#6065#6066#0" expanded="true" />
+                <element signature="e#6277#6278#0" expanded="true" />
+                <element signature="e#6330#6331#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -203,7 +203,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="1150" />
     <option name="y" value="325" />
     <option name="width" value="1874" />
@@ -629,7 +629,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-8" width="1874" height="1096" extended-state="6" />
+    <frame x="1358" y="-8" width="1874" height="1096" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32843137" />
@@ -638,7 +639,7 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5060514" side_tool="true" weight="0.3120915" />
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.18003026" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3267974" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32676348" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49394855" weight="0.2908497" />
       <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32676348" />
       <window_info id="Capture Tool" order="3" />
@@ -1084,11 +1085,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/crm/qa/pages/ReportsPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="292" lean-forward="true" selection-start-line="292" selection-end-line="292" />
+        <state relative-caret-position="394">
+          <caret line="297" column="75" selection-start-line="297" selection-start-column="75" selection-end-line="297" selection-end-column="75" />
           <folding>
-            <element signature="e#6012#6013#0" expanded="true" />
-            <element signature="e#6065#6066#0" expanded="true" />
+            <element signature="e#6277#6278#0" expanded="true" />
+            <element signature="e#6330#6331#0" expanded="true" />
           </folding>
         </state>
       </provider>
