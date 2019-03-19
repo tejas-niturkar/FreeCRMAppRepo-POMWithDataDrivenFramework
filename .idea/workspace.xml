@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ef3f686-ecd2-44eb-bc88-0953455da636" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/crm/qa/pages/ReportsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crm/qa/pages/ReportsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,8 +18,8 @@
       <file leaf-file-name="ReportsPage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/crm/qa/pages/ReportsPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="297" column="75" selection-start-line="297" selection-start-column="75" selection-end-line="297" selection-end-column="75" />
+            <state relative-caret-position="462">
+              <caret line="301" lean-forward="true" selection-start-line="301" selection-end-line="301" />
               <folding>
                 <element signature="e#6277#6278#0" expanded="true" />
                 <element signature="e#6330#6331#0" expanded="true" />
@@ -629,8 +629,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-8" width="1874" height="1096" extended-state="7" />
-    <editor active="true" />
+    <frame x="1358" y="-8" width="1874" height="1096" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32843137" />
@@ -1085,8 +1084,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/crm/qa/pages/ReportsPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="297" column="75" selection-start-line="297" selection-start-column="75" selection-end-line="297" selection-end-column="75" />
+        <state relative-caret-position="462">
+          <caret line="301" lean-forward="true" selection-start-line="301" selection-end-line="301" />
           <folding>
             <element signature="e#6277#6278#0" expanded="true" />
             <element signature="e#6330#6331#0" expanded="true" />
