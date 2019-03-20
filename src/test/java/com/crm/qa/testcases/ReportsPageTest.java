@@ -212,6 +212,13 @@ public class ReportsPageTest extends TestBase {
         Assert.assertTrue(reportsPage.companyDealsReportVerifyLink.isDisplayed(),"Company deals report does not displayed");
     }
 
+    @Test (priority = 26)
+    public void validateCompanyCountByUserReport() throws InterruptedException {
+        reportsPage.companyCountsByUsersReport();
+        Thread.sleep(2000);
+        Assert.assertTrue(reportsPage.companyCountsByUsersReportVerifyLink.isDisplayed(),"Company count by users report does not displayed");
+    }
+
 
 
     @AfterMethod
