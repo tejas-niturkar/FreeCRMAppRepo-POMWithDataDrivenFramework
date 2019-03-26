@@ -164,6 +164,14 @@ public class ReportsPage extends TestBase {
     @FindBy (xpath = "//td[contains(text(),'Report: Companies created by users')]")
     public WebElement companyCountsByUsersReportVerifyLink ;
 
+    @FindBy (xpath = "//a[contains(text(),'Company Categories')]")
+    WebElement companyCategoriesReportLink ;
+
+    @FindBy (xpath = "//td[contains(text(),'Report: Company Categories')]")
+    public WebElement companyCategoriesReportVerifyLink ;
+
+
+
      ReportsPage() {
         PageFactory.initElements(driver,this);
     }
@@ -298,6 +306,11 @@ public class ReportsPage extends TestBase {
     public void companyCountsByUsersReport() throws InterruptedException {
          Thread.sleep(2000);
          companyCountsByUsersReportLink.click();
+    }
+
+    public void companyCategoriesReport() throws InterruptedException {
+         Thread.sleep(2000);
+         companyCategoriesReportLink.click();
     }
 
 }
