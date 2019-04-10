@@ -22,7 +22,7 @@ public class HomePageTest extends TestBase {
     }
 
     @BeforeMethod
-     public void setup(){
+     public void setup()throws InterruptedException{
         initialization();
         testUtils = new TestUtils();
         loginPage = new LoginPage();

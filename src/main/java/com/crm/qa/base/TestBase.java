@@ -31,8 +31,8 @@ public class TestBase {
 
         try {
             prop = new Properties();
-            FileInputStream ip = new FileInputStream("C:\\Users\\Tagrem Admin\\IdeaProjects\\FreeCRMTest" +
-                    "\\src\\main" + "\\java\\com\\crm\\qa\\config\\config.properties");
+            FileInputStream ip = new FileInputStream("/Users/tejas.niturkar/IdeaProjects/" +
+                    "FreeCRMAppRepo-POMWithDataDrivenFramework/src/main/java/com/crm/qa/config/config.properties");
             prop.load(ip);
             }
 
@@ -44,11 +44,10 @@ public class TestBase {
             }
     }
     public static void initialization (){
-
         String browserName = prop.getProperty("browser");
 
         if (browserName.equalsIgnoreCase("chrome")){
-           System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\Browsers\\chromedriver_win32\\chromedriver.exe");
+             System.setProperty("webdriver.chrome.driver",  System.getProperty("User.dir") + "chromedriver");
             driver = new ChromeDriver();
         }
          else if (browserName.equalsIgnoreCase("firefox")){

@@ -29,8 +29,8 @@ public class TestUtils extends TestBase {
     public static long PAGE_LOAD_TIMEOUT = 20;
     public static long IMPLICIT_WAIT = 20 ;
 
-    public static String TESTDATA_SHEET_PATH = "C:\\Users\\Tagrem Admin\\IdeaProjects\\" +
-            "FreeCRMTest\\src\\main\\java\\com\\crm\\qa\\testdata\\FreeCRMTestData.xlsx" ;
+    public static String TESTDATA_SHEET_PATH = "/Users/tejas.niturkar/IdeaProjects/" +
+            "FreeCRMAppRepo-POMWithDataDrivenFramework/src/main/java/com/crm/qa/testdata/FreeCRMTestData.xlsx" ;
 
     static Workbook book ;
     static Sheet sheet ;
@@ -80,7 +80,7 @@ public class TestUtils extends TestBase {
 
     public static void takeScreenshotAtEndOfTest () throws IOException {
         File srcFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-        FileUtils.copyFile(srcFile, new File("C:\\Selenium\\Screenshots\\screenshot" + "_"  + ".png"));
+        FileUtils.copyFile(srcFile, new File("/Users/tejas.niturkar/Documents/Selenium/screenshot" + "_"  + ".png"));
     }
 
 

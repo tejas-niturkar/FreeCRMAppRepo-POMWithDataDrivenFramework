@@ -1,3 +1,13 @@
-com\crm\qa\testcases\HomePageTest.class
-com\crm\qa\testcases\ContactsPageTest.class
-com\crm\qa\testcases\LoginpageTest.class
+com/crm/qa/testcases/TasksPageTest.class
+com/crm/qa/testcases/CalendarPageTest.class
+com/crm/qa/testcases/FormsPageTest.class
+com/crm/qa/testcases/DealsPageTest.class
+com/crm/qa/testcases/SignupPageTest.class
+com/crm/qa/testcases/LoginPageTest.class
+com/crm/qa/testcases/ReportsPageTest.class
+com/crm/qa/testcases/CompanyPageTest.class
+com/crm/qa/testcases/HomePageTest.class
+com/crm/qa/testcases/DocsPageTest.class
+com/crm/qa/testcases/CasesPageTest.class
+com/crm/qa/testcases/TargetsPageTest.class
+com/crm/qa/testcases/ContactsPageTest.class

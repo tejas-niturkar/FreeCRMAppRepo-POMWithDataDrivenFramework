@@ -23,7 +23,7 @@ public class FormsPageTest extends TestBase {
     FormsPageTest() { super(); }
 
     @BeforeMethod
-    public void setUp(){
+    public void setUp()throws InterruptedException{
         initialization();
         testUtils = new TestUtils();
         loginPage = new LoginPage();

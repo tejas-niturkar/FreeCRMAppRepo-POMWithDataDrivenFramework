@@ -1,16 +1,152 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite verbose="0" name="Failed suite [Command line suite]">
-  <test thread-count="5" verbose="0" name="Command line test(failed)">
+  <test name="Command line test(failed)">
     <classes>
+      <class name="com.crm.qa.testcases.CalendarPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="validateCreateNewCalendarEventWithoutAssignedToSelected"/>
+          <include name="validateCreateNewCalendarEvent"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.CalendarPageTest -->
+      <class name="com.crm.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="crmLogoImageTest"/>
+          <include name="setUp"/>
+          <include name="contactsLinkTest"/>
+          <include name="signupClickTest"/>
+          <include name="tearDown"/>
+          <include name="customersLinkTest"/>
+          <include name="loginPageTitleTest"/>
+          <include name="loginTest"/>
+          <include name="featuresLinkTest"/>
+          <include name="forgotPasswordLinkTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
+      <class name="com.crm.qa.testcases.CasesPageTest">
+        <methods>
+          <include name="validateCreateNewCase"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="validateSearch"/>
+          <include name="validateUpdateCase"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.CasesPageTest -->
+      <class name="com.crm.qa.testcases.CompanyPageTest">
+        <methods>
+          <include name="validateCompanyPageLabel"/>
+          <include name="validateCreateNewCompanyLabel"/>
+          <include name="tearDown"/>
+          <include name="validateCreateNewCompany"/>
+          <include name="validateUpdateCompany"/>
+          <include name="validateFullSearchFormCompanyFunctionality"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.CompanyPageTest -->
+      <class name="com.crm.qa.testcases.DealsPageTest">
+        <methods>
+          <include name="validateCreateNewDeals"/>
+          <include name="tearDown"/>
+          <include name="validateDealsPageLabel"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.DealsPageTest -->
+      <class name="com.crm.qa.testcases.DocsPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="validateDocsPageLabelTest"/>
+          <include name="validateAddNewDocument"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.DocsPageTest -->
+      <class name="com.crm.qa.testcases.FormsPageTest">
+        <methods>
+          <include name="ValidateAlertOnFormsPage"/>
+          <include name="validateFormsPageLabel"/>
+          <include name="setUp"/>
+          <include name="validateCreateNewForms"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.FormsPageTest -->
       <class name="com.crm.qa.testcases.ContactsPageTest">
         <methods>
+          <include name="validateSearchContacts"/>
           <include name="setUp"/>
+          <include name="selectMultipleContactsTest"/>
           <include name="tearDown"/>
-          <include name="validateCreateNewContact" invocation-numbers="0 1 2"/>
+          <include name="validateCreateNewContact"/>
           <include name="validateContactsPageLabel"/>
+          <include name="selectContactsTest"/>
         </methods>
       </class> <!-- com.crm.qa.testcases.ContactsPageTest -->
+      <class name="com.crm.qa.testcases.ReportsPageTest">
+        <methods>
+          <include name="validateCaseCallsReport"/>
+          <include name="validateCasesClosedByUsersReport"/>
+          <include name="validateOpenAndClosedCasesReport"/>
+          <include name="validateTaskCallsReport"/>
+          <include name="validateCallsByTImeReportLink"/>
+          <include name="validateCasesByUsersReport"/>
+          <include name="validateDealCallsReport"/>
+          <include name="validateCompanyCountriesReport"/>
+          <include name="validateCallFlagsByUserReport"/>
+          <include name="tearDown"/>
+          <include name="validateCompanyDealsReport"/>
+          <include name="validateCompanyCategoriesReport"/>
+          <include name="validateClosedCasesReport"/>
+          <include name="setUp"/>
+          <include name="validateReportsPageLabel"/>
+          <include name="validateCallByWeekReport"/>
+          <include name="validateCallStatisticsReport"/>
+          <include name="validateCaseStatisticsReport"/>
+          <include name="validateAllOpenCasesReport"/>
+          <include name="validateCasesOpenByUsersReport"/>
+          <include name="validateMostCalledContactsReport"/>
+          <include name="validateCallByMonthReport"/>
+          <include name="validateCallsByTeamReport"/>
+          <include name="validateCompanyCountByUserReport"/>
+          <include name="validateCasesAndCompaniesReport"/>
+          <include name="validateCallFlagsReport"/>
+          <include name="validateOpenCasesReport"/>
+          <include name="validateCallByDayReport"/>
+          <include name="validateCompanyStatisticsReport"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.ReportsPageTest -->
+      <class name="com.crm.qa.testcases.TasksPageTest">
+        <methods>
+          <include name="validateTasksPageLabel"/>
+          <include name="validateCreateNewTasks"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.TasksPageTest -->
+      <class name="com.crm.qa.testcases.TargetsPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="validateCreateNewTargets"/>
+          <include name="validateTargetsDataOnGridPage"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.TargetsPageTest -->
+      <class name="com.crm.qa.testcases.HomePageTest">
+        <methods>
+          <include name="validateGlobalSearchFunctionality"/>
+          <include name="validateUsernameTest"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="validateContactsLinkTest"/>
+          <include name="validateHomePageTitleTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.HomePageTest -->
+      <class name="com.crm.qa.testcases.SignupPageTest">
+        <methods>
+          <include name="validateSignupPage"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.SignupPageTest -->
     </classes>
   </test> <!-- Command line test(failed) -->
 </suite> <!-- Failed suite [Command line suite] -->

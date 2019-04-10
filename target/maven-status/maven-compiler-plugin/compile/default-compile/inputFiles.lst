@@ -1,10 +1,17 @@
-C:\Users\Tagrem Admin\IdeaProjects\FreeCRMTest\src\main\java\com\crm\qa\pages\DealsPage.java
-C:\Users\Tagrem Admin\IdeaProjects\FreeCRMTest\src\main\java\ExtentReportListener\ExtentReportListener.java
-C:\Users\Tagrem Admin\IdeaProjects\FreeCRMTest\src\main\java\com\crm\qa\pages\SignupPage.java
-C:\Users\Tagrem Admin\IdeaProjects\FreeCRMTest\src\main\java\com\crm\qa\pages\HomePage.java
-C:\Users\Tagrem Admin\IdeaProjects\FreeCRMTest\src\main\java\com\crm\qa\utils\WebEventListener.java
-C:\Users\Tagrem Admin\IdeaProjects\FreeCRMTest\src\main\java\com\crm\qa\pages\LoginPage.java
-C:\Users\Tagrem Admin\IdeaProjects\FreeCRMTest\src\main\java\com\crm\qa\base\TestBase.java
-C:\Users\Tagrem Admin\IdeaProjects\FreeCRMTest\src\main\java\com\crm\qa\pages\TaskPage.java
-C:\Users\Tagrem Admin\IdeaProjects\FreeCRMTest\src\main\java\com\crm\qa\pages\ContactsPage.java
-C:\Users\Tagrem Admin\IdeaProjects\FreeCRMTest\src\main\java\com\crm\qa\utils\TestUtils.java
+/Users/tejas.niturkar/IdeaProjects/FreeCRMAppRepo-POMWithDataDrivenFramework/src/main/java/com/crm/qa/pages/CasesPage.java
+/Users/tejas.niturkar/IdeaProjects/FreeCRMAppRepo-POMWithDataDrivenFramework/src/main/java/com/crm/qa/pages/SignupPage.java
+/Users/tejas.niturkar/IdeaProjects/FreeCRMAppRepo-POMWithDataDrivenFramework/src/main/java/ExtentReportListener/ExtentReportListener.java
+/Users/tejas.niturkar/IdeaProjects/FreeCRMAppRepo-POMWithDataDrivenFramework/src/main/java/com/crm/qa/pages/TaskPage.java
+/Users/tejas.niturkar/IdeaProjects/FreeCRMAppRepo-POMWithDataDrivenFramework/src/main/java/com/crm/qa/utils/WebEventListener.java
+/Users/tejas.niturkar/IdeaProjects/FreeCRMAppRepo-POMWithDataDrivenFramework/src/main/java/com/crm/qa/pages/FormsPage.java
+/Users/tejas.niturkar/IdeaProjects/FreeCRMAppRepo-POMWithDataDrivenFramework/src/main/java/com/crm/qa/pages/ContactsPage.java
+/Users/tejas.niturkar/IdeaProjects/FreeCRMAppRepo-POMWithDataDrivenFramework/src/main/java/com/crm/qa/pages/DealsPage.java
+/Users/tejas.niturkar/IdeaProjects/FreeCRMAppRepo-POMWithDataDrivenFramework/src/main/java/com/crm/qa/pages/CalendarPage.java
+/Users/tejas.niturkar/IdeaProjects/FreeCRMAppRepo-POMWithDataDrivenFramework/src/main/java/com/crm/qa/pages/HomePage.java
+/Users/tejas.niturkar/IdeaProjects/FreeCRMAppRepo-POMWithDataDrivenFramework/src/main/java/com/crm/qa/pages/TargetsPage.java
+/Users/tejas.niturkar/IdeaProjects/FreeCRMAppRepo-POMWithDataDrivenFramework/src/main/java/com/crm/qa/base/TestBase.java
+/Users/tejas.niturkar/IdeaProjects/FreeCRMAppRepo-POMWithDataDrivenFramework/src/main/java/com/crm/qa/pages/CompanyPage.java
+/Users/tejas.niturkar/IdeaProjects/FreeCRMAppRepo-POMWithDataDrivenFramework/src/main/java/com/crm/qa/pages/DocsPage.java
+/Users/tejas.niturkar/IdeaProjects/FreeCRMAppRepo-POMWithDataDrivenFramework/src/main/java/com/crm/qa/pages/LoginPage.java
+/Users/tejas.niturkar/IdeaProjects/FreeCRMAppRepo-POMWithDataDrivenFramework/src/main/java/com/crm/qa/pages/ReportsPage.java
+/Users/tejas.niturkar/IdeaProjects/FreeCRMAppRepo-POMWithDataDrivenFramework/src/main/java/com/crm/qa/utils/TestUtils.java

@@ -1,142 +1,283 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-<title>TestNG Report</title>
-<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
-</head>
-<body>
-<table>
-<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="7">Command line suite</th></tr>
-<tr><td><a href="#t0">Command line test</a></td><td class="num">13</td><td class="num">0</td><td class="num">0</td><td class="num attn">4</td><td class="num">418,696</td><td></td><td></td></tr>
-</table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Command line suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Command line test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="4">com.crm.qa.testcases.ContactsPageTest</td><td><a href="#m0">validateContactsPageLabel</a></td><td rowspan="1">1542007281949</td><td rowspan="1">854</td></tr><tr class="failedeven"><td><a href="#m1">validateCreateNewContact</a></td><td rowspan="3">1542007500597</td><td rowspan="3">1640</td></tr><tr class="failedeven"><td><a href="#m2">validateCreateNewContact</a></td></tr><tr class="failedeven"><td><a href="#m3">validateCreateNewContact</a></td></tr><tr><th colspan="4">Command line test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.crm.qa.testcases.ContactsPageTest</td><td><a href="#m4">selectContactsTest</a></td><td rowspan="1">1542007343429</td><td rowspan="1">2112</td></tr><tr class="passedeven"><td><a href="#m5">selectMltipleContactsTest</a></td><td rowspan="1">1542007418969</td><td rowspan="1">3228</td></tr><tr class="passedodd"><td rowspan="3">com.crm.qa.testcases.HomePageTest</td><td><a href="#m6">validateContactsLinkTest</a></td><td rowspan="1">1542007447483</td><td rowspan="1">5231</td></tr><tr class="passedodd"><td><a href="#m7">validateHomePageTitleTest</a></td><td rowspan="1">1542007306838</td><td rowspan="1">16</td></tr><tr class="passedodd"><td><a href="#m8">validateUsernameTest</a></td><td rowspan="1">1542007366798</td><td rowspan="1">123</td></tr><tr class="passedeven"><td rowspan="8">com.crm.qa.testcases.LoginpageTest</td><td><a href="#m9">contactsLinkTest</a></td><td rowspan="1">1542007171267</td><td rowspan="1">4642</td></tr><tr class="passedeven"><td><a href="#m10">crmLogoImageTest</a></td><td rowspan="1">1542007384288</td><td rowspan="1">42</td></tr><tr class="passedeven"><td><a href="#m11">customersLinkTest</a></td><td rowspan="1">1542007190588</td><td rowspan="1">3215</td></tr><tr class="passedeven"><td><a href="#m12">featuresLinkTest</a></td><td rowspan="1">1542007207580</td><td rowspan="1">15897</td></tr><tr class="passedeven"><td><a href="#m13">forgotPasswordLinkTest</a></td><td rowspan="1">1542007235951</td><td rowspan="1">3768</td></tr><tr class="passedeven"><td><a href="#m14">loginPageTitleTest</a></td><td rowspan="1">1542007322463</td><td rowspan="1">10</td></tr><tr class="passedeven"><td><a href="#m15">loginTest</a></td><td rowspan="1">1542007465002</td><td rowspan="1">7732</td></tr><tr class="passedeven"><td><a href="#m16">signupClickTest</a></td><td rowspan="1">1542007252845</td><td rowspan="1">5835</td></tr></tbody>
-</table>
-<h2>Command line test</h2><h3 id="m0">com.crm.qa.testcases.ContactsPageTest#validateContactsPageLabel</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: unknown error: unhandled inspector error: {&quot;code&quot;:-32000,&quot;message&quot;:&quot;Cannot find context with specified id&quot;}
-  (Session info: chrome=70.0.3538.77)
-  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;
-System info: host: &apos;TEJAS&apos;, ip: &apos;192.168.4.115&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_111&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\TAGREM~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
-Session ID: f205ffa1790cb7546dc132a35539dd44
-*** Element info: {Using=xpath, value=//td[contains(text(),&apos;Contacts&apos;) ]}
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-	at com.sun.proxy.$Proxy6.findElement(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy10.isDisplayed(Unknown Source)
-	at com.crm.qa.pages.ContactsPage.validateContactsLabel(ContactsPage.java:40)
-	at com.crm.qa.testcases.ContactsPageTest.validateContactsPageLabel(ContactsPageTest.java:42)
-... Removed 43 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.crm.qa.testcases.ContactsPageTest#validateCreateNewContact</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>Mr.</td><td>Rohit</td><td>Sharma</td><td>TCS</td></tr><tr><th colspan="4">Exception</th></tr><tr><td colspan="4"><div class="stacktrace">org.openqa.selenium.ElementNotVisibleException: element not visible
-  (Session info: chrome=70.0.3538.77)
-  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;
-System info: host: &apos;TEJAS&apos;, ip: &apos;192.168.4.115&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_111&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\TAGREM~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
-Session ID: fbbf619ec3d996dcf09593ae181989d6
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:403)
-	at com.sun.proxy.$Proxy11.click(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:416)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy10.click(Unknown Source)
-	at com.crm.qa.pages.HomePage.clickOnNewContactsLink(HomePage.java:67)
-	at com.crm.qa.testcases.ContactsPageTest.validateCreateNewContact(ContactsPageTest.java:69)
-... Removed 45 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.crm.qa.testcases.ContactsPageTest#validateCreateNewContact</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>MRS.</td><td>Mithali</td><td>Raj</td><td>BCCI</td></tr><tr><th colspan="4">Exception</th></tr><tr><td colspan="4"><div class="stacktrace">org.openqa.selenium.ElementNotVisibleException: element not visible
-  (Session info: chrome=70.0.3538.77)
-  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;
-System info: host: &apos;TEJAS&apos;, ip: &apos;192.168.4.115&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_111&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\TAGREM~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
-Session ID: bdd29aa81b3dabe793f6d170bba009c6
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:403)
-	at com.sun.proxy.$Proxy11.click(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:416)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy10.click(Unknown Source)
-	at com.crm.qa.pages.HomePage.clickOnNewContactsLink(HomePage.java:67)
-	at com.crm.qa.testcases.ContactsPageTest.validateCreateNewContact(ContactsPageTest.java:69)
-... Removed 45 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.crm.qa.testcases.ContactsPageTest#validateCreateNewContact</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>Dr.</td><td>Virat </td><td>Kohli</td><td>MRF</td></tr><tr><th colspan="4">Exception</th></tr><tr><td colspan="4"><div class="stacktrace">org.openqa.selenium.ElementNotVisibleException: element not visible
-  (Session info: chrome=70.0.3538.77)
-  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;
-System info: host: &apos;TEJAS&apos;, ip: &apos;192.168.4.115&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_111&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\TAGREM~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
-Session ID: ba49e826bd96994c80bb360e128485b8
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:403)
-	at com.sun.proxy.$Proxy11.click(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:416)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy10.click(Unknown Source)
-	at com.crm.qa.pages.HomePage.clickOnNewContactsLink(HomePage.java:67)
-	at com.crm.qa.testcases.ContactsPageTest.validateCreateNewContact(ContactsPageTest.java:69)
-... Removed 45 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.crm.qa.testcases.ContactsPageTest#selectContactsTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">com.crm.qa.testcases.ContactsPageTest#selectMltipleContactsTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">com.crm.qa.testcases.HomePageTest#validateContactsLinkTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">com.crm.qa.testcases.HomePageTest#validateHomePageTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m8">com.crm.qa.testcases.HomePageTest#validateUsernameTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m9">com.crm.qa.testcases.LoginpageTest#contactsLinkTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m10">com.crm.qa.testcases.LoginpageTest#crmLogoImageTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m11">com.crm.qa.testcases.LoginpageTest#customersLinkTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m12">com.crm.qa.testcases.LoginpageTest#featuresLinkTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m13">com.crm.qa.testcases.LoginpageTest#forgotPasswordLinkTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m14">com.crm.qa.testcases.LoginpageTest#loginPageTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m15">com.crm.qa.testcases.LoginpageTest#loginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m16">com.crm.qa.testcases.LoginpageTest#signupClickTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-</body>
-</html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">Command line suite</th></tr><tr><td><a href="#t0">Command line test</a></td><td class="num">0</td><td class="num attn">66</td><td class="num">0</td><td class="num">125</td><td></td><td></td></tr></table><table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Command line suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Command line test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.crm.qa.testcases.CasesPageTest</td><td><a href="#m0">setUp</a></td><td rowspan="1">1554744052762</td><td rowspan="1">0</td></tr><tr class="failedodd"><td rowspan="1">com.crm.qa.testcases.CompanyPageTest</td><td><a href="#m1">setUp</a></td><td rowspan="1">1554744052743</td><td rowspan="1">0</td></tr><tr class="failedeven"><td rowspan="1">com.crm.qa.testcases.ContactsPageTest</td><td><a href="#m2">setUp</a></td><td rowspan="1">1554744052744</td><td rowspan="1">0</td></tr><tr class="failedodd"><td rowspan="1">com.crm.qa.testcases.DealsPageTest</td><td><a href="#m3">setUp</a></td><td rowspan="1">1554744052746</td><td rowspan="1">1</td></tr><tr class="failedeven"><td rowspan="1">com.crm.qa.testcases.DocsPageTest</td><td><a href="#m4">setup</a></td><td rowspan="1">1554744052729</td><td rowspan="1">0</td></tr><tr class="failedodd"><td rowspan="1">com.crm.qa.testcases.FormsPageTest</td><td><a href="#m5">setUp</a></td><td rowspan="1">1554744052748</td><td rowspan="1">1</td></tr><tr class="failedeven"><td rowspan="1">com.crm.qa.testcases.HomePageTest</td><td><a href="#m6">setup</a></td><td rowspan="1">1554744052749</td><td rowspan="1">1</td></tr><tr class="failedodd"><td rowspan="1">com.crm.qa.testcases.LoginPageTest</td><td><a href="#m7">setUp</a></td><td rowspan="1">1554744052725</td><td rowspan="1">1</td></tr><tr class="failedeven"><td rowspan="1">com.crm.qa.testcases.ReportsPageTest</td><td><a href="#m8">setUp</a></td><td rowspan="1">1554744052751</td><td rowspan="1">0</td></tr><tr class="failedodd"><td rowspan="1">com.crm.qa.testcases.TargetsPageTest</td><td><a href="#m9">setup</a></td><td rowspan="1">1554744052700</td><td rowspan="1">3</td></tr><tr class="failedeven"><td rowspan="1">com.crm.qa.testcases.TasksPageTest</td><td><a href="#m10">setup</a></td><td rowspan="1">1554744052730</td><td rowspan="1">0</td></tr><tr><th colspan="4">Command line test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="4">com.crm.qa.testcases.CasesPageTest</td><td><a href="#m11">setUp</a></td><td rowspan="1">1554744052778</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m12">tearDown</a></td><td rowspan="3">1554744052808</td><td rowspan="3">0</td></tr><tr class="skippedeven"><td><a href="#m13">tearDown</a></td></tr><tr class="skippedeven"><td><a href="#m14">tearDown</a></td></tr><tr class="skippedodd"><td rowspan="3">com.crm.qa.testcases.CompanyPageTest</td><td><a href="#m15">setUp</a></td><td rowspan="3">1554744052791</td><td rowspan="3">0</td></tr><tr class="skippedodd"><td><a href="#m16">setUp</a></td></tr><tr class="skippedodd"><td><a href="#m17">setUp</a></td></tr><tr class="skippedeven"><td rowspan="3">com.crm.qa.testcases.ContactsPageTest</td><td><a href="#m18">setUp</a></td><td rowspan="3">1554744052786</td><td rowspan="3">0</td></tr><tr class="skippedeven"><td><a href="#m19">setUp</a></td></tr><tr class="skippedeven"><td><a href="#m20">setUp</a></td></tr><tr class="skippedodd"><td rowspan="1">com.crm.qa.testcases.FormsPageTest</td><td><a href="#m21">setUp</a></td><td rowspan="1">1554744052779</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td rowspan="3">com.crm.qa.testcases.HomePageTest</td><td><a href="#m22">setup</a></td><td rowspan="3">1554744052774</td><td rowspan="3">0</td></tr><tr class="skippedeven"><td><a href="#m23">setup</a></td></tr><tr class="skippedeven"><td><a href="#m24">setup</a></td></tr><tr class="skippedodd"><td rowspan="7">com.crm.qa.testcases.LoginPageTest</td><td><a href="#m25">setUp</a></td><td rowspan="7">1554744052727</td><td rowspan="7">0</td></tr><tr class="skippedodd"><td><a href="#m26">setUp</a></td></tr><tr class="skippedodd"><td><a href="#m27">setUp</a></td></tr><tr class="skippedodd"><td><a href="#m28">setUp</a></td></tr><tr class="skippedodd"><td><a href="#m29">setUp</a></td></tr><tr class="skippedodd"><td><a href="#m30">setUp</a></td></tr><tr class="skippedodd"><td><a href="#m31">setUp</a></td></tr><tr class="skippedeven"><td rowspan="26">com.crm.qa.testcases.ReportsPageTest</td><td><a href="#m32">setUp</a></td><td rowspan="26">1554744052791</td><td rowspan="26">0</td></tr><tr class="skippedeven"><td><a href="#m33">setUp</a></td></tr><tr class="skippedeven"><td><a href="#m34">setUp</a></td></tr><tr class="skippedeven"><td><a href="#m35">setUp</a></td></tr><tr class="skippedeven"><td><a href="#m36">setUp</a></td></tr><tr class="skippedeven"><td><a href="#m37">setUp</a></td></tr><tr class="skippedeven"><td><a href="#m38">setUp</a></td></tr><tr class="skippedeven"><td><a href="#m39">setUp</a></td></tr><tr class="skippedeven"><td><a href="#m40">setUp</a></td></tr><tr class="skippedeven"><td><a href="#m41">setUp</a></td></tr><tr class="skippedeven"><td><a href="#m42">setUp</a></td></tr><tr class="skippedeven"><td><a href="#m43">setUp</a></td></tr><tr class="skippedeven"><td><a href="#m44">setUp</a></td></tr><tr class="skippedeven"><td><a href="#m45">setUp</a></td></tr><tr class="skippedeven"><td><a href="#m46">setUp</a></td></tr><tr class="skippedeven"><td><a href="#m47">setUp</a></td></tr><tr class="skippedeven"><td><a href="#m48">setUp</a></td></tr><tr class="skippedeven"><td><a href="#m49">setUp</a></td></tr><tr class="skippedeven"><td><a href="#m50">setUp</a></td></tr><tr class="skippedeven"><td><a href="#m51">setUp</a></td></tr><tr class="skippedeven"><td><a href="#m52">setUp</a></td></tr><tr class="skippedeven"><td><a href="#m53">setUp</a></td></tr><tr class="skippedeven"><td><a href="#m54">setUp</a></td></tr><tr class="skippedeven"><td><a href="#m55">setUp</a></td></tr><tr class="skippedeven"><td><a href="#m56">setUp</a></td></tr><tr class="skippedeven"><td><a href="#m57">setUp</a></td></tr><tr class="skippedodd"><td rowspan="1">com.crm.qa.testcases.TargetsPageTest</td><td><a href="#m58">setup</a></td><td rowspan="1">1554744052705</td><td rowspan="1">0</td></tr><tr><th colspan="4">Command line test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="2">com.crm.qa.testcases.CalendarPageTest</td><td><a href="#m59">validateCreateNewCalendarEvent</a></td><td rowspan="1">1554744052770</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m60">validateCreateNewCalendarEventWithoutAssignedToSelected</a></td><td rowspan="1">1554744052742</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="3">com.crm.qa.testcases.CasesPageTest</td><td><a href="#m61">validateCreateNewCase</a></td><td rowspan="1">1554744052737</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m62">validateSearch</a></td><td rowspan="1">1554744052778</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m63">validateUpdateCase</a></td><td rowspan="1">1554744052763</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td rowspan="5">com.crm.qa.testcases.CompanyPageTest</td><td><a href="#m64">validateCompanyPageLabel</a></td><td rowspan="1">1554744052743</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m65">validateCreateNewCompany</a></td><td rowspan="1">1554744052786</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m66">validateCreateNewCompanyLabel</a></td><td rowspan="1">1554744052770</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m67">validateFullSearchFormCompanyFunctionality</a></td><td rowspan="1">1554744052791</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m68">validateUpdateCompany</a></td><td rowspan="1">1554744052787</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="5">com.crm.qa.testcases.ContactsPageTest</td><td><a href="#m69">selectContactsTest</a></td><td rowspan="1">1554744052767</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m70">selectMultipleContactsTest</a></td><td rowspan="1">1554744052786</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m71">validateContactsPageLabel</a></td><td rowspan="1">1554744052745</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m72">validateCreateNewContact</a></td><td rowspan="1">1554744052790</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m73">validateSearchContacts</a></td><td rowspan="1">1554744052792</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td rowspan="2">com.crm.qa.testcases.DealsPageTest</td><td><a href="#m74">validateCreateNewDeals</a></td><td rowspan="1">1554744052774</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m75">validateDealsPageLabel</a></td><td rowspan="1">1554744052748</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="2">com.crm.qa.testcases.DocsPageTest</td><td><a href="#m76">validateAddNewDocument</a></td><td rowspan="1">1554744052757</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m77">validateDocsPageLabelTest</a></td><td rowspan="1">1554744052729</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td rowspan="3">com.crm.qa.testcases.FormsPageTest</td><td><a href="#m78">ValidateAlertOnFormsPage</a></td><td rowspan="1">1554744052780</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m79">validateCreateNewForms</a></td><td rowspan="1">1554744052766</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m80">validateFormsPageLabel</a></td><td rowspan="1">1554744052749</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="4">com.crm.qa.testcases.HomePageTest</td><td><a href="#m81">validateContactsLinkTest</a></td><td rowspan="1">1554744052778</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m82">validateGlobalSearchFunctionality</a></td><td rowspan="1">1554744052791</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m83">validateHomePageTitleTest</a></td><td rowspan="1">1554744052750</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m84">validateUsernameTest</a></td><td rowspan="1">1554744052774</td><td rowspan="1">1</td></tr><tr class="skippedeven"><td rowspan="8">com.crm.qa.testcases.LoginPageTest</td><td><a href="#m85">contactsLinkTest</a></td><td rowspan="1">1554744052726</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m86">crmLogoImageTest</a></td><td rowspan="1">1554744052776</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m87">customersLinkTest</a></td><td rowspan="1">1554744052727</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m88">featuresLinkTest</a></td><td rowspan="1">1554744052727</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m89">forgotPasswordLinkTest</a></td><td rowspan="1">1554744052727</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m90">loginPageTitleTest</a></td><td rowspan="1">1554744052751</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m91">loginTest</a></td><td rowspan="1">1554744052780</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m92">signupClickTest</a></td><td rowspan="1">1554744052728</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="27">com.crm.qa.testcases.ReportsPageTest</td><td><a href="#m93">validateAllOpenCasesReport</a></td><td rowspan="1">1554744052798</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m94">validateCallByDayReport</a></td><td rowspan="1">1554744052797</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m95">validateCallByMonthReport</a></td><td rowspan="1">1554744052791</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m96">validateCallByWeekReport</a></td><td rowspan="1">1554744052792</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m97">validateCallFlagsByUserReport</a></td><td rowspan="1">1554744052797</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m98">validateCallFlagsReport</a></td><td rowspan="1">1554744052797</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m99">validateCallStatisticsReport</a></td><td rowspan="1">1554744052777</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m100">validateCallsByTImeReportLink</a></td><td rowspan="1">1554744052797</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m101">validateCallsByTeamReport</a></td><td rowspan="1">1554744052792</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m102">validateCaseCallsReport</a></td><td rowspan="1">1554744052796</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m103">validateCaseStatisticsReport</a></td><td rowspan="1">1554744052798</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m104">validateCasesAndCompaniesReport</a></td><td rowspan="1">1554744052801</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m105">validateCasesByUsersReport</a></td><td rowspan="1">1554744052800</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m106">validateCasesClosedByUsersReport</a></td><td rowspan="1">1554744052800</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m107">validateCasesOpenByUsersReport</a></td><td rowspan="1">1554744052801</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m108">validateClosedCasesReport</a></td><td rowspan="1">1554744052799</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m109">validateCompanyCategoriesReport</a></td><td rowspan="1">1554744052807</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m110">validateCompanyCountByUserReport</a></td><td rowspan="1">1554744052807</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m111">validateCompanyCountriesReport</a></td><td rowspan="1">1554744052806</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m112">validateCompanyDealsReport</a></td><td rowspan="1">1554744052806</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m113">validateCompanyStatisticsReport</a></td><td rowspan="1">1554744052805</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m114">validateDealCallsReport</a></td><td rowspan="1">1554744052793</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m115">validateMostCalledContactsReport</a></td><td rowspan="1">1554744052779</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m116">validateOpenAndClosedCasesReport</a></td><td rowspan="1">1554744052799</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m117">validateOpenCasesReport</a></td><td rowspan="1">1554744052799</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m118">validateReportsPageLabel</a></td><td rowspan="1">1554744052752</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m119">validateTaskCallsReport</a></td><td rowspan="1">1554744052795</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td rowspan="1">com.crm.qa.testcases.SignupPageTest</td><td><a href="#m120">validateSignupPage</a></td><td rowspan="1">1554744052724</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="2">com.crm.qa.testcases.TargetsPageTest</td><td><a href="#m121">validateCreateNewTargets</a></td><td rowspan="1">1554744052705</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m122">validateTargetsDataOnGridPage</a></td><td rowspan="1">1554744052705</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td rowspan="2">com.crm.qa.testcases.TasksPageTest</td><td><a href="#m123">validateCreateNewTasks</a></td><td rowspan="1">1554744052760</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m124">validateTasksPageLabel</a></td><td rowspan="1">1554744052731</td><td rowspan="1">0</td></tr></tbody></table><h2>Command line test</h2><h3 id="m0">com.crm.qa.testcases.CasesPageTest#setUp</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
+	at com.crm.qa.testcases.CasesPageTest.setUp(CasesPageTest.java:28)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m1">com.crm.qa.testcases.CompanyPageTest#setUp</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
+	at com.crm.qa.testcases.CompanyPageTest.setUp(CompanyPageTest.java:31)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m2">com.crm.qa.testcases.ContactsPageTest#setUp</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
+	at com.crm.qa.testcases.ContactsPageTest.setUp(ContactsPageTest.java:31)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m3">com.crm.qa.testcases.DealsPageTest#setUp</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
+	at com.crm.qa.testcases.DealsPageTest.setUp(DealsPageTest.java:32)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m4">com.crm.qa.testcases.DocsPageTest#setup</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
+	at com.crm.qa.testcases.DocsPageTest.setup(DocsPageTest.java:30)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m5">com.crm.qa.testcases.FormsPageTest#setUp</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
+	at com.crm.qa.testcases.FormsPageTest.setUp(FormsPageTest.java:27)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m6">com.crm.qa.testcases.HomePageTest#setup</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
+	at com.crm.qa.testcases.HomePageTest.setup(HomePageTest.java:26)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m7">com.crm.qa.testcases.LoginPageTest#setUp</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
+	at com.crm.qa.testcases.LoginPageTest.setUp(LoginPageTest.java:26)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m8">com.crm.qa.testcases.ReportsPageTest#setUp</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
+	at com.crm.qa.testcases.ReportsPageTest.setUp(ReportsPageTest.java:32)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m9">com.crm.qa.testcases.TargetsPageTest#setup</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
+	at com.crm.qa.testcases.TargetsPageTest.setup(TargetsPageTest.java:30)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m10">com.crm.qa.testcases.TasksPageTest#setup</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
+	at com.crm.qa.testcases.TasksPageTest.setup(TasksPageTest.java:32)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m11">com.crm.qa.testcases.CasesPageTest#setUp</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m12">com.crm.qa.testcases.CasesPageTest#tearDown</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m13">com.crm.qa.testcases.CasesPageTest#tearDown</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m14">com.crm.qa.testcases.CasesPageTest#tearDown</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m15">com.crm.qa.testcases.CompanyPageTest#setUp</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m16">com.crm.qa.testcases.CompanyPageTest#setUp</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m17">com.crm.qa.testcases.CompanyPageTest#setUp</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m18">com.crm.qa.testcases.ContactsPageTest#setUp</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m19">com.crm.qa.testcases.ContactsPageTest#setUp</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m20">com.crm.qa.testcases.ContactsPageTest#setUp</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m21">com.crm.qa.testcases.FormsPageTest#setUp</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m22">com.crm.qa.testcases.HomePageTest#setup</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m23">com.crm.qa.testcases.HomePageTest#setup</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m24">com.crm.qa.testcases.HomePageTest#setup</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m25">com.crm.qa.testcases.LoginPageTest#setUp</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m26">com.crm.qa.testcases.LoginPageTest#setUp</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m27">com.crm.qa.testcases.LoginPageTest#setUp</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m28">com.crm.qa.testcases.LoginPageTest#setUp</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m29">com.crm.qa.testcases.LoginPageTest#setUp</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m30">com.crm.qa.testcases.LoginPageTest#setUp</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m31">com.crm.qa.testcases.LoginPageTest#setUp</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m32">com.crm.qa.testcases.ReportsPageTest#setUp</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m33">com.crm.qa.testcases.ReportsPageTest#setUp</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m34">com.crm.qa.testcases.ReportsPageTest#setUp</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m35">com.crm.qa.testcases.ReportsPageTest#setUp</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m36">com.crm.qa.testcases.ReportsPageTest#setUp</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m37">com.crm.qa.testcases.ReportsPageTest#setUp</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m38">com.crm.qa.testcases.ReportsPageTest#setUp</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m39">com.crm.qa.testcases.ReportsPageTest#setUp</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m40">com.crm.qa.testcases.ReportsPageTest#setUp</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m41">com.crm.qa.testcases.ReportsPageTest#setUp</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m42">com.crm.qa.testcases.ReportsPageTest#setUp</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m43">com.crm.qa.testcases.ReportsPageTest#setUp</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m44">com.crm.qa.testcases.ReportsPageTest#setUp</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m45">com.crm.qa.testcases.ReportsPageTest#setUp</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m46">com.crm.qa.testcases.ReportsPageTest#setUp</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m47">com.crm.qa.testcases.ReportsPageTest#setUp</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m48">com.crm.qa.testcases.ReportsPageTest#setUp</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m49">com.crm.qa.testcases.ReportsPageTest#setUp</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m50">com.crm.qa.testcases.ReportsPageTest#setUp</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m51">com.crm.qa.testcases.ReportsPageTest#setUp</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m52">com.crm.qa.testcases.ReportsPageTest#setUp</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m53">com.crm.qa.testcases.ReportsPageTest#setUp</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m54">com.crm.qa.testcases.ReportsPageTest#setUp</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m55">com.crm.qa.testcases.ReportsPageTest#setUp</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m56">com.crm.qa.testcases.ReportsPageTest#setUp</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m57">com.crm.qa.testcases.ReportsPageTest#setUp</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m58">com.crm.qa.testcases.TargetsPageTest#setup</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m59">com.crm.qa.testcases.CalendarPageTest#validateCreateNewCalendarEvent</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: java.lang.NullPointerException
+Caused by: java.lang.NullPointerException
+	at org.apache.poi.poifs.filesystem.FileMagic.prepareToCheckMagic(FileMagic.java:148)
+	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:175)
+	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:149)
+	at com.crm.qa.utils.TestUtils.getTestData(TestUtils.java:53)
+	at com.crm.qa.testcases.CalendarPageTest.getCRMTestData(CalendarPageTest.java:47)
+	... 32 more
+... Removed 40 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m60">com.crm.qa.testcases.CalendarPageTest#validateCreateNewCalendarEventWithoutAssignedToSelected</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: java.lang.NullPointerException
+Caused by: java.lang.NullPointerException
+	at org.apache.poi.poifs.filesystem.FileMagic.prepareToCheckMagic(FileMagic.java:148)
+	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:175)
+	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:149)
+	at com.crm.qa.utils.TestUtils.getTestData(TestUtils.java:53)
+	at com.crm.qa.testcases.CalendarPageTest.getCRMTestData(CalendarPageTest.java:47)
+	... 32 more
+... Removed 40 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m61">com.crm.qa.testcases.CasesPageTest#validateCreateNewCase</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: java.lang.NullPointerException
+Caused by: java.lang.NullPointerException
+	at org.apache.poi.poifs.filesystem.FileMagic.prepareToCheckMagic(FileMagic.java:148)
+	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:175)
+	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:149)
+	at com.crm.qa.utils.TestUtils.getTestData(TestUtils.java:53)
+	at com.crm.qa.testcases.CasesPageTest.getCRMTestData(CasesPageTest.java:38)
+	... 32 more
+... Removed 40 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m62">com.crm.qa.testcases.CasesPageTest#validateSearch</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
+	at com.crm.qa.testcases.CasesPageTest.setUp(CasesPageTest.java:28)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m63">com.crm.qa.testcases.CasesPageTest#validateUpdateCase</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
+	at com.crm.qa.testcases.CasesPageTest.setUp(CasesPageTest.java:28)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m64">com.crm.qa.testcases.CompanyPageTest#validateCompanyPageLabel</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
+	at com.crm.qa.testcases.CompanyPageTest.setUp(CompanyPageTest.java:31)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m65">com.crm.qa.testcases.CompanyPageTest#validateCreateNewCompany</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: java.lang.NullPointerException
+Caused by: java.lang.NullPointerException
+	at org.apache.poi.poifs.filesystem.FileMagic.prepareToCheckMagic(FileMagic.java:148)
+	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:175)
+	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:149)
+	at com.crm.qa.utils.TestUtils.getTestData(TestUtils.java:53)
+	at com.crm.qa.testcases.CompanyPageTest.getCRMTestData(CompanyPageTest.java:52)
+	... 32 more
+... Removed 40 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m66">com.crm.qa.testcases.CompanyPageTest#validateCreateNewCompanyLabel</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
+	at com.crm.qa.testcases.CompanyPageTest.setUp(CompanyPageTest.java:31)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m67">com.crm.qa.testcases.CompanyPageTest#validateFullSearchFormCompanyFunctionality</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
+	at com.crm.qa.testcases.CompanyPageTest.setUp(CompanyPageTest.java:31)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m68">com.crm.qa.testcases.CompanyPageTest#validateUpdateCompany</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
+	at com.crm.qa.testcases.CompanyPageTest.setUp(CompanyPageTest.java:31)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m69">com.crm.qa.testcases.ContactsPageTest#selectContactsTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
+	at com.crm.qa.testcases.ContactsPageTest.setUp(ContactsPageTest.java:31)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m70">com.crm.qa.testcases.ContactsPageTest#selectMultipleContactsTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
+	at com.crm.qa.testcases.ContactsPageTest.setUp(ContactsPageTest.java:31)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m71">com.crm.qa.testcases.ContactsPageTest#validateContactsPageLabel</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
+	at com.crm.qa.testcases.ContactsPageTest.setUp(ContactsPageTest.java:31)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m72">com.crm.qa.testcases.ContactsPageTest#validateCreateNewContact</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: java.lang.NullPointerException
+Caused by: java.lang.NullPointerException
+	at org.apache.poi.poifs.filesystem.FileMagic.prepareToCheckMagic(FileMagic.java:148)
+	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:175)
+	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:149)
+	at com.crm.qa.utils.TestUtils.getTestData(TestUtils.java:53)
+	at com.crm.qa.testcases.ContactsPageTest.getCRMTestData(ContactsPageTest.java:65)
+	... 32 more
+... Removed 40 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m73">com.crm.qa.testcases.ContactsPageTest#validateSearchContacts</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
+	at com.crm.qa.testcases.ContactsPageTest.setUp(ContactsPageTest.java:31)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m74">com.crm.qa.testcases.DealsPageTest#validateCreateNewDeals</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: java.lang.NullPointerException
+Caused by: java.lang.NullPointerException
+	at org.apache.poi.poifs.filesystem.FileMagic.prepareToCheckMagic(FileMagic.java:148)
+	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:175)
+	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:149)
+	at com.crm.qa.utils.TestUtils.getTestData(TestUtils.java:53)
+	at com.crm.qa.testcases.DealsPageTest.getCRMTestData(DealsPageTest.java:48)
+	... 32 more
+... Removed 40 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m75">com.crm.qa.testcases.DealsPageTest#validateDealsPageLabel</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
+	at com.crm.qa.testcases.DealsPageTest.setUp(DealsPageTest.java:32)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m76">com.crm.qa.testcases.DocsPageTest#validateAddNewDocument</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: java.lang.NullPointerException
+Caused by: java.lang.NullPointerException
+	at org.apache.poi.poifs.filesystem.FileMagic.prepareToCheckMagic(FileMagic.java:148)
+	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:175)
+	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:149)
+	at com.crm.qa.utils.TestUtils.getTestData(TestUtils.java:53)
+	at com.crm.qa.testcases.DocsPageTest.getCRMTestData(DocsPageTest.java:46)
+	... 32 more
+... Removed 40 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m77">com.crm.qa.testcases.DocsPageTest#validateDocsPageLabelTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
+	at com.crm.qa.testcases.DocsPageTest.setup(DocsPageTest.java:30)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m78">com.crm.qa.testcases.FormsPageTest#ValidateAlertOnFormsPage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
+	at com.crm.qa.testcases.FormsPageTest.setUp(FormsPageTest.java:27)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m79">com.crm.qa.testcases.FormsPageTest#validateCreateNewForms</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: java.lang.NullPointerException
+Caused by: java.lang.NullPointerException
+	at org.apache.poi.poifs.filesystem.FileMagic.prepareToCheckMagic(FileMagic.java:148)
+	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:175)
+	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:149)
+	at com.crm.qa.utils.TestUtils.getTestData(TestUtils.java:53)
+	at com.crm.qa.testcases.FormsPageTest.getCRMTestData(FormsPageTest.java:44)
+	... 32 more
+... Removed 40 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m80">com.crm.qa.testcases.FormsPageTest#validateFormsPageLabel</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
+	at com.crm.qa.testcases.FormsPageTest.setUp(FormsPageTest.java:27)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m81">com.crm.qa.testcases.HomePageTest#validateContactsLinkTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
+	at com.crm.qa.testcases.HomePageTest.setup(HomePageTest.java:26)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m82">com.crm.qa.testcases.HomePageTest#validateGlobalSearchFunctionality</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
+	at com.crm.qa.testcases.HomePageTest.setup(HomePageTest.java:26)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m83">com.crm.qa.testcases.HomePageTest#validateHomePageTitleTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
+	at com.crm.qa.testcases.HomePageTest.setup(HomePageTest.java:26)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m84">com.crm.qa.testcases.HomePageTest#validateUsernameTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
+	at com.crm.qa.testcases.HomePageTest.setup(HomePageTest.java:26)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m85">com.crm.qa.testcases.LoginPageTest#contactsLinkTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
+	at com.crm.qa.testcases.LoginPageTest.setUp(LoginPageTest.java:26)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m86">com.crm.qa.testcases.LoginPageTest#crmLogoImageTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
+	at com.crm.qa.testcases.LoginPageTest.setUp(LoginPageTest.java:26)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m87">com.crm.qa.testcases.LoginPageTest#customersLinkTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
+	at com.crm.qa.testcases.LoginPageTest.setUp(LoginPageTest.java:26)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m88">com.crm.qa.testcases.LoginPageTest#featuresLinkTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
+	at com.crm.qa.testcases.LoginPageTest.setUp(LoginPageTest.java:26)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m89">com.crm.qa.testcases.LoginPageTest#forgotPasswordLinkTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
+	at com.crm.qa.testcases.LoginPageTest.setUp(LoginPageTest.java:26)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m90">com.crm.qa.testcases.LoginPageTest#loginPageTitleTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
+	at com.crm.qa.testcases.LoginPageTest.setUp(LoginPageTest.java:26)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m91">com.crm.qa.testcases.LoginPageTest#loginTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
+	at com.crm.qa.testcases.LoginPageTest.setUp(LoginPageTest.java:26)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m92">com.crm.qa.testcases.LoginPageTest#signupClickTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
+	at com.crm.qa.testcases.LoginPageTest.setUp(LoginPageTest.java:26)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m93">com.crm.qa.testcases.ReportsPageTest#validateAllOpenCasesReport</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
+	at com.crm.qa.testcases.ReportsPageTest.setUp(ReportsPageTest.java:32)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m94">com.crm.qa.testcases.ReportsPageTest#validateCallByDayReport</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
+	at com.crm.qa.testcases.ReportsPageTest.setUp(ReportsPageTest.java:32)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m95">com.crm.qa.testcases.ReportsPageTest#validateCallByMonthReport</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
+	at com.crm.qa.testcases.ReportsPageTest.setUp(ReportsPageTest.java:32)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m96">com.crm.qa.testcases.ReportsPageTest#validateCallByWeekReport</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
+	at com.crm.qa.testcases.ReportsPageTest.setUp(ReportsPageTest.java:32)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m97">com.crm.qa.testcases.ReportsPageTest#validateCallFlagsByUserReport</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
+	at com.crm.qa.testcases.ReportsPageTest.setUp(ReportsPageTest.java:32)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m98">com.crm.qa.testcases.ReportsPageTest#validateCallFlagsReport</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
+	at com.crm.qa.testcases.ReportsPageTest.setUp(ReportsPageTest.java:32)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m99">com.crm.qa.testcases.ReportsPageTest#validateCallStatisticsReport</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
+	at com.crm.qa.testcases.ReportsPageTest.setUp(ReportsPageTest.java:32)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m100">com.crm.qa.testcases.ReportsPageTest#validateCallsByTImeReportLink</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
+	at com.crm.qa.testcases.ReportsPageTest.setUp(ReportsPageTest.java:32)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m101">com.crm.qa.testcases.ReportsPageTest#validateCallsByTeamReport</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
+	at com.crm.qa.testcases.ReportsPageTest.setUp(ReportsPageTest.java:32)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m102">com.crm.qa.testcases.ReportsPageTest#validateCaseCallsReport</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
+	at com.crm.qa.testcases.ReportsPageTest.setUp(ReportsPageTest.java:32)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m103">com.crm.qa.testcases.ReportsPageTest#validateCaseStatisticsReport</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
+	at com.crm.qa.testcases.ReportsPageTest.setUp(ReportsPageTest.java:32)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m104">com.crm.qa.testcases.ReportsPageTest#validateCasesAndCompaniesReport</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
+	at com.crm.qa.testcases.ReportsPageTest.setUp(ReportsPageTest.java:32)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m105">com.crm.qa.testcases.ReportsPageTest#validateCasesByUsersReport</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
+	at com.crm.qa.testcases.ReportsPageTest.setUp(ReportsPageTest.java:32)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m106">com.crm.qa.testcases.ReportsPageTest#validateCasesClosedByUsersReport</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
+	at com.crm.qa.testcases.ReportsPageTest.setUp(ReportsPageTest.java:32)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m107">com.crm.qa.testcases.ReportsPageTest#validateCasesOpenByUsersReport</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
+	at com.crm.qa.testcases.ReportsPageTest.setUp(ReportsPageTest.java:32)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m108">com.crm.qa.testcases.ReportsPageTest#validateClosedCasesReport</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
+	at com.crm.qa.testcases.ReportsPageTest.setUp(ReportsPageTest.java:32)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m109">com.crm.qa.testcases.ReportsPageTest#validateCompanyCategoriesReport</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
+	at com.crm.qa.testcases.ReportsPageTest.setUp(ReportsPageTest.java:32)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m110">com.crm.qa.testcases.ReportsPageTest#validateCompanyCountByUserReport</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
+	at com.crm.qa.testcases.ReportsPageTest.setUp(ReportsPageTest.java:32)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m111">com.crm.qa.testcases.ReportsPageTest#validateCompanyCountriesReport</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
+	at com.crm.qa.testcases.ReportsPageTest.setUp(ReportsPageTest.java:32)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m112">com.crm.qa.testcases.ReportsPageTest#validateCompanyDealsReport</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
+	at com.crm.qa.testcases.ReportsPageTest.setUp(ReportsPageTest.java:32)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m113">com.crm.qa.testcases.ReportsPageTest#validateCompanyStatisticsReport</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
+	at com.crm.qa.testcases.ReportsPageTest.setUp(ReportsPageTest.java:32)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m114">com.crm.qa.testcases.ReportsPageTest#validateDealCallsReport</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
+	at com.crm.qa.testcases.ReportsPageTest.setUp(ReportsPageTest.java:32)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m115">com.crm.qa.testcases.ReportsPageTest#validateMostCalledContactsReport</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
+	at com.crm.qa.testcases.ReportsPageTest.setUp(ReportsPageTest.java:32)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m116">com.crm.qa.testcases.ReportsPageTest#validateOpenAndClosedCasesReport</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
+	at com.crm.qa.testcases.ReportsPageTest.setUp(ReportsPageTest.java:32)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m117">com.crm.qa.testcases.ReportsPageTest#validateOpenCasesReport</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
+	at com.crm.qa.testcases.ReportsPageTest.setUp(ReportsPageTest.java:32)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m118">com.crm.qa.testcases.ReportsPageTest#validateReportsPageLabel</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
+	at com.crm.qa.testcases.ReportsPageTest.setUp(ReportsPageTest.java:32)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m119">com.crm.qa.testcases.ReportsPageTest#validateTaskCallsReport</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
+	at com.crm.qa.testcases.ReportsPageTest.setUp(ReportsPageTest.java:32)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m120">com.crm.qa.testcases.SignupPageTest#validateSignupPage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: java.lang.NullPointerException
+Caused by: java.lang.NullPointerException
+	at org.apache.poi.poifs.filesystem.FileMagic.prepareToCheckMagic(FileMagic.java:148)
+	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:175)
+	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:149)
+	at com.crm.qa.utils.TestUtils.getTestData(TestUtils.java:53)
+	at com.crm.qa.testcases.SignupPageTest.getCRMSignupData(SignupPageTest.java:36)
+	... 32 more
+... Removed 40 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m121">com.crm.qa.testcases.TargetsPageTest#validateCreateNewTargets</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
+	at com.crm.qa.testcases.TargetsPageTest.setup(TargetsPageTest.java:30)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m122">com.crm.qa.testcases.TargetsPageTest#validateTargetsDataOnGridPage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
+	at com.crm.qa.testcases.TargetsPageTest.setup(TargetsPageTest.java:30)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m123">com.crm.qa.testcases.TasksPageTest#validateCreateNewTasks</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: java.lang.NullPointerException
+Caused by: java.lang.NullPointerException
+	at org.apache.poi.poifs.filesystem.FileMagic.prepareToCheckMagic(FileMagic.java:148)
+	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:175)
+	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:149)
+	at com.crm.qa.utils.TestUtils.getTestData(TestUtils.java:53)
+	at com.crm.qa.testcases.TasksPageTest.getCRMTestData(TasksPageTest.java:48)
+	... 32 more
+... Removed 40 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m124">com.crm.qa.testcases.TasksPageTest#validateTasksPageLabel</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
+	at com.crm.qa.testcases.TasksPageTest.setup(TasksPageTest.java:32)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>

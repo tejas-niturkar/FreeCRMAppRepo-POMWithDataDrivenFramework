@@ -25,8 +25,10 @@ public class TasksPageTest extends TestBase {
         super();
     }
 
+
+
     @BeforeMethod
-    public void setup (){
+    public void setup ()throws InterruptedException{
         initialization();
         testUtils = new TestUtils();
         loginPage = new LoginPage();
