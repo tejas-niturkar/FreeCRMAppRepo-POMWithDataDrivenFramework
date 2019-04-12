@@ -63,30 +63,36 @@ public class LoginPageTest  extends TestBase {
     }
 
     @Test
-    public void featuresLinkTest(){
+    public void featuresLinkTest() throws InterruptedException {
+        Thread.sleep(1000);
         loginPage.validateFeaturesLink();
+        Thread.sleep(1000);
         String url = driver.getCurrentUrl();
-        Assert.assertEquals(url,"https://www.freecrm.com/features.html");
+        Assert.assertEquals(url,"https://classic.crmpro.com/features.html");
         String pageTitle = driver.getTitle();
-        Assert.assertEquals(pageTitle, "Free CRM Features powerful sales automation and customer service features import data, export, dashboards and more");
+        Assert.assertEquals(pageTitle, "CRM Pro Best Features and CRM Value Best ROI Web Hosted CRM Software");
     }
 
     @Test
-    public void customersLinkTest(){
+    public void customersLinkTest() throws InterruptedException {
+        Thread.sleep(1000);
         loginPage.validateCustomersLink();
+        Thread.sleep(1000);
         String url = driver.getCurrentUrl();
-        Assert.assertEquals(url,"https://www.freecrm.com/customers.html");
+        Assert.assertEquals(url,"https://classic.crmpro.com/customers.html");
         String pageTitle = driver.getTitle();
-        Assert.assertEquals(pageTitle, "Over 400,000 FreeCRM.com customers since 2003 using our Cloud CRM");
+        Assert.assertEquals(pageTitle, "CRMPRO Professional CRM Customers using our Cloud CRM");
     }
 
     @Test
-    public void contactsLinkTest() {
+    public void contactsLinkTest() throws InterruptedException {
+        Thread.sleep(1000);
         loginPage.validateContactsLink();
+        Thread.sleep(1000);
         String url = driver.getCurrentUrl();
-        Assert.assertEquals(url,"https://www.freecrm.com/contact.html");
+        Assert.assertEquals(url,"https://classic.crmpro.com/contact.html");
         String title = driver.getTitle();
-        Assert.assertEquals(title,"FreeCRM Contact Free CRM Anytime");
+        Assert.assertEquals(title,"CRMPRO Professional CRM Contact Us");
     }
 
 
