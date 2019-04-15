@@ -31,7 +31,7 @@ public class LoginPageTest  extends TestBase {
     @Test (priority =1)
     public void loginPageTitleTest(){
        String title = loginPage.validateLoginPageTitle();
-        Assert.assertEquals(title, "#1 Free CRM software in the cloud for sales and service");
+        Assert.assertEquals(title, "CRMPRO - CRM software for customer relationship management, sales, and support.");
         System.out.println(title);
     }
 
@@ -47,18 +47,20 @@ public class LoginPageTest  extends TestBase {
     }
 
     @Test
-    public void signupClickTest(){
+    public void signupClickTest() throws InterruptedException {
+        Thread.sleep(1000);
         loginPage.validateSignupLink();
         String url = driver.getCurrentUrl();
-        Assert.assertEquals(url,"https://www.freecrm.com/register/");
+        Assert.assertEquals(url,"https://classic.crmpro.com/register/");
         System.out.println(url);
     }
 
     @Test
-    public void forgotPasswordLinkTest(){
+    public void forgotPasswordLinkTest() throws InterruptedException {
+        Thread.sleep(1000);
         loginPage.validateForgotPassswordLink();
         String url = driver.getCurrentUrl();
-        Assert.assertEquals(url, "https://www.freecrm.com/login.cfm?pr=1");
+        Assert.assertEquals(url, "https://classic.crmpro.com/login.cfm?pr=1");
         System.out.println(url);
     }
 
@@ -102,7 +104,7 @@ public class LoginPageTest  extends TestBase {
 
     @AfterMethod
     public void  tearDown(){
-        driver.quit();
+     //   driver.quit();
     }
 
 
