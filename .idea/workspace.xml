@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3ef3f686-ecd2-44eb-bc88-0953455da636" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/crm/qa/config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crm/qa/config/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/crm/qa/testcases/LoginpageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/crm/qa/testcases/LoginpageTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,13 +22,31 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/LoginPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1470">
-              <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
+            <state relative-caret-position="392">
+              <caret line="51" column="18" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3274#3275#0" expanded="true" />
-                <element signature="e#3301#3302#0" expanded="true" />
+                <element signature="e#3267#3268#0" expanded="true" />
+                <element signature="e#3296#3297#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/crm/qa/config/config.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/crm/qa/base/TestBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -77,8 +97,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/crm/qa/pages/CompanyPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/crm/qa/pages/CasesPage.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/crm/qa/config/config.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/crm/qa/base/TestBase.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/crm/qa/utils/TestUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/crm/qa/pages/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/ReportsPageTest.java" />
@@ -93,6 +111,8 @@
         <option value="$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/TasksPageTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/crm/qa/pages/CalendarPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/LoginPageTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/crm/qa/config/config.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/crm/qa/base/TestBase.java" />
       </list>
     </option>
   </component>
@@ -131,6 +151,100 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="FreeCRMAppRepo-POMWithDataDrivenFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FreeCRMAppRepo-POMWithDataDrivenFramework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FreeCRMAppRepo-POMWithDataDrivenFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FreeCRMAppRepo-POMWithDataDrivenFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FreeCRMAppRepo-POMWithDataDrivenFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FreeCRMAppRepo-POMWithDataDrivenFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FreeCRMAppRepo-POMWithDataDrivenFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FreeCRMAppRepo-POMWithDataDrivenFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FreeCRMAppRepo-POMWithDataDrivenFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FreeCRMAppRepo-POMWithDataDrivenFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="qa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FreeCRMAppRepo-POMWithDataDrivenFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FreeCRMAppRepo-POMWithDataDrivenFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="qa" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FreeCRMAppRepo-POMWithDataDrivenFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FreeCRMAppRepo-POMWithDataDrivenFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="qa" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FreeCRMAppRepo-POMWithDataDrivenFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FreeCRMAppRepo-POMWithDataDrivenFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="qa" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FreeCRMAppRepo-POMWithDataDrivenFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FreeCRMAppRepo-POMWithDataDrivenFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="qa" type="462c0819:PsiDirectoryNode" />
+              <item name="testdata" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FreeCRMAppRepo-POMWithDataDrivenFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FreeCRMAppRepo-POMWithDataDrivenFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FreeCRMAppRepo-POMWithDataDrivenFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FreeCRMAppRepo-POMWithDataDrivenFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FreeCRMAppRepo-POMWithDataDrivenFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FreeCRMAppRepo-POMWithDataDrivenFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testcases" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Changed Files'; set:Changed Files; ALL; class com.intellij.packageDependencies.ChangeListScope">
           <expand>
@@ -207,82 +321,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="FreeCRMAppRepo-POMWithDataDrivenFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FreeCRMAppRepo-POMWithDataDrivenFramework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FreeCRMAppRepo-POMWithDataDrivenFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FreeCRMAppRepo-POMWithDataDrivenFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FreeCRMAppRepo-POMWithDataDrivenFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FreeCRMAppRepo-POMWithDataDrivenFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FreeCRMAppRepo-POMWithDataDrivenFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FreeCRMAppRepo-POMWithDataDrivenFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FreeCRMAppRepo-POMWithDataDrivenFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FreeCRMAppRepo-POMWithDataDrivenFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="qa" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FreeCRMAppRepo-POMWithDataDrivenFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FreeCRMAppRepo-POMWithDataDrivenFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="qa" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FreeCRMAppRepo-POMWithDataDrivenFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FreeCRMAppRepo-POMWithDataDrivenFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="qa" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FreeCRMAppRepo-POMWithDataDrivenFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FreeCRMAppRepo-POMWithDataDrivenFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FreeCRMAppRepo-POMWithDataDrivenFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FreeCRMAppRepo-POMWithDataDrivenFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FreeCRMAppRepo-POMWithDataDrivenFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FreeCRMAppRepo-POMWithDataDrivenFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="testcases" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -331,7 +369,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginPageTest.featuresLinkTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="FreeCRMAppRepo-POMWithDataDrivenFramework" />
       <extension name="coverage">
         <pattern>
@@ -341,8 +379,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.crm.qa.testcases" />
       <option name="MAIN_CLASS_NAME" value="com.crm.qa.testcases.LoginPageTest" />
-      <option name="METHOD_NAME" value="featuresLinkTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <properties />
       <listeners />
@@ -464,20 +501,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.LoginPageTest.featuresLinkTest" />
+      <item itemvalue="TestNG.ReportsPageTest.validateCompanyCategoriesReport (1)" />
+      <item itemvalue="TestNG.LoginPageTest" />
       <item itemvalue="TestNG.LoginPageTest.forgotPasswordLinkTest" />
       <item itemvalue="TestNG.LoginPageTest.loginPageTitleTest" />
       <item itemvalue="TestNG.LoginPageTest.loginTest" />
       <item itemvalue="TestNG.LoginPageTest.signupClickTest" />
-      <item itemvalue="TestNG.ReportsPageTest.validateCompanyCategoriesReport (1)" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.LoginPageTest.loginPageTitleTest" />
+        <item itemvalue="TestNG.LoginPageTest" />
         <item itemvalue="TestNG.LoginPageTest.loginTest" />
         <item itemvalue="TestNG.LoginPageTest.signupClickTest" />
         <item itemvalue="TestNG.LoginPageTest.forgotPasswordLinkTest" />
-        <item itemvalue="TestNG.LoginPageTest.featuresLinkTest" />
       </list>
     </recent_temporary>
   </component>
@@ -498,34 +535,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoginPageTest_featuresLinkTest - 2019.04.12 at 14h 43m 34s.xml">
-      <configuration name="LoginPageTest.featuresLinkTest" configurationId="TestNG" />
+    <history-entry file="LoginPageTest - 2019.06.07 at 15h 47m 24s.xml">
+      <configuration name="LoginPageTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginPageTest_forgotPasswordLinkTest - 2019.04.15 at 12h 35m 02s.xml">
-      <configuration name="LoginPageTest.forgotPasswordLinkTest" configurationId="TestNG" />
+    <history-entry file="LoginPageTest - 2019.06.07 at 15h 50m 49s.xml">
+      <configuration name="LoginPageTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginPageTest_forgotPasswordLinkTest - 2019.04.15 at 12h 35m 58s.xml">
-      <configuration name="LoginPageTest.forgotPasswordLinkTest" configurationId="TestNG" />
+    <history-entry file="LoginPageTest - 2019.06.07 at 16h 03m 15s.xml">
+      <configuration name="LoginPageTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginPageTest_forgotPasswordLinkTest - 2019.04.15 at 12h 36m 38s.xml">
-      <configuration name="LoginPageTest.forgotPasswordLinkTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginPageTest_signupClickTest - 2019.04.15 at 12h 37m 02s.xml">
-      <configuration name="LoginPageTest.signupClickTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginPageTest_signupClickTest - 2019.04.15 at 12h 37m 53s.xml">
-      <configuration name="LoginPageTest.signupClickTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginPageTest_signupClickTest - 2019.04.15 at 12h 38m 31s.xml">
-      <configuration name="LoginPageTest.signupClickTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginPageTest_loginTest - 2019.04.15 at 12h 39m 08s.xml">
-      <configuration name="LoginPageTest.loginTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginPageTest_loginPageTitleTest - 2019.04.15 at 12h 39m 29s.xml">
+    <history-entry file="LoginPageTest_loginPageTitleTest - 2019.06.07 at 16h 25m 22s.xml">
       <configuration name="LoginPageTest.loginPageTitleTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginPageTest_loginPageTitleTest - 2019.04.15 at 12h 40m 14s.xml">
+    <history-entry file="LoginPageTest - 2019.06.07 at 16h 25m 59s.xml">
+      <configuration name="LoginPageTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginPageTest_loginPageTitleTest - 2019.06.07 at 16h 28m 54s.xml">
+      <configuration name="LoginPageTest.loginPageTitleTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginPageTest_loginPageTitleTest - 2019.06.07 at 16h 30m 05s.xml">
+      <configuration name="LoginPageTest.loginPageTitleTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginPageTest_loginPageTitleTest - 2019.06.07 at 17h 16m 47s.xml">
+      <configuration name="LoginPageTest.loginPageTitleTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginPageTest_loginPageTitleTest - 2019.07.20 at 23h 49m 44s.xml">
+      <configuration name="LoginPageTest.loginPageTitleTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginPageTest_loginPageTitleTest - 2019.07.21 at 00h 13m 35s.xml">
       <configuration name="LoginPageTest.loginPageTitleTest" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -542,7 +579,7 @@
     <frame x="0" y="23" width="1679" height="958" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17837508" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19120342" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24886535" />
       <window_info id="Nl-Palette" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -552,7 +589,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49394855" weight="0.28363046" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49394855" weight="0.4203233" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.51033384" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -652,7 +689,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi-ooxml/3.17/poi-ooxml-3.17.jar!/org/apache/poi/xssf/usermodel/XSSFCell.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0-beta1/testng-7.0.0-beta1.jar!/org/testng/internal/ParameterHandler.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/xmlbeans/xmlbeans/2.6.0/xmlbeans-2.6.0.jar!/org/apache/xmlbeans/impl/values/XmlObjectBase.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0-beta1/testng-7.0.0-beta1.jar!/org/testng/internal/MethodInvocationHelper.class" />
@@ -771,38 +807,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/io/FileInputStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2550">
           <caret line="194" selection-start-line="194" selection-end-line="194" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/crm/qa/pages/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="73" column="18" selection-start-line="73" selection-start-column="18" selection-end-line="73" selection-end-column="18" />
-          <folding>
-            <element signature="e#1093#1094#0" expanded="true" />
-            <element signature="e#1146#1147#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/crm/qa/pages/CompanyPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -870,13 +878,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/crm/qa/config/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" selection-start-column="6" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/crm/qa/pages/CalendarPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -886,13 +887,6 @@
             <element signature="e#1061#1062#0" expanded="true" />
             <element signature="e#1113#1114#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/crm/qa/base/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="49" column="107" selection-start-line="49" selection-start-column="107" selection-end-line="49" selection-end-column="107" />
         </state>
       </provider>
     </entry>
@@ -934,13 +928,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/CompanyPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="29" column="50" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/CalendarPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -948,14 +935,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/LoginPageTest.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/System.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1470">
-          <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
+        <state relative-caret-position="229">
+          <caret line="712" column="25" selection-start-line="712" selection-start-column="25" selection-end-line="712" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crm/qa/base/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crm/qa/pages/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="59" column="33" selection-start-line="59" selection-start-column="33" selection-end-line="59" selection-end-column="33" />
+          <folding>
+            <element signature="e#1093#1094#0" expanded="true" />
+            <element signature="e#1146#1147#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crm/qa/pages/CompanyPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="786">
+          <caret line="160" column="20" selection-start-line="160" selection-start-column="20" selection-end-line="160" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3274#3275#0" expanded="true" />
-            <element signature="e#3301#3302#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/CompanyPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="786">
+          <caret line="76" column="20" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crm/qa/config/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/crm/qa/testcases/LoginPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="51" column="18" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3267#3268#0" expanded="true" />
+            <element signature="e#3296#3297#0" expanded="true" />
           </folding>
         </state>
       </provider>
