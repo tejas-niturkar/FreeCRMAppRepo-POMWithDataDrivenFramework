@@ -30,7 +30,7 @@ public class ContactsPage extends TestBase {
     WebElement nickname ;
 
     @FindBy (xpath = "//input[@name= 'company_position']")
-    WebElement positioN ;
+    WebElement position1 ;
 
     @FindBy (xpath = "//input[@name= 'department']")
     WebElement department ;
@@ -95,7 +95,7 @@ public class ContactsPage extends TestBase {
         surName.sendKeys(lName);
         nickname.sendKeys(nName);
         company.sendKeys(comp);
-        positioN.sendKeys(position);
+        position1.sendKeys(position);
         department.sendKeys(depart);
         Select selectCategory = new Select(driver.findElement(By.name("category")));
         selectCategory.selectByVisibleText(category);
